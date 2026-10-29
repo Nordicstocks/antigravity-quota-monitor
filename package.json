@@ -1,0 +1,137 @@
+{
+  "name": "antigravity-quota-monitor",
+  "displayName": "Antigravity Quota Monitor & Dashboard",
+  "description": "Visual, real-time AI quota monitor with color progress bars, reset countdowns and interactive dashboard for Antigravity IDE (Gemini 3.8 Flash, Claude Opus 5.5, Claude Sonnet 5.5, GPT-OSS).",
+  "version": "1.3.0",
+  "publisher": "nordicstock",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0d1117",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "antigravity",
+    "quota",
+    "gemini",
+    "claude",
+    "rate-limit",
+    "usage",
+    "dashboard",
+    "monitor",
+    "token-counter",
+    "limits",
+    "speedometer",
+    "analytics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nordicstock/antigravity-quota-monitor"
+  },
+  "homepage": "https://github.com/nordicstock/antigravity-quota-monitor",
+  "bugs": {
+    "url": "https://github.com/nordicstock/antigravity-quota-monitor/issues"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "antigravityQuota.showDashboard",
+        "title": "Antigravity Quota: Open Visual Dashboard / Ava visuaalne dashboard",
+        "icon": "$(graph)"
+      },
+      {
+        "command": "antigravityQuota.showMenu",
+        "title": "Antigravity Quota: Open Quick Menu / Ava kiirmenüü",
+        "icon": "$(dashboard)"
+      },
+      {
+        "command": "antigravityQuota.selectLanguage",
+        "title": "Antigravity Quota: Select Language / Vali keel"
+      },
+      {
+        "command": "antigravityQuota.selectBarStyle",
+        "title": "Antigravity Quota: Select Progress Bar Style / Vali progressiriba stiil"
+      },
+      {
+        "command": "antigravityQuota.selectDisplayMode",
+        "title": "Antigravity Quota: Select Display Mode / Vali kuvamise viis"
+      },
+      {
+        "command": "antigravityQuota.refresh",
+        "title": "Antigravity Quota: Refresh Now / Värskenda kohe",
+        "icon": "$(refresh)"
+      }
+    ],
+    "configuration": {
+      "title": "Antigravity Quota Monitor",
+      "properties": {
+        "antigravityQuota.language": {
+          "type": "string",
+          "enum": ["auto", "en", "et", "de", "fi", "es", "fr"],
+          "enumDescriptions": [
+            "Auto (System Default / Süsteemi keel)",
+            "English",
+            "Eesti keel",
+            "Deutsch",
+            "Suomi",
+            "Español",
+            "Français"
+          ],
+          "default": "auto",
+          "description": "UI language / Kasutajaliidese keel."
+        },
+        "antigravityQuota.displayMode": {
+          "type": "string",
+          "enum": ["compact", "lowest", "gemini", "claude"],
+          "enumDescriptions": [
+            "Compact: G: 64% 🟩🟩🟩⬜⬜ | C: 84% 🟩🟩🟩🟩⬜",
+            "Lowest remaining quota model",
+            "Gemini models only",
+            "Claude models only"
+          ],
+          "default": "compact",
+          "description": "How quota is displayed in the status bar."
+        },
+        "antigravityQuota.barStyle": {
+          "type": "string",
+          "enum": ["colored", "blocks", "parallelograms", "squares", "shades"],
+          "enumDescriptions": [
+            "Colored emoji blocks: 🟩🟩🟩⬜⬜ (Green / Yellow / Red)",
+            "Classic monospace blocks: [████░]",
+            "Parallelograms: ▰▰▰▰▱",
+            "Squares: [■■■■□]",
+            "Shades: [▓▓▓▓░]"
+          ],
+          "default": "colored",
+          "description": "Visual progress bar style."
+        },
+        "antigravityQuota.pollingInterval": {
+          "type": "number",
+          "default": 60,
+          "description": "Refresh interval in seconds (minimum 15s)."
+        },
+        "antigravityQuota.warnThreshold": {
+          "type": "number",
+          "default": 30,
+          "description": "Warning threshold percentage (yellow indicator)."
+        },
+        "antigravityQuota.criticalThreshold": {
+          "type": "number",
+          "default": 15,
+          "description": "Critical threshold percentage (red indicator)."
+        }
+      }
+    }
+  }
+}
