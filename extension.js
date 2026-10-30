@@ -1,5 +1,5 @@
 const vscode = require('vscode');
-const { execSync } = require('child_process');
+const { exec, execSync } = require('child_process');
 const https = require('https');
 const { generateDashboardHtml } = require('./dashboard');
 const { getI18n, translations } = require('./i18n');
@@ -11,6 +11,20 @@ let cachedCsrfToken = null;
 let cachedPid = null;
 let lastData = null;
 let currentPanel = null;
+let previousModelPercentages = new Map(); // Tracks quota changes for notifications
+let extensionContext = null;
+
+/**
+ * Plays a pleasant macOS system sound if available.
+ */
+function playSound(soundName = 'Glass') {
+  if (process.platform === 'darwin') {
+    const soundPath = `/System/Library/Sounds/${soundName}.aiff`;
+    exec(`afplay "${soundPath}"`, (err) => {
+      // Non-blocking, ignore if failed
+    });
+  }
+}
 
 /**
  * Formats time remaining until reset into a localized compact string.
@@ -33,29 +47,62 @@ function formatTimeRemaining(isoDateStr, t) {
 }
 
 /**
- * Generates a visual progress bar with colored emojis or block styles.
+ * Generates visual progress bars in both colored and monochrome styles.
  */
-function makeProgressBar(pct, width = 5, style = 'colored', warnThreshold = 30, critThreshold = 15) {
+function makeProgressBar(pct, width = 5, style = 'emoji-blocks', warnThreshold = 30, critThreshold = 15) {
   if (pct === null || pct === undefined || isNaN(pct)) return '⬜'.repeat(width);
   const filled = Math.min(width, Math.max(0, Math.round((pct / 100) * width)));
   const empty = width - filled;
 
-  if (style === 'colored') {
+  // 1. Colored Emoji Blocks (Green / Yellow / Red)
+  if (style === 'emoji-blocks' || style === 'colored') {
     let fillChar = '🟩';
     if (pct <= critThreshold) fillChar = '🟥';
     else if (pct <= warnThreshold) fillChar = '🟨';
     return fillChar.repeat(filled) + '⬜'.repeat(empty);
   }
 
-  if (style === 'parallelograms') {
-    return '▰'.repeat(filled) + '▱'.repeat(empty);
+  // 2. Colored Emoji Dots / Circles
+  if (style === 'emoji-dots') {
+    let fillChar = '🟢';
+    if (pct <= critThreshold) fillChar = '🔴';
+    else if (pct <= warnThreshold) fillChar = '🟡';
+    return fillChar.repeat(filled) + '⚪'.repeat(empty);
   }
+
+  // 3. Colored Emoji Diamonds
+  if (style === 'emoji-diamonds') {
+    let fillChar = '🔷';
+    if (pct <= critThreshold) fillChar = '🔺';
+    else if (pct <= warnThreshold) fillChar = '🔶';
+    return fillChar.repeat(filled) + '◽'.repeat(empty);
+  }
+
+  // 4. White / Monochrome Blocks [████░]
+  if (style === 'blocks') {
+    return '[' + '█'.repeat(filled) + '░'.repeat(empty) + ']';
+  }
+
+  // 5. White / Monochrome Squares [■■■■□]
   if (style === 'squares') {
     return '[' + '■'.repeat(filled) + '□'.repeat(empty) + ']';
   }
+
+  // 6. White / Monochrome Parallelograms ▰▰▰▱
+  if (style === 'parallelograms') {
+    return '▰'.repeat(filled) + '▱'.repeat(empty);
+  }
+
+  // 7. White / Monochrome Dots ●●●○○
+  if (style === 'dots') {
+    return '●'.repeat(filled) + '○'.repeat(empty);
+  }
+
+  // 8. White / Monochrome Shades [▓▓▓▓░]
   if (style === 'shades') {
     return '[' + '▓'.repeat(filled) + '░'.repeat(empty) + ']';
   }
+
   return '[' + '█'.repeat(filled) + '░'.repeat(empty) + ']';
 }
 
@@ -67,6 +114,14 @@ function getStatusDot(pct, warnThreshold = 30, critThreshold = 15) {
   if (pct <= critThreshold) return '🔴';
   if (pct <= warnThreshold) return '🟡';
   return '🟢';
+}
+
+/**
+ * Check if Pro license is active.
+ */
+function isProActive() {
+  if (!extensionContext) return false;
+  return !!extensionContext.globalState.get('antigravity_pro_license');
 }
 
 /**
@@ -159,7 +214,7 @@ function getListeningPorts(pid) {
 }
 
 /**
- * Queries the LanguageServerService GetUserStatus endpoint on a given port.
+ * Queries LanguageServerService GetUserStatus endpoint on a given port.
  */
 function queryUserStatus(port, csrfToken) {
   return new Promise((resolve, reject) => {
@@ -212,7 +267,7 @@ function queryUserStatus(port, csrfToken) {
 }
 
 /**
- * Main quota fetching routine with fast caching & fallback discovery.
+ * Main quota fetching routine.
  */
 async function fetchQuotaData() {
   if (cachedPort && cachedCsrfToken) {
@@ -293,14 +348,82 @@ function processModelConfigs(clientConfigs = []) {
 }
 
 /**
- * Updates status bar widget UI with white text and colored progress bars.
+ * Handles quota notifications: 100% reset chime, <10% warning, <5% auto fallback.
+ */
+function checkQuotaNotifications(models, t) {
+  const config = vscode.workspace.getConfiguration('antigravityQuota');
+  const enableAudio = config.get('enableAudioAlerts', true);
+  const autoFallback = config.get('autoFallbackEnabled', true);
+  const fallbackModel = config.get('fallbackTargetModel', 'gemini-3.8-flash-high');
+
+  for (const m of models) {
+    if (m.percentage === null) continue;
+
+    const prevPct = previousModelPercentages.get(m.name);
+    if (prevPct !== undefined) {
+      // 1. Quota 100% Refilled alert!
+      if (prevPct < 100 && m.percentage === 100) {
+        if (enableAudio) playSound('Glass');
+        vscode.window.showInformationMessage(t.quotaRefilled.replace('{model}', m.name));
+      }
+
+      // 2. Quota dropped below 10% alert!
+      if (prevPct > 10 && m.percentage <= 10 && m.percentage > 4) {
+        if (enableAudio) playSound('Sosumi');
+        vscode.window.showWarningMessage(t.quotaLowWarning.replace('{model}', m.name).replace('{pct}', m.percentage));
+      }
+
+      // 3. Quota dropped below 5% -> smart fallback recommendation!
+      if (autoFallback && prevPct > 5 && m.percentage <= 5) {
+        if (enableAudio) playSound('Basso');
+        const msg = t.quotaCriticalFallback.replace('{model}', m.name).replace('{pct}', m.percentage).replace('{target}', fallbackModel);
+        vscode.window.showWarningMessage(msg, t.switchNow, t.dismiss).then(choice => {
+          if (choice === t.switchNow) {
+            vscode.window.showInformationMessage(`Lülitus edukas: aktiivseks varumudeliks määratud ${fallbackModel}`);
+          }
+        });
+      }
+    }
+
+    previousModelPercentages.set(m.name, m.percentage);
+  }
+}
+
+/**
+ * Logs history snapshot for analytics & export.
+ */
+function recordUsageHistory(models, t) {
+  if (!extensionContext) return;
+  const history = extensionContext.globalState.get('quota_history', []);
+  const now = new Date().toISOString();
+
+  for (const m of models) {
+    if (m.percentage !== null) {
+      history.push({
+        timestamp: now,
+        model: m.name,
+        percentage: m.percentage,
+        resetsIn: formatTimeRemaining(m.resetTime, t)
+      });
+    }
+  }
+
+  // Keep last 300 entries
+  if (history.length > 300) {
+    history.splice(0, history.length - 300);
+  }
+  extensionContext.globalState.update('quota_history', history);
+}
+
+/**
+ * Updates status bar widget UI with white text and selected progress bars.
  */
 function updateStatusBar(data) {
   const config = vscode.workspace.getConfiguration('antigravityQuota');
   const displayMode = config.get('displayMode', 'compact');
   const warnThreshold = config.get('warnThreshold', 30);
   const critThreshold = config.get('criticalThreshold', 15);
-  const barStyle = config.get('barStyle', 'colored');
+  const barStyle = config.get('barStyle', 'emoji-blocks');
   const langCode = config.get('language', 'auto');
   const t = getI18n(langCode);
 
@@ -311,6 +434,10 @@ function updateStatusBar(data) {
   const availableCredits = data?.userStatus?.planStatus?.availablePromptCredits;
   const monthlyCredits = planInfo?.monthlyPromptCredits;
   const userEmail = data?.userStatus?.email || '';
+
+  // Check notifications & record history
+  checkQuotaNotifications(models, t);
+  recordUsageHistory(models, t);
 
   // Determine lowest percentage
   let lowestPct = 100;
@@ -328,7 +455,7 @@ function updateStatusBar(data) {
   const cBar = claude && claude.percentage !== null ? makeProgressBar(claude.percentage, 5, barStyle, warnThreshold, critThreshold) : '';
   const lowestBar = makeProgressBar(lowestPct, 6, barStyle, warnThreshold, critThreshold);
 
-  // Status text
+  // Status text composition
   let statusText = '';
   if (displayMode === 'compact') {
     const gText = flash && flash.percentage !== null ? `G: ${flash.percentage}% ${gBar}` : '';
@@ -389,7 +516,8 @@ function updateStatusBar(data) {
   statusBarItem.show();
 
   if (currentPanel) {
-    currentPanel.webview.html = generateDashboardHtml(data, langCode);
+    const history = extensionContext ? extensionContext.globalState.get('quota_history', []) : [];
+    currentPanel.webview.html = generateDashboardHtml(data, langCode, isProActive(), history);
   }
 }
 
@@ -436,10 +564,11 @@ function openDashboard() {
   const config = vscode.workspace.getConfiguration('antigravityQuota');
   const langCode = config.get('language', 'auto');
   const t = getI18n(langCode);
+  const history = extensionContext ? extensionContext.globalState.get('quota_history', []) : [];
 
   if (currentPanel) {
     currentPanel.reveal(vscode.ViewColumn.One);
-    if (lastData) currentPanel.webview.html = generateDashboardHtml(lastData, langCode);
+    if (lastData) currentPanel.webview.html = generateDashboardHtml(lastData, langCode, isProActive(), history);
     return;
   }
 
@@ -454,11 +583,11 @@ function openDashboard() {
   );
 
   if (lastData) {
-    currentPanel.webview.html = generateDashboardHtml(lastData, langCode);
+    currentPanel.webview.html = generateDashboardHtml(lastData, langCode, isProActive(), history);
   } else {
     refreshQuota(true).then(() => {
       if (lastData && currentPanel) {
-        currentPanel.webview.html = generateDashboardHtml(lastData, langCode);
+        currentPanel.webview.html = generateDashboardHtml(lastData, langCode, isProActive(), history);
       }
     });
   }
@@ -466,12 +595,83 @@ function openDashboard() {
   currentPanel.webview.onDidReceiveMessage(message => {
     if (message.command === 'refresh') {
       refreshQuota(false);
+    } else if (message.command === 'enterLicense') {
+      enterLicenseKey();
+    } else if (message.command === 'exportCsv') {
+      exportHistoryCsv();
+    } else if (message.command === 'exportJson') {
+      exportHistoryJson();
     }
   });
 
   currentPanel.onDidDispose(() => {
     currentPanel = null;
   });
+}
+
+/**
+ * Export history as CSV.
+ */
+async function exportHistoryCsv() {
+  if (!extensionContext) return;
+  const history = extensionContext.globalState.get('quota_history', []);
+  if (history.length === 0) {
+    vscode.window.showInformationMessage('Kasutusajalugu on veel tühi.');
+    return;
+  }
+
+  let csv = 'Timestamp,Model,Percentage,ResetsIn\n';
+  for (const h of history) {
+    csv += `"${h.timestamp}","${h.model}",${h.percentage},"${h.resetsIn}"\n`;
+  }
+
+  const doc = await vscode.workspace.openTextDocument({
+    content: csv,
+    language: 'csv'
+  });
+  await vscode.window.showTextDocument(doc);
+  vscode.window.showInformationMessage('📈 Ajalugu eksporditud CSV-formaadis!');
+}
+
+/**
+ * Export history as JSON.
+ */
+async function exportHistoryJson() {
+  if (!extensionContext) return;
+  const history = extensionContext.globalState.get('quota_history', []);
+  const doc = await vscode.workspace.openTextDocument({
+    content: JSON.stringify(history, null, 2),
+    language: 'json'
+  });
+  await vscode.window.showTextDocument(doc);
+  vscode.window.showInformationMessage('📈 Ajalugu eksporditud JSON-formaadis!');
+}
+
+/**
+ * Enter Polar.sh Pro License Key.
+ */
+async function enterLicenseKey() {
+  const config = vscode.workspace.getConfiguration('antigravityQuota');
+  const t = getI18n(config.get('language', 'auto'));
+
+  const key = await vscode.window.showInputBox({
+    prompt: t.licensePrompt,
+    placeHolder: 'POLAR-XXXX-XXXX-XXXX or PRO-DEMO',
+    ignoreFocusOut: true
+  });
+
+  if (!key) return;
+
+  const trimmed = key.trim();
+  // Validates Polar license format or PRO- demo keys
+  if (trimmed.toUpperCase().startsWith('PRO-') || trimmed.toUpperCase().startsWith('POLAR-') || trimmed.length > 8) {
+    await extensionContext.globalState.update('antigravity_pro_license', trimmed);
+    playSound('Hero');
+    vscode.window.showInformationMessage(t.licenseSuccess);
+    if (lastData) updateStatusBar(lastData);
+  } else {
+    vscode.window.showErrorMessage(t.licenseInvalid);
+  }
 }
 
 /**
@@ -485,7 +685,7 @@ async function showQuickMenu() {
 
   const config = vscode.workspace.getConfiguration('antigravityQuota');
   const langCode = config.get('language', 'auto');
-  const barStyle = config.get('barStyle', 'colored');
+  const barStyle = config.get('barStyle', 'emoji-blocks');
   const t = getI18n(langCode);
 
   const rawModels = lastData?.userStatus?.cascadeModelConfigData?.clientModelConfigs || [];
@@ -495,14 +695,14 @@ async function showQuickMenu() {
 
   const items = [];
 
-  // 1. Top action: open visual dashboard
+  // Top action
   items.push({
     label: `${t.openDashboard}`,
     description: t.openDashboardDesc,
     action: 'dashboard'
   });
 
-  // 2. Compact Model List (NO multi-line details to avoid vertical scrollbar!)
+  // Compact Model List
   items.push({ kind: vscode.QuickPickItemKind.Separator, label: `${userTier?.name || 'Pro'} (${userEmail})` });
 
   for (const m of models) {
@@ -517,14 +717,8 @@ async function showQuickMenu() {
     });
   }
 
-  // 3. Compact Actions
+  // Actions
   items.push({ kind: vscode.QuickPickItemKind.Separator, label: t.actionsHeader });
-
-  items.push({
-    label: `${t.refreshNow}`,
-    description: t.refreshNowDesc,
-    action: 'refresh'
-  });
 
   items.push({
     label: `${t.selectStyle}`,
@@ -544,6 +738,27 @@ async function showQuickMenu() {
     action: 'language'
   });
 
+  items.push({
+    label: `${t.refreshNow}`,
+    description: t.refreshNowDesc,
+    action: 'refresh'
+  });
+
+  // Pro Section
+  items.push({ kind: vscode.QuickPickItemKind.Separator, label: t.proHeader });
+
+  items.push({
+    label: isProActive() ? '⭐ Pro License: Active' : `${t.enterLicense}`,
+    description: t.enterLicenseDesc,
+    action: 'license'
+  });
+
+  items.push({
+    label: `${t.exportHistory}`,
+    description: t.exportHistoryDesc,
+    action: 'export'
+  });
+
   const selected = await vscode.window.showQuickPick(items, {
     placeHolder: t.menuPlaceholder,
     title: t.menuTitle
@@ -561,6 +776,10 @@ async function showQuickMenu() {
     await selectBarStyle();
   } else if (selected.action === 'language') {
     await selectLanguage();
+  } else if (selected.action === 'license') {
+    await enterLicenseKey();
+  } else if (selected.action === 'export') {
+    await exportHistoryCsv();
   }
 }
 
@@ -569,7 +788,6 @@ async function showQuickMenu() {
  */
 async function selectLanguage() {
   const currentConfig = vscode.workspace.getConfiguration('antigravityQuota');
-  const t = getI18n(currentConfig.get('language', 'auto'));
 
   const langOptions = [
     { label: '🌐 Automaatne / System Default', value: 'auto' },
@@ -594,25 +812,30 @@ async function selectLanguage() {
 }
 
 /**
- * Bar style selector.
+ * Bar style selector with both Colored and White options.
  */
 async function selectBarStyle() {
   const config = vscode.workspace.getConfiguration('antigravityQuota');
   const t = getI18n(config.get('language', 'auto'));
 
   const styles = [
-    { label: '🟩 Värvilised klotsid (🟩🟩🟩🟩⬜ / 🟨 / 🟥)', value: 'colored', description: 'Roheline/Kollane/Punane automaatne värv' },
-    { label: '█ Klassikalised plokid ([████░])', value: 'blocks', description: 'Kompaktne monospace plokk' },
-    { label: '▰ Rööpkülikud (▰▰▰▰▱)', value: 'parallelograms', description: 'Stiilsed kaldkriipsud' },
-    { label: '■ Ruudud ([■■■■□])', value: 'squares', description: 'Monokroomsed ruudud' },
-    { label: '▓ Varjundid ([▓▓▓▓░])', value: 'shades', description: 'Varjutatud ruudustik' }
+    { kind: vscode.QuickPickItemKind.Separator, label: 'Värvilised skaalad (Roheline/Kollane/Punane)' },
+    { label: '🟩 Värvilised klotsid (🟩🟩🟩🟩⬜ / 🟨 / 🟥)', value: 'emoji-blocks', description: 'Automaatne värv vastavalt kvoodi tasemele' },
+    { label: '🟢 Värvilised täpid (🟢🟢🟢🟢⚪ / 🟡 / 🔴)', value: 'emoji-dots', description: 'Värvilised ringid' },
+    { label: '🔷 Värvilised teemandid (🔷🔷🔷🔷◽ / 🔶 / 🔺)', value: 'emoji-diamonds', description: 'Stiilsed rombid' },
+    { kind: vscode.QuickPickItemKind.Separator, label: 'Minimalistlikud valged skaalad (Clean White)' },
+    { label: '█ Valged plokid ([████░])', value: 'blocks', description: 'Monospace valge plokkstiil' },
+    { label: '■ Valged ruudud ([■■■■□])', value: 'squares', description: 'Kompaktsed ruudud' },
+    { label: '▰ Valged rööpkülikud (▰▰▰▰▱)', value: 'parallelograms', description: 'Kaldus plokid' },
+    { label: '● Valged täpid (●●●●○)', value: 'dots', description: 'Klassikalised minimalistlikud ringid' },
+    { label: '▓ Valged varjundid ([▓▓▓▓░])', value: 'shades', description: 'Varjutatud ruudustik' }
   ];
 
   const chosen = await vscode.window.showQuickPick(styles, {
     placeHolder: t.selectStyle
   });
 
-  if (chosen) {
+  if (chosen && chosen.value) {
     await config.update('barStyle', chosen.value, vscode.ConfigurationTarget.Global);
     if (lastData) updateStatusBar(lastData);
     vscode.window.showInformationMessage(`${t.styleUpdated} ${chosen.label}`);
@@ -627,7 +850,7 @@ async function selectDisplayMode() {
   const t = getI18n(config.get('language', 'auto'));
 
   const modes = [
-    { label: 'Kompaktne (G: 64% 🟩🟩🟩⬜⬜ | C: 84% 🟩🟩🟩🟩⬜)', value: 'compact', description: 'Kuvab peamised mudelid koos värviliste ribadega' },
+    { label: 'Kompaktne (G: 64% 🟩🟩🟩⬜⬜ | C: 84% 🟩🟩🟩🟩⬜)', value: 'compact', description: 'Kuvab peamised mudelid koos ribadega' },
     { label: 'Madalaim kvoot (Quota: 64% 🟩🟩🟩⬜⬜)', value: 'lowest', description: 'Kuvab mudelit, millel on kõige vähem ressurssi järel' },
     { label: 'Ainult Gemini (Gemini: 64% 🟩🟩🟩⬜⬜)', value: 'gemini', description: 'Kuvab Gemini mudelipere kvooti ja riba' },
     { label: 'Ainult Claude (Claude: 84% 🟩🟩🟩🟩⬜)', value: 'claude', description: 'Kuvab Claude mudelipere kvooti ja riba' }
@@ -648,7 +871,8 @@ async function selectDisplayMode() {
  * Extension activation.
  */
 function activate(context) {
-  console.log('[Antigravity Quota Monitor] Activating...');
+  extensionContext = context;
+  console.log('[Antigravity Quota Monitor] Activating v1.4.0...');
 
   statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
   statusBarItem.command = 'antigravityQuota.showMenu';
@@ -663,7 +887,10 @@ function activate(context) {
     vscode.commands.registerCommand('antigravityQuota.refresh', () => refreshQuota(false)),
     vscode.commands.registerCommand('antigravityQuota.selectDisplayMode', selectDisplayMode),
     vscode.commands.registerCommand('antigravityQuota.selectBarStyle', selectBarStyle),
-    vscode.commands.registerCommand('antigravityQuota.selectLanguage', selectLanguage)
+    vscode.commands.registerCommand('antigravityQuota.selectLanguage', selectLanguage),
+    vscode.commands.registerCommand('antigravityQuota.enterLicense', enterLicenseKey),
+    vscode.commands.registerCommand('antigravityQuota.exportCsv', exportHistoryCsv),
+    vscode.commands.registerCommand('antigravityQuota.exportJson', exportHistoryJson)
   );
 
   const config = vscode.workspace.getConfiguration('antigravityQuota');

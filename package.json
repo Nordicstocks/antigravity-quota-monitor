@@ -1,9 +1,9 @@
 {
   "name": "antigravity-quota-monitor",
   "displayName": "Antigravity Quota Monitor & Dashboard",
-  "description": "Visual, real-time AI quota monitor with color progress bars, reset countdowns and interactive dashboard for Antigravity IDE (Gemini 3.8 Flash, Claude Opus 5.5, Claude Sonnet 5.5, GPT-OSS).",
-  "version": "1.3.0",
-  "publisher": "nordicstock",
+  "description": "Visual, real-time AI quota monitor with color & white progress bars, reset countdowns, audio alerts and interactive dashboard for Antigravity IDE (Gemini 3.8 Flash, Claude Opus 5.5, Claude Sonnet 5.5, GPT-OSS).",
+  "version": "1.4.0",
+  "publisher": "Nordicstocks",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#0d1117",
@@ -26,18 +26,18 @@
     "usage",
     "dashboard",
     "monitor",
-    "token-counter",
     "limits",
     "speedometer",
+    "token-counter",
     "analytics"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nordicstock/antigravity-quota-monitor"
+    "url": "https://github.com/Nordicstocks/antigravity-quota-monitor"
   },
-  "homepage": "https://github.com/nordicstock/antigravity-quota-monitor",
+  "homepage": "https://github.com/Nordicstocks/antigravity-quota-monitor",
   "bugs": {
-    "url": "https://github.com/nordicstock/antigravity-quota-monitor/issues"
+    "url": "https://github.com/Nordicstocks/antigravity-quota-monitor/issues"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -56,21 +56,34 @@
         "icon": "$(dashboard)"
       },
       {
-        "command": "antigravityQuota.selectLanguage",
-        "title": "Antigravity Quota: Select Language / Vali keel"
-      },
-      {
         "command": "antigravityQuota.selectBarStyle",
-        "title": "Antigravity Quota: Select Progress Bar Style / Vali progressiriba stiil"
+        "title": "Antigravity Quota: Select Progress Bar Style (Colored or White) / Vali skaala stiil"
       },
       {
         "command": "antigravityQuota.selectDisplayMode",
         "title": "Antigravity Quota: Select Display Mode / Vali kuvamise viis"
       },
       {
+        "command": "antigravityQuota.selectLanguage",
+        "title": "Antigravity Quota: Select Language / Vali keel"
+      },
+      {
         "command": "antigravityQuota.refresh",
         "title": "Antigravity Quota: Refresh Now / Värskenda kohe",
         "icon": "$(refresh)"
+      },
+      {
+        "command": "antigravityQuota.enterLicense",
+        "title": "Antigravity Quota: Enter Pro License Key / Sisesta Pro litsentsivõti",
+        "icon": "$(star)"
+      },
+      {
+        "command": "antigravityQuota.exportCsv",
+        "title": "Antigravity Quota: Export Usage History (CSV) / Ekspordi ajalugu"
+      },
+      {
+        "command": "antigravityQuota.exportJson",
+        "title": "Antigravity Quota: Export Usage History (JSON)"
       }
     ],
     "configuration": {
@@ -105,16 +118,43 @@
         },
         "antigravityQuota.barStyle": {
           "type": "string",
-          "enum": ["colored", "blocks", "parallelograms", "squares", "shades"],
-          "enumDescriptions": [
-            "Colored emoji blocks: 🟩🟩🟩⬜⬜ (Green / Yellow / Red)",
-            "Classic monospace blocks: [████░]",
-            "Parallelograms: ▰▰▰▰▱",
-            "Squares: [■■■■□]",
-            "Shades: [▓▓▓▓░]"
+          "enum": [
+            "emoji-blocks",
+            "emoji-dots",
+            "emoji-diamonds",
+            "blocks",
+            "squares",
+            "parallelograms",
+            "dots",
+            "shades"
           ],
-          "default": "colored",
-          "description": "Visual progress bar style."
+          "enumDescriptions": [
+            "🟩 Värvilised klotsid: 🟩🟩🟩⬜⬜ (Roheline / Kollane / Punane)",
+            "🟢 Värvilised täpid: 🟢🟢🟢⚪⚪",
+            "🔷 Värvilised teemandid: 🔷🔷🔷◽◽",
+            "█ Valged plokid: [████░] (Minimalistlik valge)",
+            "■ Valged ruudud: [■■■■□]",
+            "▰ Valged rööpkülikud: ▰▰▰▱",
+            "● Valged täpid: ●●●○○",
+            "▓ Valged varjundid: [▓▓▓▓░]"
+          ],
+          "default": "emoji-blocks",
+          "description": "Visual progress bar style (both colored scales and clean white styles available)."
+        },
+        "antigravityQuota.enableAudioAlerts": {
+          "type": "boolean",
+          "default": true,
+          "description": "Mängi heliteavitust kui kvoot saab 100% täis või kukub alla 10% (Play audio chime on 100% refill & low quota)."
+        },
+        "antigravityQuota.autoFallbackEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Soovita automaatselt varumudelit kui aktiivne kvoot langeb alla 5%."
+        },
+        "antigravityQuota.fallbackTargetModel": {
+          "type": "string",
+          "default": "gemini-3.8-flash-high",
+          "description": "Mudel, millele lülitutakse automaatselt üle kui aktiivse mudeli limiit on otsakorral."
         },
         "antigravityQuota.pollingInterval": {
           "type": "number",

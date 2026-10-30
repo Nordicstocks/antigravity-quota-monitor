@@ -1,11 +1,12 @@
 /**
  * Antigravity Quota Monitor - Visual Webview Dashboard
- * Fully responsive, compact zero-scroll layout with multi-language support.
+ * Fully responsive, zero-scroll layout with multi-language support,
+ * cost savings analytics, burn rate, and sponsorship banner.
  */
 
 const { getI18n } = require('./i18n');
 
-function generateDashboardHtml(data, langCode = 'auto') {
+function generateDashboardHtml(data, langCode = 'auto', isPro = false, historyRecords = []) {
   const t = getI18n(langCode);
   const userStatus = data?.userStatus || {};
   const userTier = userStatus?.userTier || {};
@@ -43,6 +44,18 @@ function generateDashboardHtml(data, langCode = 'auto') {
   }
 
   const models = Array.from(modelMap.values());
+
+  // Calculate estimated API savings based on used percentage
+  let estimatedSavings = 0;
+  for (const m of models) {
+    if (m.percentage !== null) {
+      const usedPct = 100 - m.percentage;
+      // Rough estimation: 100% quota ≈ $15-$30 value in API equivalent calls
+      const baseValue = m.name.includes('Opus') ? 35 : m.name.includes('Sonnet') ? 18 : 10;
+      estimatedSavings += (usedPct / 100) * baseValue;
+    }
+  }
+  const formattedSavings = `$${Math.max(6.5, estimatedSavings).toFixed(2)}`;
 
   // Helper for countdown
   function getResetCountdown(isoDateStr) {
@@ -115,6 +128,20 @@ function generateDashboardHtml(data, langCode = 'auto') {
     `;
   }).join('');
 
+  // History rows (last 5)
+  const historyRowsHtml = (historyRecords.slice(-5).reverse()).map(h => {
+    const timeStr = new Date(h.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    return `
+      <tr>
+        <td>${timeStr}</td>
+        <td><strong>${h.model}</strong></td>
+        <td>${h.percentage}%</td>
+        <td><span class="badge ${h.percentage <= 15 ? 'badge-red' : h.percentage <= 35 ? 'badge-yellow' : 'badge-green'}">${h.percentage}%</span></td>
+        <td>⏱️ ${h.resetsIn || '—'}</td>
+      </tr>
+    `;
+  }).join('');
+
   return `<!DOCTYPE html>
 <html lang="${langCode}">
 <head>
@@ -135,6 +162,7 @@ function generateDashboardHtml(data, langCode = 'auto') {
       --red: #f85149;
       --red-glow: rgba(248, 81, 73, 0.35);
       --blue: #58a6ff;
+      --gold: #f59e0b;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -152,6 +180,26 @@ function generateDashboardHtml(data, langCode = 'auto') {
       max-width: 1100px;
       margin: 0 auto;
     }
+
+    /* Sponsor Header Banner */
+    .sponsor-banner {
+      background: linear-gradient(90deg, rgba(30, 58, 138, 0.4), rgba(88, 28, 135, 0.4));
+      border: 1px solid rgba(147, 51, 234, 0.3);
+      border-radius: 8px;
+      padding: 8px 16px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .sponsor-link {
+      color: #c084fc;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .sponsor-link:hover { text-decoration: underline; }
 
     header {
       display: flex;
@@ -179,6 +227,19 @@ function generateDashboardHtml(data, langCode = 'auto') {
       font-size: 20px;
       font-weight: 700;
       letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pro-badge {
+      font-size: 11px;
+      background: linear-gradient(90deg, #f59e0b, #d97706);
+      color: #000;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 12px;
+      letter-spacing: 0.5px;
     }
 
     .subtitle {
@@ -186,11 +247,16 @@ function generateDashboardHtml(data, langCode = 'auto') {
       color: var(--text-muted);
     }
 
-    .refresh-btn {
-      background: #238636;
-      color: #fff;
-      border: 1px solid rgba(240, 246, 252, 0.1);
-      padding: 6px 14px;
+    .header-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .action-btn {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+      padding: 6px 12px;
       border-radius: 6px;
       font-size: 12px;
       font-weight: 600;
@@ -200,16 +266,22 @@ function generateDashboardHtml(data, langCode = 'auto') {
       gap: 6px;
       transition: all 0.2s;
     }
-
-    .refresh-btn:hover {
-      background: #2ea043;
+    .action-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
       transform: translateY(-1px);
     }
 
-    /* Summary bar - compact single row */
+    .refresh-btn {
+      background: #238636;
+      border-color: #2ea043;
+      color: #fff;
+    }
+    .refresh-btn:hover { background: #2ea043; }
+
+    /* Summary bar */
     .summary-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 12px;
       margin-bottom: 16px;
     }
@@ -219,7 +291,7 @@ function generateDashboardHtml(data, langCode = 'auto') {
       border: 1px solid var(--card-border);
       backdrop-filter: blur(12px);
       border-radius: 10px;
-      padding: 12px 16px;
+      padding: 12px 14px;
     }
 
     .summary-title {
@@ -236,11 +308,12 @@ function generateDashboardHtml(data, langCode = 'auto') {
       color: var(--text);
     }
 
-    /* Model Cards Grid - compact heights */
+    /* Model Cards Grid */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
       gap: 12px;
+      margin-bottom: 18px;
     }
 
     .card {
@@ -277,7 +350,6 @@ function generateDashboardHtml(data, langCode = 'auto') {
       color: var(--text-muted);
     }
 
-    /* Badges */
     .badge {
       font-size: 10px;
       font-weight: 600;
@@ -290,10 +362,7 @@ function generateDashboardHtml(data, langCode = 'auto') {
     .badge-red { background: rgba(248, 81, 73, 0.2); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.3); }
     .badge-blue { background: rgba(88, 166, 255, 0.2); color: #79c0ff; border: 1px solid rgba(88, 166, 255, 0.3); }
 
-    /* Progress bar */
-    .quota-progress-container {
-      margin-bottom: 12px;
-    }
+    .quota-progress-container { margin-bottom: 12px; }
 
     .progress-labels {
       display: flex;
@@ -302,16 +371,8 @@ function generateDashboardHtml(data, langCode = 'auto') {
       margin-bottom: 6px;
     }
 
-    .progress-title {
-      font-size: 12px;
-      color: var(--text-muted);
-    }
-
-    .progress-val {
-      font-size: 18px;
-      font-weight: 700;
-      font-variant-numeric: tabular-nums;
-    }
+    .progress-title { font-size: 12px; color: var(--text-muted); }
+    .progress-val { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
 
     .progress-track {
       background: rgba(255, 255, 255, 0.08);
@@ -327,22 +388,13 @@ function generateDashboardHtml(data, langCode = 'auto') {
       transition: width 0.5s ease-out;
     }
 
-    .bar-green {
-      background: linear-gradient(90deg, #238636, #3fb950);
-      box-shadow: 0 0 10px var(--green-glow);
-    }
+    .bar-green { background: linear-gradient(90deg, #238636, #3fb950); box-shadow: 0 0 10px var(--green-glow); }
     .bar-green-text { color: #3fb950; }
 
-    .bar-yellow {
-      background: linear-gradient(90deg, #9e6a03, #d29922);
-      box-shadow: 0 0 10px var(--yellow-glow);
-    }
+    .bar-yellow { background: linear-gradient(90deg, #9e6a03, #d29922); box-shadow: 0 0 10px var(--yellow-glow); }
     .bar-yellow-text { color: #d29922; }
 
-    .bar-red {
-      background: linear-gradient(90deg, #da3633, #f85149);
-      box-shadow: 0 0 10px var(--red-glow);
-    }
+    .bar-red { background: linear-gradient(90deg, #da3633, #f85149); box-shadow: 0 0 10px var(--red-glow); }
     .bar-red-text { color: #f85149; }
 
     .card-footer {
@@ -353,36 +405,77 @@ function generateDashboardHtml(data, langCode = 'auto') {
       font-size: 11px;
     }
 
-    .footer-item {
+    .footer-item { display: flex; flex-direction: column; gap: 1px; }
+    .footer-label { color: var(--text-muted); font-size: 10px; }
+    .footer-val { font-weight: 500; color: var(--text); }
+
+    /* History & Analytics Section */
+    .history-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .history-header {
       display: flex;
-      flex-direction: column;
-      gap: 1px;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
     }
 
-    .footer-label {
+    .history-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    th {
+      text-align: left;
       color: var(--text-muted);
-      font-size: 10px;
+      font-weight: 500;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     }
 
-    .footer-val {
-      font-weight: 500;
-      color: var(--text);
+    td {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="sponsor-banner">
+      <div>
+        <span>${t.sponsorTitle}:</span>
+        <span style="color:var(--text-muted); margin-left: 6px;">${t.sponsorDesc}</span>
+      </div>
+      <a class="sponsor-link" href="mailto:nordicstocks@gmail.com?subject=Antigravity%20Quota%20Sponsorship">${t.sponsorContact} &rarr;</a>
+    </div>
+
     <header>
       <div class="header-left">
         <div class="logo-icon">⚡</div>
         <div>
-          <h1>${t.dashboardTitle}</h1>
+          <h1>
+            ${t.dashboardTitle}
+            ${isPro ? '<span class="pro-badge">PRO ACTIVE</span>' : ''}
+          </h1>
           <div class="subtitle">${t.dashboardSubtitle}</div>
         </div>
       </div>
-      <button class="refresh-btn" onclick="vscode.postMessage({ command: 'refresh' })">
-        ${t.dashboardRefresh}
-      </button>
+      <div class="header-actions">
+        ${!isPro ? `<button class="action-btn" onclick="vscode.postMessage({ command: 'enterLicense' })">⭐ Activate Pro</button>` : ''}
+        <button class="action-btn refresh-btn" onclick="vscode.postMessage({ command: 'refresh' })">
+          ${t.dashboardRefresh}
+        </button>
+      </div>
     </header>
 
     <div class="summary-grid">
@@ -392,7 +485,11 @@ function generateDashboardHtml(data, langCode = 'auto') {
       </div>
       <div class="summary-card">
         <div class="summary-title">${t.promptCredits}</div>
-        <div class="summary-value">${availableCredits.toLocaleString()} <span style="font-size:12px; color:var(--text-muted);">/ ${monthlyCredits.toLocaleString()}</span></div>
+        <div class="summary-value">${availableCredits.toLocaleString()} <span style="font-size:11px; color:var(--text-muted);">/ ${monthlyCredits.toLocaleString()}</span></div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-title">${t.costSavedToday}</div>
+        <div class="summary-value" style="color:#3fb950;">${formattedSavings}</div>
       </div>
       <div class="summary-card">
         <div class="summary-title">${t.trackedModels}</div>
@@ -402,6 +499,30 @@ function generateDashboardHtml(data, langCode = 'auto') {
 
     <div class="grid">
       ${modelCardsHtml}
+    </div>
+
+    <div class="history-card">
+      <div class="history-header">
+        <div class="history-title">${t.historyTitle}</div>
+        <div style="display:flex; gap:6px;">
+          <button class="action-btn" onclick="vscode.postMessage({ command: 'exportCsv' })">📥 ${t.exportCsv}</button>
+          <button class="action-btn" onclick="vscode.postMessage({ command: 'exportJson' })">📥 ${t.exportJson}</button>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Aeg</th>
+            <th>Mudel</th>
+            <th>Kvoot</th>
+            <th>Olek</th>
+            <th>Lähtestub</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${historyRowsHtml || `<tr><td colspan="5" style="text-align:center; padding:12px; color:var(--text-muted);">Logi koguneb kasutamise käigus...</td></tr>`}
+        </tbody>
+      </table>
     </div>
   </div>
 
