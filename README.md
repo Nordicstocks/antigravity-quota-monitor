@@ -7,7 +7,7 @@
 **Stop getting locked out of Claude Opus 5.5, Sonnet 5.5, and Gemini 4 Argon mid-sprint.**  
 **Real-time 5-Hour & 7-Day Weekly AI Quota Telemetry, Scheduled `07:00` Session Auto-Warmup, Reserve Guard & Phone Alerts for Google Antigravity IDE.**
 
-[![Version](https://img.shields.io/badge/release-v2.0.33-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
+[![Version](https://img.shields.io/badge/release-v2.0.34-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
 [![7-Day In-App Pro Trial](https://img.shields.io/badge/In--App_Pro_Trial-7_Days_FREE_(No_Card_Required)-10B981?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
 [![Lifetime Pro](https://img.shields.io/badge/Lifetime_Pro-%E2%82%AC9.99_One--Time-7C3AED?style=flat-square)](https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP)
 [![37 Languages](https://img.shields.io/badge/Languages-37_Built--In-0EA5E9?style=flat-square)](#37-built-in-languages-automatic-os-detection)

@@ -2,7 +2,7 @@
   "name": "antigravity-quota-monitor",
   "displayName": "%displayName%",
   "description": "%description%",
-  "version": "2.0.33",
+  "version": "2.0.34",
   "publisher": "Nordicstocks",
   "icon": "images/icon.png",
   "galleryBanner": {
