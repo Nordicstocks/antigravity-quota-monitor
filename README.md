@@ -7,14 +7,14 @@
 **Stop getting locked out of Claude Opus 5.5, Sonnet 5.5, and Gemini 4 Argon mid-sprint.**  
 **Real-time 5-Hour & 7-Day Weekly AI Quota Telemetry, Scheduled `07:00` Session Auto-Warmup, Reserve Guard & Phone Alerts for Google Antigravity IDE.**
 
-[![Version](https://img.shields.io/badge/release-v2.0.36-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
+[![Version](https://img.shields.io/badge/release-v2.0.37-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
 [![7-Day In-App Pro Trial](https://img.shields.io/badge/In--App_Pro_Trial-7_Days_FREE_(No_Card_Required)-10B981?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
-[![Lifetime Pro](https://img.shields.io/badge/Lifetime_Pro-%E2%82%AC9.99_One--Time-7C3AED?style=flat-square)](https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP)
+[![Lifetime Pro](https://img.shields.io/badge/Lifetime_Pro-%E2%82%AC9.99_One--Time-7C3AED?style=flat-square)](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)
 [![37 Languages](https://img.shields.io/badge/Languages-37_Built--In-0EA5E9?style=flat-square)](#37-built-in-languages-automatic-os-detection)
 
 <br/>
 
-<a href="https://polar.sh/checkout/polar_c_mP6qX1nB8vR2tL9kW4zF7jH3yD5sG0aC8eU1iO6pV2w"><img src="https://img.shields.io/badge/START_14--DAY_PRO_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Pro Trial" /></a>&nbsp;&nbsp;<a href="https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP"><img src="https://img.shields.io/badge/BUY_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Buy Lifetime Pro €9.99" /></a>
+<a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/START_14--DAY_PRO_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Pro Trial" /></a>&nbsp;&nbsp;<a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/BUY_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Buy Lifetime Pro €9.99" /></a>
 
 </div>
 
@@ -112,7 +112,7 @@ Track which workspace folders consume the most AI quota, inspect your **90-Day W
 
 <div align="center">
 <br/>
-<a href="https://polar.sh/checkout/polar_c_mP6qX1nB8vR2tL9kW4zF7jH3yD5sG0aC8eU1iO6pV2w"><img src="https://img.shields.io/badge/START_14--DAY_FREE_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Free Trial" /></a>&nbsp;&nbsp;<a href="https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP"><img src="https://img.shields.io/badge/GET_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Get Lifetime Pro €9.99" /></a>
+<a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/START_14--DAY_FREE_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Free Trial" /></a>&nbsp;&nbsp;<a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/GET_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Get Lifetime Pro €9.99" /></a>
 <br/><br/>
 </div>
 
