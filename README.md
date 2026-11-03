@@ -10,10 +10,6 @@
 > - **⏰ Scheduled 5-Hour Session Auto-Starter (`07:00`) + Automatic Wake Catch-Up (PRO — 14 Days FREE):** Automatically sends a 1-token wakeup ping (`"."`) to Claude, Gemini, or Both at your chosen morning time (e.g. `07:00`) so your 5-hour quota window is already resetting by `12:00`! If your laptop lid was closed at `07:00`, **Automatic Wake Catch-Up** fires the moment you open your laptop and launch Antigravity.
 > - **🎁 Try All Pro Features 14 Days FREE (€0.00 today!):** Unlock **Live Reset Clock (`↻19:52`)**, **Burn-Rate Forecast**, **Reserve Guard ("Keep 20% for tomorrow")**, **5h Session Auto-Starter (`07:00`)**, **One-Click Reset Alarms**, **90-Day Heatmap**, **`agy` CLI Status Line**, and **Instant Phone & Desktop Push Alerts (`ntfy.sh`, Telegram, Discord/Slack)** with a **14-Day Free Trial (€0 today, cancel anytime)** or **€9.99 One-Time Lifetime Pro**!
 
-### 🎬 Interactive Video Walkthrough (Card Colors 🎨 · Drag & Drop ⋮⋮ · Day/Night ☀️🌙 · Cache Cleaner 🧹 · 07:00 Auto-Starter ⏰)
-
-![Antigravity Ultimate Cockpit Quota Monitor & Dashboard — Video Walkthrough](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/tutorial-v4.gif)
-
 ### 🌐 Global Summaries / 多言語ガイド / 多语言简介 / 다국어 안내
 
 - 🇯🇵 **日本語 (Japanese):** **Antigravity Ultimate Cockpit — AI クォータ・使用量・配額モニター＆ダッシュボード**。Google Antigravity (`agy` CLI)、Claude Opus/Sonnet 5.5、Gemini 3.8 Flash/4 Argon の **5時間制限** と **7日間（週間）制限** をステータスバーとサイドバーでリアルタイム監視。無料機能：カードのドラッグ＆ドロップ並び替え (`⋮⋮`)、カスタム背景色 (`🎨`)、昼/夜モード (`☀️/🌙`)、ブラウザ表示 (`🌐`)、**ワンクリック・キャッシュクリーナー (`🧹`)**、37言語自動検出。Pro機能（14日間無料トライアル）：**朝07:00の5時間セッション自動開始（スリープ復帰時の自動キャッチアップ付き）**、リセット時刻表示 (`↻19:52`)、20%リザーブガード、スマホ通知 (`ntfy.sh` / Telegram / Discord)。*(検索キーワード: アンチグラビティ, クォータ, 配額, 使用量監視, コックピット, キャッシュ削除)*
@@ -39,7 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.23-blue?style=for-the-badge" alt="Open VSX Version"></a>
+  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.24-blue?style=for-the-badge" alt="Open VSX Version"></a>
   <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/open-vsx/dt/Nordicstocks/antigravity-quota-monitor?style=for-the-badge&label=Downloads&color=10b981" alt="Live Open VSX Downloads"></a>
   <a href="https://info.flagcounter.com/Eb0D"><img src="https://img.shields.io/badge/🌍_Live_Country_Map-View_Stats-06b6d4?style=for-the-badge" alt="Live Global Country Analytics"></a>
   <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/🎁_Try_Pro_14_Days_FREE-€0_Today-brightgreen?style=for-the-badge" alt="Try Pro 14 Days Free"></a>
@@ -60,26 +56,31 @@
 
 ---
 
-## 🔥 Live Preview — Pro v2 Visual Experience (☀️ Day Mode & 🌙 Night Mode)
+## 🔥 Live Preview — Modern Linear/Raycast-Inspired ÖÖ (Night) & PÄEV (Day) Design
 
-### 🖥️ Pro Visual Dashboard: Crisp Daylight (☀️ Day Mode) & Cyber-Glass (🌙 Night Mode) + On-Screen Control Center
-Switch effortlessly between **☀️ Day Mode**, **🌙 Night Mode**, or **Auto** right inside the Dashboard header — and control all 8 progress bar styles, display modes, 37 languages, Reserve Guard thresholds, audio chimes, push notifications (`ntfy.sh`, Telegram, Discord/Slack), and `agy` CLI snippets from a single screen:
+### 🖥️ 1. Overview Tab (`Ülevaade`): 4 KPI Tiles, 7-Day Weekly Pool & 5-Hour Model Cards
+Switch effortlessly between **🌙 Night Mode (`Öö`)**, **☀️ Day Mode (`Päev`)**, or **🖥️ Auto** right inside the unified sticky top header — and navigate cleanly between **Overview (`Ülevaade`)**, **Analytics (`Analüütika`)**, and **Settings (`Seaded`)**:
 
-#### ☀️ 1. Crisp Daylight View (Day Mode)
-![Antigravity Quota Visual Dashboard v2 — Day Mode](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/dashboard-day-v2.jpg)
+#### 🌙 Night Mode (`Öö` — Overview)
+![Antigravity Quota Dashboard — Night Overview](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-01-overview-night.png)
 
-#### 🌙 2. Cyber-Glass Telemetry View (Night Mode)
-![Antigravity Quota Visual Dashboard v2 — Night Mode](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/dashboard-night-v2.jpg)
+#### ☀️ Day Mode (`Päev` — Overview)
+![Antigravity Quota Dashboard — Day Overview](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-02-overview-day.png)
 
-### ⚡ Live Status Bar with Exact Reset Clock Time (`↻19:52`) & Pace Forecast (`⏳42m`)
-See your remaining AI quota, visual progress bars, **live countdown + exact local reset clock time**, and **run-out pace warning** right on your Antigravity status bar:
+### ⚙️ 2. Settings & Pro Control Center (`Seaded`): 37 Languages, 8 Bar Styles, Reserve Guard, `07:00` Auto-Warmup, Push Alerts & Cache Cleaner
+#### 🌙 Night Mode (`Öö` — Settings)
+![Antigravity Quota Dashboard — Night Settings](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-03-settings-night.png)
+
+#### ☀️ Day Mode (`Päev` — Settings)
+![Antigravity Quota Dashboard — Day Settings](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-04-settings-day.png)
+
+### 📊 3. Analytics (`Analüütika`): 7×24 Usage Heatmap, Per-Project Attribution & Searchable Quota History
+![Antigravity Quota Dashboard — Night Analytics](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-05-analytics-night.png)
+
+### 📌 4. Left Activity Bar Sidebar (`Antigravity Cockpit`) & Live Status Bar
+<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-07-sidebar-night.png" width="340" alt="Antigravity Cockpit Left Activity Bar Sidebar" />
 
 ![Antigravity Pro v2 Live Status Bar](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/statusbar-v2.jpg)
-
-### 📋 One-Click Quick Menu & 8 Progress Bar Styles
-![Antigravity Quota Quick Menu](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/quickmenu.jpg)
-
-![Progress Bar Styles](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/styles.jpg)
 
 ---
 
