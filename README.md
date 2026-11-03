@@ -1,125 +1,103 @@
-# <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)
+<div align="center">
 
-> [!TIP]
-> ### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/free.png" width="18" height="18" align="absmiddle" alt="" /> 100% FREE TO DOWNLOAD & USE · Take Full Control of Your AI Costs · Save Quota · Always Know Where You Stand
-> **Download and use for FREE right now — no credit card or registration required!** Stop burning through your AI quota blindly or getting locked out mid-sprint:
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sidebar.png" width="18" height="18" align="absmiddle" alt="" /> Activity Bar Sidebar & <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> Live Status Bar Quota Meter (FREE):** One-click **Antigravity Cockpit** icon on your left Activity Bar + live status bar gauges for both your **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/calendar.png" width="18" height="18" align="absmiddle" alt="" /> 7-Day Weekly Limit** and **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> 5-Hour Limit** across **Claude Opus 5.5**, **Claude Sonnet 5.5**, **Gemini 3.8 Flash**, **Gemini 4 Argon**, and **GPT-OSS 120B**.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sun.png" width="18" height="18" align="absmiddle" alt="" /> Crisp Daylight & <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/moon.png" width="18" height="18" align="absmiddle" alt="" /> Cyber-Glass Night Visual Dashboard + <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> Open in Web Browser (FREE):** Switch between Day Mode, Night Mode, and Auto editor sync with 10-cell LED meters, 8 progress bar styles, an interactive on-screen Control Center, and **1-click `Open in Browser`** to run the full interactive dashboard in Chrome, Safari, Edge, or Firefox on a second monitor.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/palette.png" width="18" height="18" align="absmiddle" alt="" /> Drag-and-Drop Reorderable Cards (`⋮⋮`), 7 Custom Card Colors & <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/trash.png" width="18" height="18" align="absmiddle" alt="" /> 1-Click Cache Cleaner (FREE):** Drag your favorite AI model cards into any order, pick custom pastel/night card tints (`Mint`, `Sky`, `Lavender`, `Peach`, `Rose`, `Teal`), and free up disk space in 1 click by cleaning old Antigravity `brain/` & `code_tracker/` cache folders.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> 37 Built-In Languages with Automatic OS Detection (FREE):** Automatically matches your Windows, macOS, or Linux system language right out of the box.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> Scheduled 5-Hour Session Auto-Starter (`07:00`) + Automatic Wake Catch-Up (PRO — 14 Days FREE):** Automatically sends a 1-token wakeup ping (`"."`) to Claude, Gemini, or Both at your chosen morning time (e.g. `07:00`) so your 5-hour quota window is already resetting by `12:00`! If your laptop lid was closed at `07:00`, **Automatic Wake Catch-Up** fires the moment you open your laptop and launch Antigravity.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Try All Pro Features 14 Days FREE (€0.00 today!):** Unlock **Live Reset Clock (`↻19:52`)**, **Burn-Rate Forecast**, **Reserve Guard ("Keep 20% for tomorrow")**, **5h Session Auto-Starter (`07:00`)**, **One-Click Reset Alarms**, **90-Day Heatmap**, **`agy` CLI Status Line**, and **Instant Phone & Desktop Push Alerts (`ntfy.sh`, Telegram, Discord/Slack)** with a **14-Day Free Trial (€0 today, cancel anytime)** or **€9.99 One-Time Lifetime Pro**!
+<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icon.png" width="116" height="116" alt="Antigravity Quota Monitor — Ultimate Cockpit & Dashboard" />
 
-### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> Global Summaries / 多言語ガイド / 多语言简介 / 다국어 안내
+# Antigravity Quota Monitor — Ultimate Cockpit & Dashboard
 
-- 🇯🇵 **日本語 (Japanese):** **Antigravity Ultimate Cockpit — AI クォータ・使用量・配額モニター＆ダッシュボード**。Google Antigravity (`agy` CLI)、Claude Opus/Sonnet 5.5、Gemini 3.8 Flash/4 Argon の **5時間制限** と **7日間（週間）制限** をステータスバーとサイドバーでリアルタイム監視。無料機能：カードのドラッグ＆ドロップ並び替え (`⋮⋮`)、カスタム背景色、昼/夜モード 、ブラウザ表示、**ワンクリック・キャッシュクリーナー**、37言語自動検出。Pro機能（14日間無料トライアル）：**朝07:00の5時間セッション自動開始（スリープ復帰時の自動キャッチアップ付き）**、リセット時刻表示 (`↻19:52`)、20%リザーブガード、スマホ通知 (`ntfy.sh` / Telegram / Discord)。*(検索キーワード: アンチグラビティ, クォータ, 配額, 使用量監視, コックピット, キャッシュ削除)*
-- 🇨🇳 **简体中文 / 繁體中文 (Chinese):** **Antigravity Ultimate Cockpit — 终极 AI 模型配额与用量监控面板 (驾驶舱 Pro v2)**。实时监控 Google Antigravity IDE 与 `agy` CLI 的 **7天周限额** 与 **5小时滚动限额**（支持 Claude Opus 5.5, Sonnet 5.5, Gemini 3.8 Flash, Gemini 4 Argon）。免费版包含：左侧活动栏面板、状态栏实时进度、卡片拖拽排序 (`⋮⋮`)、自定义卡片颜色、日间/夜间模式、浏览器独立打开、**一键清理 Antigravity 缓存** 及 37 种语言自动识别。Pro 版（14天免费试用）：**07:00 自动唤醒启动 5 小时会话（支持合盖休眠唤醒补发）**、重置时钟 (`↻19:52`)、20% 预留额度保护、手机推送通知 (`ntfy.sh` / Telegram / Discord / Slack) 及 90 天热力图。*(关键词: Antigravity 驾驶舱, 配额监控, 用量统计, 自动唤醒, 缓存清理, 额度监控)*
-- 🇰🇷 **한국어 (Korean):** **Antigravity Ultimate Cockpit — AI 할당량 및 사용량 모니터 대시보드**。Google Antigravity 및 `agy` CLI(Claude Opus/Sonnet 5.5, Gemini 3.8)의 **7일 주간 한도**와 **5시간 한도**를 실시간으로 모니터링합니다. 무료 기능: 사이드바 패널, 카드 드래그 앤 드롭(`⋮⋮`), 카드 색상 변경, 주간/야간 테마, 브라우저 열기, **원클릭 캐시 정리**. Pro 기능(14일 무료 체험): **오전 07:00 5시간 세션 자동 시작(절전 모드 복귀 시 자동 실행)**, 리셋 시계(`↻19:52`), 20% 예비 보호, 스마트폰 푸시 알림(`ntfy.sh`, 텔레그램, 디스코드). *(키워드: 안티그래비티, 할당량 모니터, 사용량 대시보드, 콕핏, 캐시 정리)*
-- 🇩🇪 **Deutsch (German):** **Antigravity Ultimate Cockpit — KI-Kontingent, Quota-Monitor & Kostenkontrolle Dashboard**。Echtzeit-Überwachung für Google Antigravity & `agy` CLI (7-Tage-Wochenlimit & 5-Stunden-Limit für Claude Opus/Sonnet 5.5 und Gemini 3.8/4). Kostenlos: Activity-Bar-Seitenleiste, Drag-and-Drop-Karten (`⋮⋮`), 7 Kartenfarben, Tag-/Nachtmodus, Browser-Ansicht & **1-Klick Cache-Reiniger**. Pro (14 Tage kostenlos testen): **07:00 Uhr 5-Stunden-Session Auto-Starter (inkl. Wake-Catch-Up nach dem Ruhezustand)**, Reset-Uhrzeit (`↻19:52`), 20% Reserve-Schutz & Push-Benachrichtigungen aufs Smartphone (`ntfy.sh`, Telegram, Discord/Slack).
-- 🇪🇸 **Español (Spanish):** **Antigravity Ultimate Cockpit — Monitor de Cuota, Límites IA y Panel de Control**。Supervisa en tiempo real tus límites semanales (7 días) y de 5 horas en Google Antigravity y `agy` CLI (Claude Opus/Sonnet 5.5, Gemini 3.8/4). Gratis: panel lateral, tarjetas arrastrables (`⋮⋮`), colores personalizados, modo Día/Noche, abrir en navegador y **limpiador de caché en 1 clic**. Pro (14 días de prueba GRATIS): **auto-iniciador de sesión de 5h a las 07:00 (con recuperación automática al abrir el portátil)**, reloj de reinicio (`↻19:52`), protección de reserva del 20% y alertas al móvil (`ntfy.sh`, Telegram, Discord).
-- 🇫🇷 **Français (French) & 🇧🇷 Português (Portuguese) & 🇪🇪 Eesti:** **Moniteur de quota IA & Tableau de bord Antigravity Cockpit** / **Monitor de Cota e Limites de IA Antigravity** / **Antigravity Ultimate Cockpit — reaalajas AI kvoodimonitor, 1-klikiga vahemälu puhastaja ja kella 07:00 5h sessiooni automaatne käivitaja (koos unerežiimi järeleaitamisega)**.
+**Stop getting locked out of Claude Opus 5.5, Sonnet 5.5, and Gemini 4 Argon mid-sprint.**  
+**Real-time 5-Hour & 7-Day Weekly AI Quota Telemetry, Scheduled `07:00` Session Auto-Warmup, Reserve Guard & Phone Alerts for Google Antigravity IDE.**
 
-> [!NOTE]
-> ### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/info.png" width="18" height="18" align="absmiddle" alt="" /> FOR INFORMATION: BUILT FOR GOOGLE ANTIGRAVITY (`agy` DAEMON), `agy` CLI & DUAL QUOTA WINDOWS
-> **Using an older version of Google Antigravity?** This extension is built for the latest **Google Antigravity (`agy` daemon), `agy` CLI & Dual Quota Windows (7-Day Weekly + 5-Hour Limits)**. If you are on an older Antigravity release, **please update your Google Antigravity to the latest version** and reload the window for full telemetry support.
+[![Version](https://img.shields.io/badge/release-v2.0.33-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
+[![7-Day In-App Pro Trial](https://img.shields.io/badge/In--App_Pro_Trial-7_Days_FREE_(No_Card_Required)-10B981?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
+[![Lifetime Pro](https://img.shields.io/badge/Lifetime_Pro-%E2%82%AC9.99_One--Time-7C3AED?style=flat-square)](https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP)
+[![37 Languages](https://img.shields.io/badge/Languages-37_Built--In-0EA5E9?style=flat-square)](#37-built-in-languages-automatic-os-detection)
 
-<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> **37 Built-In UI Languages (Auto-Detected on Windows, macOS & Linux):** 🇬🇧 English · 🇪🇪 Eesti keel · 🇩🇪 Deutsch · 🇫🇮 Suomi · 🇪🇸 Español · 🇫🇷 Français · 🇮🇹 Italiano · 🇵🇱 Polski · 🇳🇱 Nederlands · 🇸🇪 Svenska · 🇵🇹 Português (Portugal) · 🇧🇷 Português (Brasil) · 🇧🇬 Български · 🇭🇷 Hrvatski · 🇨🇿 Čeština · 🇩🇰 Dansk · 🇬🇷 Ελληνικά · 🇭🇺 Magyar · 🇮🇪 Gaeilge · 🇱🇻 Latviešu · 🇱🇹 Lietuvių · 🇱🇺 Lëtzebuergesch · 🇲🇹 Malti · 🇷🇴 Română · 🇸🇰 Slovenčina · 🇸🇮 Slovenščina · 🇺🇦 Українська · 🇿🇦 Afrikaans · 🇯🇵 日本語 · 🇨🇳 简体中文 · 🇹🇼 繁體中文 · 🇰🇷 한국어 · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia · 🇮🇳 हिन्दी · 🇰🇪 Kiswahili · 🇸🇦 العربية
+<br/>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/icon.png" width="116" height="116" alt="Antigravity Quota Monitor Logo" />
-</p>
+<a href="https://polar.sh/checkout/polar_c_mP6qX1nB8vR2tL9kW4zF7jH3yD5sG0aC8eU1iO6pV2w"><img src="https://img.shields.io/badge/START_14--DAY_PRO_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Pro Trial" /></a>&nbsp;&nbsp;<a href="https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP"><img src="https://img.shields.io/badge/BUY_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Buy Lifetime Pro €9.99" /></a>
 
-<p align="center">
-  <strong>#1 Free &amp; Pro Real-Time AI Quota &amp; Cost Control Dashboard, Live Reset Clock (<code>↻19:52</code>), Burn-Rate Forecast, Reserve Guard, 5h Session Auto-Starter (<code>07:00</code>) &amp; Instant Push Alerts for Google Antigravity &amp; <code>agy</code> CLI.</strong><br>
-  <em>Tracks <strong>7-Day Weekly Limits</strong> &amp; <strong>5-Hour Limits</strong> across Gemini 3.8 Flash, Gemini 4 Argon, Claude Opus 5.5, Claude Sonnet 5.5, and GPT-OSS 120B in 37 auto-detected languages.</em>
-</p>
-
-<p align="center">
-  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.30-blue?style=for-the-badge" alt="Open VSX Version"></a>
-  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/open-vsx/dt/Nordicstocks/antigravity-quota-monitor?style=for-the-badge&label=Downloads&color=10b981" alt="Live Open VSX Downloads"></a>
-  <a href="https://info.flagcounter.com/Eb0D"><img src="https://img.shields.io/badge/Live_Country_Map-View_Stats-06b6d4?style=for-the-badge" alt="Live Global Country Analytics"></a>
-  <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/Try_Pro_14_Days_FREE-€0_Today-brightgreen?style=for-the-badge" alt="Try Pro 14 Days Free"></a>
-  <a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/Lifetime_Pro-€9.99_One--Time-gold?style=for-the-badge" alt="Lifetime Pro"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License"></a>
-</p>
+</div>
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Spotlight Cost-Control, Customization & Alert Features
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Every New Install Includes a 7-Day Full Pro Trial — Automatically Inside the IDE (No Credit Card Required!)
 
-| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> Spotlight Feature | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/info.png" width="18" height="18" align="absmiddle" alt="" /> How It Saves Your Quota & Time |
+Install the extension and **every Pro feature unlocks automatically for 7 full days** right inside your IDE — zero registration, zero credit card required:
+
+- <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> **Scheduled `07:00` 5-Hour Session Auto-Warmup + Laptop Wake Catch-Up:** Your 5-hour quota window only starts ticking after your first message of the day. Our `07:00` Auto-Warmup sends a tiny 1-token ping while you make morning coffee so your quota **resets back to 100% at `12:00` Noon** — giving you **two full 5-hour sprints every single workday**.
+- <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> **Exact Reset Countdown & Live Clock (`4h 39m · ↻19:52`) + Burn-Rate Forecast:** Know the exact minute your quota refills and whether your current coding pace will last until reset.
+- <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/shield.png" width="18" height="18" align="absmiddle" alt="" /> **20% Reserve Guard & Instant Model Switch Assist:** Protects your emergency quota reserve and recommends which full model (`Gemini 3.8 Flash`, `Claude Sonnet 5.5`, `GPT-OSS 120B`) to switch to in 1 click.
+- <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bell.png" width="18" height="18" align="absmiddle" alt="" /> **Instant Phone & Desktop Push Alerts (`ntfy.sh`, Telegram, Discord/Slack):** Step away from your desk when quota runs out — your phone buzzes the second your model resets to **100%**.
+- <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> **1-Click Second-Monitor Web Browser Dashboard:** Open the live auto-refreshing Cockpit in Chrome, Safari, Edge, or Firefox on a second display.
+
+![Antigravity Quota Monitor — Overview Night Mode](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-01-overview-night.png)
+
+---
+
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sliders.png" width="18" height="18" align="absmiddle" alt="" /> Why Developers Upgrade to Lifetime Pro (€9.99 One-Time)
+
+If you already pay **\$20 to \$200/month** for AI coding plans (Google AI Pro/Ultra, Claude Max), losing even **one afternoon sprint** to an unexpected 5-hour quota lockout costs more than **€9.99**.
+
+| What Happens Without Antigravity Pro | What Happens With Antigravity Pro (€9.99 Forever) |
 | :--- | :--- |
-| **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/palette.png" width="18" height="18" align="absmiddle" alt="" /> Custom Draggable Cards (`⋮⋮`), Pastel/Night Card Tints & `Open in Browser`** | **Included FREE — Organize your dashboard your way.** Drag and drop your favorite model windows into any order, assign custom pastel (Day Mode) or deep-tinted glass (Night Mode) card backgrounds, or click **`Open in Browser`** to keep the live interactive dashboard open in Chrome/Safari/Firefox on a second screen. |
-| **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> 5-Hour Session Auto-Starter (`07:00`) + Automatic Wake Catch-Up** | **Start your 5h quota clock before you even sit down to work.** Schedule an automatic 1-token warmup ping (`"."`) for **Claude**, **Gemini**, or **Both** at `07:00` so your 5-hour quota window resets to 100% early in your workday (`12:00`). If your laptop was asleep at `07:00`, **Automatic Wake Catch-Up** triggers the instant you open Antigravity! |
-| **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/shield.png" width="18" height="18" align="absmiddle" alt="" /> P3: Reserve Guard**<br>*("Keep 20% for tomorrow" + pace breach alerts)* | **Never burn 100% of your pool by accident.** Set a protected safety reserve (`10%`, `20%`, `30%`, or `40%`). Get an instant warning the moment your current coding pace is projected to breach your reserve before reset — with optional 1-click fallback to your highest-quota model. |
-| **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bell.png" width="18" height="18" align="absmiddle" alt="" /> P5: Phone & Desktop Notifications**<br>*(`ntfy.sh`, Telegram Bot, Discord/Slack Webhooks)* | **Step away from your desk while quota recharges.** Receive instant real-time push alerts on your iPhone, Android, Telegram, Discord, or Slack in your chosen language when your Claude/Gemini quota refills to 100% or drops into danger. |
+| You send your first prompt at `09:30` → locked until `14:30`. | **`07:00` Auto-Warmup** starts your 5h window early → **100% fresh refill at `12:00` Noon**. |
+| You burn through Claude Opus/Sonnet blindly and get cut off mid-refactor. | **Burn-Rate Forecast + 20% Reserve Guard** warns you early and switches you cleanly. |
+| You keep checking the IDE to see if your 5-hour timer has reset yet. | **Phone Push Alert (`ntfy.sh` / Telegram)** pings your phone the instant quota hits **100%**. |
+| Another monthly SaaS subscription draining your card every month. | **€9.99 One-Time Lifetime Payment** (or **€2.99/mo** after a 14-day free trial). |
+
+![In-App Pro Upgrade Modal](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/pro-modal-en.png)
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> Live Preview — Modern Linear/Raycast-Inspired ÖÖ (Night) & PÄEV (Day) Design
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sidebar.png" width="18" height="18" align="absmiddle" alt="" /> Complete Visual Tour (100% Modern Glassmorphic UI — Night & Day Themes)
 
-### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/terminal.png" width="18" height="18" align="absmiddle" alt="" /> 1. Overview Tab (`Ülevaade`): 4 KPI Tiles, 7-Day Weekly Pool & 5-Hour Model Cards
-Switch effortlessly between **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/moon.png" width="18" height="18" align="absmiddle" alt="" /> Night Mode (`Öö`)**, **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sun.png" width="18" height="18" align="absmiddle" alt="" /> Day Mode (`Päev`)**, or **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/terminal.png" width="18" height="18" align="absmiddle" alt="" /> Auto** right inside the unified sticky top header — and navigate cleanly between **Overview (`Ülevaade`)**, **Analytics (`Analüütika`)**, and **Settings (`Seaded`)**:
+### 1. Overview Dashboard — Crisp Daylight Mode (`Day`)
+Switch seamlessly between **Night**, **Day**, and **Auto (IDE Theme Sync)** in 1 click. Every model card features a **10-cell LED gauge**, **custom card color palette** (`Mint`, `Sky`, `Lavender`, `Peach`, `Rose`, `Teal`), **drag-and-drop card reordering (`⋮⋮`)**, and **1-click Notify When Reset (`🔔`)**.
 
-#### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/moon.png" width="18" height="18" align="absmiddle" alt="" /> Night Mode (`Öö` — Overview)
-![Antigravity Quota Dashboard — Night Overview](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-01-overview-night.png)
-
-#### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sun.png" width="18" height="18" align="absmiddle" alt="" /> Day Mode (`Päev` — Overview)
-![Antigravity Quota Dashboard — Day Overview](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-02-overview-day.png)
-
-### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sliders.png" width="18" height="18" align="absmiddle" alt="" /> 2. Settings & Pro Control Center (`Seaded`): 37 Languages, 8 Bar Styles, Reserve Guard, `07:00` Auto-Warmup, Push Alerts & Cache Cleaner
-#### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/moon.png" width="18" height="18" align="absmiddle" alt="" /> Night Mode (`Öö` — Settings)
-![Antigravity Quota Dashboard — Night Settings](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-03-settings-night.png)
-
-#### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sun.png" width="18" height="18" align="absmiddle" alt="" /> Day Mode (`Päev` — Settings)
-![Antigravity Quota Dashboard — Day Settings](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-04-settings-day.png)
-
-### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> 3. Analytics (`Analüütika`): 7×24 Usage Heatmap, Per-Project Attribution & Searchable Quota History
-![Antigravity Quota Dashboard — Night Analytics](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-05-analytics-night.png)
-
-### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sidebar.png" width="18" height="18" align="absmiddle" alt="" /> 4. Left Activity Bar Sidebar (`Antigravity Cockpit`) & Live Status Bar
-<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-07-sidebar-night.png" width="340" alt="Antigravity Cockpit Left Activity Bar Sidebar" />
-
-![Antigravity Pro v2 Live Status Bar](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-assets/main/statusbar-v2.jpg)
+![Antigravity Quota Monitor — Overview Day Mode](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-02-overview-day.png)
 
 ---
 
-> [!IMPORTANT]
-> ## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> BUILT FOR GOOGLE ANTIGRAVITY (`agy` DAEMON), `agy` CLI & DUAL QUOTA WINDOWS
-> Google Antigravity uses the local **`agy`** / `language_server` daemon with dual quota windows (**7-Day Weekly Limit** + **5-Hour Limit**).
-> **Antigravity Quota Monitor v2.0 works everywhere `agy` runs:**
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/terminal.png" width="18" height="18" align="absmiddle" alt="" /> Works in Antigravity IDE, `agy` CLI & VS Code-Compatible Editors:** Supports **Google Antigravity IDE**, **Antigravity CLI (`agy` in terminal)**, **VS Code**, **Cursor**, **Windsurf**, and **VSCodium** (light and dark editor themes).
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sun.png" width="18" height="18" align="absmiddle" alt="" /> Day Mode & <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/moon.png" width="18" height="18" align="absmiddle" alt="" /> Night Mode + Full Control Center:** Choose crisp high-contrast Daylight, Cyber-Glass Night telemetry, or automatic editor-theme sync — with 10-cell LED meters, sparkline trend lines, and every setting toggleable on one screen.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/info.png" width="18" height="18" align="absmiddle" alt="" /> Supports All Antigravity AI Models:** Tracks **Gemini 3.8 Flash**, **Gemini 4 Argon**, **Claude Opus 5.5**, **Claude Sonnet 5.5**, **GPT-OSS 120B**, and automatically picks up new models reported by `agy`.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> Dual-Window Limits + Live Reset Clock:** Monitors both your **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/calendar.png" width="18" height="18" align="absmiddle" alt="" /> 7-Day Weekly Limit** and **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> 5-Hour Limit** with live reset countdowns and exact local reset times (`↻3h 52m (19:52)`).
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Smart Pro v2 Tools:** Exponentially weighted run-out forecasts, Reserve Guard, 90-day JSONL history + `7×24` usage heatmap, per-project usage attribution, terminal `status.json` for `agy` CLI (`zsh`, `Starship`, `tmux`), reset alarms, weekly reports, and opt-in notifications (`ntfy.sh`, Telegram, Discord/Slack).
+### 2. Dedicated Left Activity Bar Sidebar + 1-Click Cache Cleaner
+Click the **Antigravity Cockpit** gauge icon on your left Activity Bar at any time to check your **Account Plan Tier**, **5-Hour Limits**, **7-Day Weekly Limits**, clean old `brain/` and `code_tracker/` cache folders in 1 click, or trigger a **5-Hour Session Warmup** immediately.
+
+![Antigravity Quota Monitor — Left Activity Bar Sidebar](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-07-sidebar-night.png)
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/terminal.png" width="18" height="18" align="absmiddle" alt="" /> Using with `agy` CLI, Terminal & Other Editors
+### 3. On-Screen Settings Control Center (`Night` & `Day`)
+Configure your **Status Bar Display Mode**, **Progress Bar Style**, **UI Language (37 languages)**, **Reserve Guard %**, **Scheduled `07:00` Auto-Warmup**, **Phone Push Notifications (`ntfy.sh`, Telegram, Webhook)**, and **Pro License Key** directly on screen — every setting includes an interactive **`i` Info Popover** explaining how it works in plain language.
 
-| Environment / Tool | How It Works |
-| :--- | :--- |
-| **Google Antigravity IDE** | Live Status Bar (`G: 87% ����⬜ ↻3h 52m (19:52)`), Dual-Window Hover Tooltip, Quick Menu, and Full Webview Dashboard (<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sun.png" width="18" height="18" align="absmiddle" alt="" /> Day & <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/moon.png" width="18" height="18" align="absmiddle" alt="" /> Night Modes). |
-| **Antigravity CLI (`agy` CLI) & Terminal** | Atomically writes `~/.antigravity-quota/status.json` on every poll (`G:87% ↻3h 52m (19:52) \| C:97% ↻3h 50m (19:50)`). Includes ready-to-paste snippets for **`zsh` (`RPROMPT`)**, **`Starship`**, and **`tmux`**. |
-| **Cursor / Windsurf / VS Code / VSCodium** | Detects the running local `agy` or `language_server` process and displays live quotas inside any VS Code-compatible editor (`agy --install-extension Nordicstocks.antigravity-quota-monitor`). |
-| **All AI Models & Plans** | Tracks **Gemini 3.8 Flash**, **Gemini 4 Argon**, **Claude Opus 5.5**, **Claude Sonnet 5.5**, **GPT-OSS 120B**, and future `agy` model buckets. |
+![Antigravity Quota Monitor — Settings Control Center Night](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-03-settings-night.png)
+
+![Antigravity Quota Monitor — Settings Control Center Day](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-04-settings-day.png)
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> Free vs <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Pro Features
+### 4. Pro Analytics, 90-Day Usage Heatmap, Per-Project Attribution & Terminal CLI Export (`Night` & `Day`)
+Track which workspace folders consume the most AI quota, inspect your **90-Day Weekday × Hour Usage Heatmap**, copy a ready-made **zsh / Starship / tmux** status line snippet from `~/.antigravity-quota/status.json`, and export **CSV / JSON / Weekly Reports** in 1 click.
+
+![Antigravity Quota Monitor — Analytics Night](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-05-analytics-night.png)
+
+![Antigravity Quota Monitor — Analytics Day](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/new-ui-06-analytics-day.png)
+
+---
+
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Free vs. Pro Feature Comparison
+
+> **Remember:** Every new installation automatically includes **7 days of full Pro access inside the app** (no credit card required), plus you can start a **14-Day Free Trial (€0.00 today)** or unlock **Lifetime Pro for €9.99 one-time** at any time.
 
 <!-- FEATURES_TABLE_START -->
 | Feature | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/free.png" width="18" height="18" align="absmiddle" alt="" /> Free Version | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Pro Edition (€2.99/mo or €9.99 One-Time) |
 | :--- | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> **Real-time Status Bar Widget & Dual-Window Countdowns** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
+| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> **Real-time Status Bar Quota Gauge (% Remaining)** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> **Modern `agy` Daemon & CLI Compatibility** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sliders.png" width="18" height="18" align="absmiddle" alt="" /> **Custom Progress Bar Styles** (8 Colored & Monochrome Scales) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
-| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sidebar.png" width="18" height="18" align="absmiddle" alt="" /> **Activity Bar Sidebar Panel + Interactive Visual Dashboard + 1-Click Open in Browser, Draggable Cards (`⋮⋮`), 7 Card Tints & 1-Click Cache Cleaner** (Day & Night Modes) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
+| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sidebar.png" width="18" height="18" align="absmiddle" alt="" /> **Activity Bar Sidebar Panel + Interactive Visual Dashboard + Draggable Cards (`⋮⋮`), 7 Card Tints & 1-Click Cache Cleaner** (Day & Night Modes) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> **Multi-Language UI** (37 Languages: All EU + Global) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bell.png" width="18" height="18" align="absmiddle" alt="" /> **Basic Visual Quota Reset & Low-Quota Warnings** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> **24-Hour Local Quota History** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
-| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> **P1: Status Bar Live Reset Clock (`↻19:52`) & Run-Out Forecast** (5h & weekly windows) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/minus.png" width="18" height="18" align="absmiddle" alt="" /> | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
+| <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/clock.png" width="18" height="18" align="absmiddle" alt="" /> **P1: Exact Reset Countdown & Live Clock (`4h 39m · ↻19:52`), Burn-Rate Forecast & Second-Monitor Browser View** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/minus.png" width="18" height="18" align="absmiddle" alt="" /> | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/refresh.png" width="18" height="18" align="absmiddle" alt="" /> **P2: Model Switch Assist** (Recommends an available model & copies its name in 1 click) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/minus.png" width="18" height="18" align="absmiddle" alt="" /> | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/shield.png" width="18" height="18" align="absmiddle" alt="" /> **P3: Reserve Guard** ("Keep 20% for tomorrow" + pace breach alerts) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/minus.png" width="18" height="18" align="absmiddle" alt="" /> | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> **P4: 90-Day JSONL History, Sparkline Trend Lines & Weekday×Hour Usage Heatmap** | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/minus.png" width="18" height="18" align="absmiddle" alt="" /> | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
@@ -132,66 +110,44 @@ Switch effortlessly between **<img src="https://raw.githubusercontent.com/Nordic
 | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/download.png" width="18" height="18" align="absmiddle" alt="" /> **CSV & JSON Usage History Export** (Up to 90 days) | <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/minus.png" width="18" height="18" align="absmiddle" alt="" /> | **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/check.png" width="18" height="18" align="absmiddle" alt="" /> Included** |
 <!-- FEATURES_TABLE_END -->
 
----
-
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bolt.png" width="18" height="18" align="absmiddle" alt="" /> Get Started in Seconds
-
-### 1. Start Your 14-Day Free Pro Trial or Get Lifetime Pro
-Choose the plan that suits you best:
-- **[<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Try Pro 14 Days FREE — €0.00 today (then €2.99/month, cancel anytime)](https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW)**
-- **[<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Lifetime Pro — €9.99 one-time](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)** (One-time payment, includes all future updates)
-
-Your license key (`PRO-XXXX-...`) is displayed immediately on checkout and sent to your email.
-
-### 2. Activate & Use in Antigravity, `agy` CLI, Web Browser, Terminal & Other Editors
-- **In Google Antigravity / VS Code / Cursor / Windsurf:**
-  1. Open the Visual Dashboard (click the bottom-right status bar meter) or Quick Menu (`Cmd + Shift + P` -> `Antigravity Quota: Open Menu`).
-  2. Paste your Polar.sh license key into the top **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/key.png" width="18" height="18" align="absmiddle" alt="" /> Enter Pro License Key** box and click **Activate Pro**.
-  3. Click **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> Open in Browser** anytime to open the full interactive dashboard in Chrome, Safari, Firefox, or Edge!
-- **In `agy` CLI & Terminal (`zsh`, `Starship`, `tmux`):**
-  1. Install via CLI: `agy --install-extension Nordicstocks.antigravity-quota-monitor`
-  2. Run `Cmd + Shift + P` -> `Antigravity Quota: Terminal Status Line Snippets (Pro)` (or read live JSON from `~/.antigravity-quota/status.json`).
+<div align="center">
+<br/>
+<a href="https://polar.sh/checkout/polar_c_mP6qX1nB8vR2tL9kW4zF7jH3yD5sG0aC8eU1iO6pV2w"><img src="https://img.shields.io/badge/START_14--DAY_FREE_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Free Trial" /></a>&nbsp;&nbsp;<a href="https://polar.sh/checkout/polar_c_60LddvX46xP40oPDg40rD2gC1cE28U9n2rL0A6bU5pP"><img src="https://img.shields.io/badge/GET_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Get Lifetime Pro €9.99" /></a>
+<br/><br/>
+</div>
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/key.png" width="18" height="18" align="absmiddle" alt="" /> Privacy & Network Transparency
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/bell.png" width="18" height="18" align="absmiddle" alt="" /> How to Set Up Phone Notifications in 30 Seconds (`ntfy.sh` or Telegram)
 
-This extension is built with local-first privacy:
-1. **Local Quota Polling (`127.0.0.1` only):** Quota status is read from your local Antigravity `agy` / `language_server` process on `127.0.0.1`. Prompts, code, conversations, and local CSRF tokens never leave your machine.
-2. **Pro License Verification (`api.polar.sh`):** When you enter a Pro license key, the extension sends `{ key, organization_id }` (and your stored `activation_id` when applicable) to `https://api.polar.sh/v1/customer-portal/license-keys/validate` (and `/activate` when activation limits apply), revalidating every 24 hours with a 7-day offline grace period.
-3. **Opt-In Notifications (Pro, off by default):** Only when you configure a notification channel (`ntfy.sh`, Telegram Bot, or Discord/Slack webhook), quota alert messages are sent to your chosen endpoint without local filesystem paths.
+Want your phone to buzz the exact second your **Claude Opus/Sonnet** or **Gemini** quota refills to **100%**?
 
----
+### Option A: `ntfy.sh` (Fastest — 30 Seconds, Zero Account Required)
+1. Install the free **ntfy** app on [iOS App Store](https://apps.apple.com/app/ntfy/id1625396347) or [Google Play](https://play.google.com/store/apps/details?id=io.heckel.ntfy).
+2. Open the app, tap **`+`**, and subscribe to a unique secret topic name (for example: `antigravity-quota-yourname-774`).
+3. In Antigravity Quota Monitor, open **Settings (`⚙️`) → Phone & Desktop Notifications**, enter `https://ntfy.sh/antigravity-quota-yourname-774` into the **`ntfy.sh` Topic URL** box, and click **Save Notification Settings**.
+4. Click **Send Test Alert** — your phone will chime within 1 second!
 
-> [!IMPORTANT]
-> ### <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/info.png" width="18" height="18" align="absmiddle" alt="" /> QUICK ACCESS: OPEN VISUAL DASHBOARD, WEB BROWSER VIEW, MENU & ACTIVATE PRO
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/gauge.png" width="18" height="18" align="absmiddle" alt="" /> Open Visual Dashboard (1 Click) or <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> Open in Web Browser:** Click the **Quota Meter (`G: 87% | C: 97%`)** on the **bottom-right Status Bar** of your Antigravity window — or press `Cmd+Shift+P` (macOS) / `Ctrl+Shift+P` (Windows/Linux) → **`Antigravity Quota: Open Visual Dashboard`**. Inside the dashboard, click **`Open in Browser`** at the top to use the full interactive dashboard in Chrome/Safari/Firefox/Edge!
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sliders.png" width="18" height="18" align="absmiddle" alt="" /> Open Quick Menu & Settings (Top of Every View):**
->   - **Status Bar Hover Popup:** Hover over the bottom-right quota meter — at the **VERY TOP** of the popup click **`Open Visual Dashboard`**, **`Actions / Menu`**, or **`Enter Pro License Key`**.
->   - **Inside Visual Dashboard:** Use the **top navigation bar** (`Open in Browser` · `Control Center` · `Actions / Menu`) at the very top of the Dashboard.
-> - **<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/key.png" width="18" height="18" align="absmiddle" alt="" /> How to Activate Pro in 10 Seconds (3 Easy Places):**
->   1. **Get Your Pro Key:** Choose **[<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Try Pro 14 Days FREE (€0 today, then €2.99/mo)](https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW)** or **[<img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/sparkle.png" width="18" height="18" align="absmiddle" alt="" /> Lifetime Pro (€9.99 one-time)](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)** on Polar.sh (your `PRO-XXXX-...` key arrives immediately on-screen and by email).
->   2. **Paste Your Key Anywhere:**
->      - **Directly on the Visual Dashboard:** Paste your `PRO-...` key into the **top input box** right below the header and click **`Activate Pro`**.
->      - **From the Status Bar Hover Popup:** Hover over the bottom-right status bar meter and click **`Enter Pro License Key`** at the top.
->      - **From the Quick Menu / Command Palette:** Open the Quick Menu or press `Cmd+Shift+P` / `Ctrl+Shift+P` → **`Antigravity Quota: Enter Pro License Key`**.
->   3. **Instant Unlock:** All Pro features unlock immediately across up to 5 machines!
+### Option B: Telegram Bot
+1. Message **[@BotFather](https://t.me/BotFather)** on Telegram with `/newbot` to get your **Bot Token**, and message **[@userinfobot](https://t.me/userinfobot)** to get your numeric **Chat ID**.
+2. Paste both into **Settings (`⚙️`) → Phone & Desktop Notifications**, click **Save**, and click **Send Test Alert**.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> Global Community & Live Country Analytics
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/globe.png" width="18" height="18" align="absmiddle" alt="" /> 37 Built-In Languages (Automatic OS Detection)
 
-<p align="center">
-  <a href="https://info.flagcounter.com/Eb0D">
-    <img src="https://s05.flagcounter.com/count2/Eb0D/bg_0B0F19/txt_F8FAFC/border_1E293B/columns_4/maxflags_16/viewers_Global+Users+by+Country/labels_1/pageviews_1/flags_1/percent_1/" alt="Global Users by Country Leaderboard" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://s05.flagcounter.com/gmap/Eb0D/">
-    <img src="https://s05.flagcounter.com/map/Eb0D/size_m/txt_F8FAFC/border_1E293B/pageviews_1/viewers_Global+Users+Map/flags_0/" alt="Global Users World Map" />
-  </a>
-</p>
+On first launch, **Antigravity Quota Monitor** automatically detects your Windows, macOS, or Linux system language (`auto`) and renders the entire interface in your native language — or pick any of the **37 supported languages** manually in Settings:
+
+`English`, `Eesti`, `Suomi`, `Svenska`, `Norsk`, `Dansk`, `Deutsch`, `Français`, `Español`, `Italiano`, `Português`, `Nederlands`, `Polski`, `Čeština`, `Slovenčina`, `Magyar`, `Română`, `Български`, `Ελληνικά`, `Hrvatski`, `Slovenščina`, `Lietuvių`, `Latviešu`, `Gaeilge`, `Malti`, `Türkçe`, `Українська`, `Русский`, `日本語`, `한국어`, `简体中文`, `繁體中文`, `العربية`, `हिन्दी`, `ไทย`, `Tiếng Việt`, `Bahasa Indonesia`.
+
+### Regional Dedicated Editions on Open VSX
+- **Japanese Edition (日本語版):** [`Nordicstocks.antigravity-quota-monitor-ja`](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor-ja)
+- **Chinese Edition (中文版):** [`Nordicstocks.antigravity-quota-monitor-zh`](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor-zh)
+- **Spanish Edition (Edición Español):** [`Nordicstocks.antigravity-quota-monitor-es`](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor-es)
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/info.png" width="18" height="18" align="absmiddle" alt="" /> License
-[MIT License](https://opensource.org/licenses/MIT) © Nordicstocks
+## <img src="https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/icons/shield.png" width="18" height="18" align="absmiddle" alt="" /> Privacy, Offline Architecture & Support
+
+- **100% Local Telemetry:** Quota polling communicates strictly with your local Antigravity Language Server (`127.0.0.1`) and local `~/.gemini/antigravity` cache directories. Zero source code or prompts ever leave your machine.
+- **License & Billing Support:** [GitHub Issues](https://github.com/Nordicstocks/antigravity-quota-monitor/issues)

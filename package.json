@@ -1,0 +1,399 @@
+{
+  "name": "antigravity-quota-monitor",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "2.0.33",
+  "publisher": "Nordicstocks",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0d1117",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Machine Learning",
+    "Data Science",
+    "Visualization",
+    "Programming Languages",
+    "Testing",
+    "Debuggers",
+    "Formatters",
+    "Linters",
+    "Snippets",
+    "SCM Providers",
+    "Notebooks",
+    "Education",
+    "Language Packs",
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "Antigravity",
+    "Ultimate",
+    "Cockpit",
+    "Antigravity Cockpit",
+    "Antigravity IDE",
+    "Google Antigravity IDE",
+    "Antigravity Quota Monitor",
+    "Antigravity Dashboard",
+    "Antigravity Panel",
+    "Antigravity Cache Manager",
+    "Antigravity Usage Monitor",
+    "Antigravity Usage Analytics",
+    "AI Usage",
+    "Quota Monitor",
+    "Usage Monitor",
+    "Usage Analytics",
+    "Cache Manager",
+    "Claude",
+    "Claude Opus",
+    "Claude Sonnet",
+    "Gemini",
+    "Google AI",
+    "GPT",
+    "agy",
+    "5-Hour Limit",
+    "配额监控",
+    "驾驶舱",
+    "クォータ",
+    "할당량",
+    "Monitor de cuota"
+  ],
+  "homepage": "https://nordicmoonlight.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nordicstocks/antigravity-quota-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nordicstocks/antigravity-quota-monitor/issues",
+    "email": "support@nordicmoonlight.com"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "build": "esbuild src/extension.ts --bundle --platform=node --target=node18 --external:vscode --minify --outfile=dist/extension.js",
+    "test": "node test/run-tests.js",
+    "package": "npm run build && npx @vscode/vsce package --allow-missing-repository"
+  },
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "antigravity-quota-sidebar",
+          "title": "Antigravity Cockpit",
+          "icon": "images/activity-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "antigravity-quota-sidebar": [
+        {
+          "type": "webview",
+          "id": "antigravityQuota.sidebarView",
+          "name": "Antigravity Cockpit"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "antigravityQuota.showDashboard",
+        "title": "%cmd.showDashboard%",
+        "icon": "$(graph)"
+      },
+      {
+        "command": "antigravityQuota.showMenu",
+        "title": "%cmd.showMenu%",
+        "icon": "$(dashboard)"
+      },
+      {
+        "command": "antigravityQuota.selectBarStyle",
+        "title": "%cmd.selectBarStyle%"
+      },
+      {
+        "command": "antigravityQuota.selectDisplayMode",
+        "title": "%cmd.selectDisplayMode%"
+      },
+      {
+        "command": "antigravityQuota.selectLanguage",
+        "title": "%cmd.selectLanguage%"
+      },
+      {
+        "command": "antigravityQuota.refresh",
+        "title": "%cmd.refresh%",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "antigravityQuota.buyPro",
+        "title": "%cmd.buyPro%",
+        "icon": "$(credit-card)"
+      },
+      {
+        "command": "antigravityQuota.enterLicense",
+        "title": "%cmd.enterLicense%",
+        "icon": "$(star)"
+      },
+      {
+        "command": "antigravityQuota.refreshLicense",
+        "title": "%cmd.refreshLicense%"
+      },
+      {
+        "command": "antigravityQuota.setResetAlarm",
+        "title": "%cmd.setResetAlarm%"
+      },
+      {
+        "command": "antigravityQuota.generateWeeklyReport",
+        "title": "%cmd.generateWeeklyReport%"
+      },
+      {
+        "command": "antigravityQuota.showTerminalSnippets",
+        "title": "%cmd.showTerminalSnippets%"
+      },
+      {
+        "command": "antigravityQuota.configureTelegramToken",
+        "title": "%cmd.configureTelegramToken%"
+      },
+      {
+        "command": "antigravityQuota.sendTestPush",
+        "title": "%cmd.sendTestPush%"
+      },
+      {
+        "command": "antigravityQuota.exportCsv",
+        "title": "%cmd.exportCsv%"
+      },
+      {
+        "command": "antigravityQuota.exportJson",
+        "title": "%cmd.exportJson%"
+      }
+    ],
+    "configuration": {
+      "title": "%config.title%",
+      "properties": {
+        "antigravityQuota.language": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "en",
+            "et",
+            "de",
+            "fi",
+            "es",
+            "fr",
+            "it",
+            "pl",
+            "nl",
+            "sv",
+            "pt-PT",
+            "pt-BR",
+            "bg",
+            "hr",
+            "cs",
+            "da",
+            "el",
+            "hu",
+            "ga",
+            "lv",
+            "lt",
+            "lb",
+            "mt",
+            "ro",
+            "sk",
+            "sl",
+            "uk",
+            "af",
+            "ja",
+            "zh-CN",
+            "zh-TW",
+            "ko",
+            "vi",
+            "id",
+            "hi",
+            "sw",
+            "ar"
+          ],
+          "enumDescriptions": [
+            "%config.language.auto%",
+            "🇬🇧 English",
+            "🇪🇪 Eesti keel",
+            "🇩🇪 Deutsch",
+            "🇫🇮 Suomi",
+            "🇪🇸 Español",
+            "🇫🇷 Français",
+            "🇮🇹 Italiano",
+            "🇵🇱 Polski",
+            "🇳🇱 Nederlands",
+            "🇸🇪 Svenska",
+            "🇵🇹 Português (Portugal)",
+            "🇧🇷 Português (Brasil)",
+            "🇧🇬 Български",
+            "🇭🇷 Hrvatski",
+            "🇨🇿 Čeština",
+            "🇩🇰 Dansk",
+            "🇬🇷 Ελληνικά",
+            "🇭🇺 Magyar",
+            "🇮🇪 Gaeilge",
+            "🇱🇻 Latviešu",
+            "🇱🇹 Lietuvių",
+            "🇱🇺 Lëtzebuergesch",
+            "🇲🇹 Malti",
+            "🇷🇴 Română",
+            "🇸🇰 Slovenčina",
+            "🇸🇮 Slovenščina",
+            "🇺🇦 Українська",
+            "🇿🇦 Afrikaans",
+            "🇯🇵 日本語",
+            "🇨🇳 简体中文",
+            "🇹🇼 繁體中文",
+            "🇰🇷 한국어",
+            "🇻🇳 Tiếng Việt",
+            "🇮🇩 Bahasa Indonesia",
+            "🇮🇳 हिन्दी",
+            "🇰🇪 Kiswahili",
+            "🇸🇦 العربية"
+          ],
+          "default": "auto",
+          "description": "%config.language%"
+        },
+        "antigravityQuota.dashboardTheme": {
+          "type": "string",
+          "enum": [
+            "dark",
+            "light",
+            "auto"
+          ],
+          "enumDescriptions": [
+            "%config.dashboardTheme.dark%",
+            "%config.dashboardTheme.light%",
+            "%config.dashboardTheme.auto%"
+          ],
+          "default": "dark",
+          "description": "%config.dashboardTheme%"
+        },
+        "antigravityQuota.displayMode": {
+          "type": "string",
+          "enum": [
+            "compact",
+            "lowest",
+            "gemini",
+            "claude"
+          ],
+          "enumDescriptions": [
+            "%config.displayMode.compact%",
+            "%config.displayMode.lowest%",
+            "%config.displayMode.gemini%",
+            "%config.displayMode.claude%"
+          ],
+          "default": "compact",
+          "description": "%config.displayMode%"
+        },
+        "antigravityQuota.barStyle": {
+          "type": "string",
+          "enum": [
+            "emoji-blocks",
+            "emoji-dots",
+            "emoji-diamonds",
+            "blocks",
+            "squares",
+            "parallelograms",
+            "dots",
+            "shades"
+          ],
+          "enumDescriptions": [
+            "%config.barStyle.emojiBlocks%",
+            "%config.barStyle.emojiDots%",
+            "%config.barStyle.emojiDiamonds%",
+            "%config.barStyle.blocks%",
+            "%config.barStyle.squares%",
+            "%config.barStyle.parallelograms%",
+            "%config.barStyle.dots%",
+            "%config.barStyle.shades%"
+          ],
+          "default": "blocks",
+          "description": "%config.barStyle%"
+        },
+        "antigravityQuota.enableAudioAlerts": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.enableAudioAlerts%"
+        },
+        "antigravityQuota.autoFallbackEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.autoFallbackEnabled%"
+        },
+        "antigravityQuota.fallbackTargetModel": {
+          "type": "string",
+          "default": "Gemini 3.8 Flash",
+          "description": "%config.fallbackTargetModel%"
+        },
+        "antigravityQuota.forecastWarnMinutes": {
+          "type": "number",
+          "default": 25,
+          "description": "%config.forecastWarnMinutes%"
+        },
+        "antigravityQuota.reserveBudgetPercent": {
+          "type": "number",
+          "default": 20,
+          "description": "%config.reserveBudgetPercent%"
+        },
+        "antigravityQuota.budgetStrictMode": {
+          "type": "boolean",
+          "default": false,
+          "description": "%config.budgetStrictMode%"
+        },
+        "antigravityQuota.historyRetentionDays": {
+          "type": "number",
+          "default": 90,
+          "description": "%config.historyRetentionDays%"
+        },
+        "antigravityQuota.pushNtfyTopic": {
+          "type": "string",
+          "default": "",
+          "description": "%config.pushNtfyTopic%"
+        },
+        "antigravityQuota.pushTelegramChatId": {
+          "type": "string",
+          "default": "",
+          "description": "%config.pushTelegramChatId%"
+        },
+        "antigravityQuota.pushWebhookUrl": {
+          "type": "string",
+          "default": "",
+          "description": "%config.pushWebhookUrl%"
+        },
+        "antigravityQuota.enableMorningSummary": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.enableMorningSummary%"
+        },
+        "antigravityQuota.pollingInterval": {
+          "type": "number",
+          "default": 60,
+          "description": "%config.pollingInterval%"
+        },
+        "antigravityQuota.warnThreshold": {
+          "type": "number",
+          "default": 30,
+          "description": "%config.warnThreshold%"
+        },
+        "antigravityQuota.criticalThreshold": {
+          "type": "number",
+          "default": 15,
+          "description": "%config.criticalThreshold%"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.2"
+  }
+}
