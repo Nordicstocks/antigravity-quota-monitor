@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.24-blue?style=for-the-badge" alt="Open VSX Version"></a>
+  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.25-blue?style=for-the-badge" alt="Open VSX Version"></a>
   <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/open-vsx/dt/Nordicstocks/antigravity-quota-monitor?style=for-the-badge&label=Downloads&color=10b981" alt="Live Open VSX Downloads"></a>
   <a href="https://info.flagcounter.com/Eb0D"><img src="https://img.shields.io/badge/🌍_Live_Country_Map-View_Stats-06b6d4?style=for-the-badge" alt="Live Global Country Analytics"></a>
   <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/🎁_Try_Pro_14_Days_FREE-€0_Today-brightgreen?style=for-the-badge" alt="Try Pro 14 Days Free"></a>
