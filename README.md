@@ -1,14 +1,27 @@
-# ⚡ Antigravity Cockpit Quota Monitor & Dashboard (v2)
+# ⚡ Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)
 
 > [!TIP]
 > ### 🆓 100% FREE TO DOWNLOAD & USE · Take Full Control of Your AI Costs · Save Quota · Always Know Where You Stand
 > **Download and use for FREE right now — no credit card or registration required!** Stop burning through your AI quota blindly or getting locked out mid-sprint:
-> - **📊 Live Status Bar Quota Meter & Dual-Window Tracking (FREE):** Monitor both your **📅 7-Day Weekly Limit** and **⚡ 5-Hour Limit** across **Claude Opus 5.5**, **Claude Sonnet 5.5**, **Gemini 3.8 Flash**, **Gemini 4 Argon**, and **GPT-OSS 120B** in real time.
+> - **📌 Activity Bar Sidebar & 📊 Live Status Bar Quota Meter (FREE):** One-click **Antigravity Cockpit** icon on your left Activity Bar + live status bar gauges for both your **📅 7-Day Weekly Limit** and **⚡ 5-Hour Limit** across **Claude Opus 5.5**, **Claude Sonnet 5.5**, **Gemini 3.8 Flash**, **Gemini 4 Argon**, and **GPT-OSS 120B**.
 > - **☀️ Crisp Daylight & 🌙 Cyber-Glass Night Visual Dashboard + 🌐 Open in Web Browser (FREE):** Switch between Day Mode, Night Mode, and Auto editor sync with 10-cell LED meters, 8 progress bar styles, an interactive on-screen Control Center, and **1-click `🌐 Open in Browser`** to run the full interactive dashboard in Chrome, Safari, Edge, or Firefox on a second monitor.
-> - **🎨 Drag-and-Drop Reorderable Cards (`⋮⋮`) & 7 Custom Card Colors (FREE):** Drag your favorite AI model cards into any order and pick custom pastel (Day Mode) or deep-tinted glass (Night Mode) backgrounds (`Mint`, `Sky`, `Lavender`, `Peach`, `Rose`, `Teal`).
+> - **🎨 Drag-and-Drop Reorderable Cards (`⋮⋮`), 7 Custom Card Colors & 🧹 1-Click Cache Cleaner (FREE):** Drag your favorite AI model cards into any order, pick custom pastel/night card tints (`Mint`, `Sky`, `Lavender`, `Peach`, `Rose`, `Teal`), and free up disk space in 1 click by cleaning old Antigravity `brain/` & `code_tracker/` cache folders.
 > - **🌍 37 Built-In Languages with Automatic OS Detection (FREE):** Automatically matches your Windows, macOS, or Linux system language right out of the box.
 > - **⏰ Scheduled 5-Hour Session Auto-Starter (`07:00`) + Automatic Wake Catch-Up (PRO — 14 Days FREE):** Automatically sends a 1-token wakeup ping (`"."`) to Claude, Gemini, or Both at your chosen morning time (e.g. `07:00`) so your 5-hour quota window is already resetting by `12:00`! If your laptop lid was closed at `07:00`, **Automatic Wake Catch-Up** fires the moment you open your laptop and launch Antigravity.
 > - **🎁 Try All Pro Features 14 Days FREE (€0.00 today!):** Unlock **Live Reset Clock (`↻19:52`)**, **Burn-Rate Forecast**, **Reserve Guard ("Keep 20% for tomorrow")**, **5h Session Auto-Starter (`07:00`)**, **One-Click Reset Alarms**, **90-Day Heatmap**, **`agy` CLI Status Line**, and **Instant Phone & Desktop Push Alerts (`ntfy.sh`, Telegram, Discord/Slack)** with a **14-Day Free Trial (€0 today, cancel anytime)** or **€9.99 One-Time Lifetime Pro**!
+
+### 🎬 Interactive Video Walkthrough (Card Colors 🎨 · Drag & Drop ⋮⋮ · Day/Night ☀️🌙 · Cache Cleaner 🧹 · 07:00 Auto-Starter ⏰)
+
+![Antigravity Ultimate Cockpit Quota Monitor & Dashboard — Video Walkthrough](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/tutorial-v4.gif)
+
+### 🌐 Global Summaries / 多言語ガイド / 多语言简介 / 다국어 안내
+
+- 🇯🇵 **日本語 (Japanese):** **Antigravity Ultimate Cockpit — AI クォータ・使用量・配額モニター＆ダッシュボード**。Google Antigravity (`agy` CLI)、Claude Opus/Sonnet 5.5、Gemini 3.8 Flash/4 Argon の **5時間制限** と **7日間（週間）制限** をステータスバーとサイドバーでリアルタイム監視。無料機能：カードのドラッグ＆ドロップ並び替え (`⋮⋮`)、カスタム背景色 (`🎨`)、昼/夜モード (`☀️/🌙`)、ブラウザ表示 (`🌐`)、**ワンクリック・キャッシュクリーナー (`🧹`)**、37言語自動検出。Pro機能（14日間無料トライアル）：**朝07:00の5時間セッション自動開始（スリープ復帰時の自動キャッチアップ付き）**、リセット時刻表示 (`↻19:52`)、20%リザーブガード、スマホ通知 (`ntfy.sh` / Telegram / Discord)。*(検索キーワード: アンチグラビティ, クォータ, 配額, 使用量監視, コックピット, キャッシュ削除)*
+- 🇨🇳 **简体中文 / 繁體中文 (Chinese):** **Antigravity Ultimate Cockpit — 终极 AI 模型配额与用量监控面板 (驾驶舱 Pro v2)**。实时监控 Google Antigravity IDE 与 `agy` CLI 的 **7天周限额** 与 **5小时滚动限额**（支持 Claude Opus 5.5, Sonnet 5.5, Gemini 3.8 Flash, Gemini 4 Argon）。免费版包含：左侧活动栏面板、状态栏实时进度、卡片拖拽排序 (`⋮⋮`)、自定义卡片颜色 (`🎨`)、日间/夜间模式、浏览器独立打开 (`🌐`)、**一键清理 Antigravity 缓存 (`🧹`)** 及 37 种语言自动识别。Pro 版（14天免费试用）：**07:00 自动唤醒启动 5 小时会话（支持合盖休眠唤醒补发）**、重置时钟 (`↻19:52`)、20% 预留额度保护、手机推送通知 (`ntfy.sh` / Telegram / Discord / Slack) 及 90 天热力图。*(关键词: Antigravity 驾驶舱, 配额监控, 用量统计, 自动唤醒, 缓存清理, 额度监控)*
+- 🇰🇷 **한국어 (Korean):** **Antigravity Ultimate Cockpit — AI 할당량 및 사용량 모니터 대시보드**。Google Antigravity 및 `agy` CLI(Claude Opus/Sonnet 5.5, Gemini 3.8)의 **7일 주간 한도**와 **5시간 한도**를 실시간으로 모니터링합니다. 무료 기능: 사이드바 패널, 카드 드래그 앤 드롭(`⋮⋮`), 카드 색상 변경(`🎨`), 주간/야간 테마, 브라우저 열기(`🌐`), **원클릭 캐시 정리(`🧹`)**. Pro 기능(14일 무료 체험): **오전 07:00 5시간 세션 자동 시작(절전 모드 복귀 시 자동 실행)**, 리셋 시계(`↻19:52`), 20% 예비 보호, 스마트폰 푸시 알림(`ntfy.sh`, 텔레그램, 디스코드). *(키워드: 안티그래비티, 할당량 모니터, 사용량 대시보드, 콕핏, 캐시 정리)*
+- 🇩🇪 **Deutsch (German):** **Antigravity Ultimate Cockpit — KI-Kontingent, Quota-Monitor & Kostenkontrolle Dashboard**。Echtzeit-Überwachung für Google Antigravity & `agy` CLI (7-Tage-Wochenlimit & 5-Stunden-Limit für Claude Opus/Sonnet 5.5 und Gemini 3.8/4). Kostenlos: Activity-Bar-Seitenleiste, Drag-and-Drop-Karten (`⋮⋮`), 7 Kartenfarben (`🎨`), Tag-/Nachtmodus, Browser-Ansicht (`🌐`) & **1-Klick Cache-Reiniger (`🧹`)**. Pro (14 Tage kostenlos testen): **07:00 Uhr 5-Stunden-Session Auto-Starter (inkl. Wake-Catch-Up nach dem Ruhezustand)**, Reset-Uhrzeit (`↻19:52`), 20% Reserve-Schutz & Push-Benachrichtigungen aufs Smartphone (`ntfy.sh`, Telegram, Discord/Slack).
+- 🇪🇸 **Español (Spanish):** **Antigravity Ultimate Cockpit — Monitor de Cuota, Límites IA y Panel de Control**。Supervisa en tiempo real tus límites semanales (7 días) y de 5 horas en Google Antigravity y `agy` CLI (Claude Opus/Sonnet 5.5, Gemini 3.8/4). Gratis: panel lateral, tarjetas arrastrables (`⋮⋮`), colores personalizados (`🎨`), modo Día/Noche, abrir en navegador (`🌐`) y **limpiador de caché en 1 clic (`🧹`)**. Pro (14 días de prueba GRATIS): **auto-iniciador de sesión de 5h a las 07:00 (con recuperación automática al abrir el portátil)**, reloj de reinicio (`↻19:52`), protección de reserva del 20% y alertas al móvil (`ntfy.sh`, Telegram, Discord).
+- 🇫🇷 **Français (French) & 🇧🇷 Português (Portuguese) & 🇪🇪 Eesti:** **Moniteur de quota IA & Tableau de bord Antigravity Cockpit** / **Monitor de Cota e Limites de IA Antigravity** / **Antigravity Ultimate Cockpit — reaalajas AI kvoodimonitor, 1-klikiga vahemälu puhastaja ja kella 07:00 5h sessiooni automaatne käivitaja (koos unerežiimi järeleaitamisega)**.
 
 > [!NOTE]
 > ### ℹ️ FOR INFORMATION: BUILT FOR GOOGLE ANTIGRAVITY (`agy` DAEMON), `agy` CLI & DUAL QUOTA WINDOWS
@@ -26,7 +39,7 @@
 </p>
 
 <p align="center">
-  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.13-blue?style=for-the-badge" alt="Open VSX Version"></a>
+  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.16-blue?style=for-the-badge" alt="Open VSX Version"></a>
   <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/🎁_Try_Pro_14_Days_FREE-€0_Today-brightgreen?style=for-the-badge" alt="Try Pro 14 Days Free"></a>
   <a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/💎_Lifetime_Pro-€9.99_One--Time-gold?style=for-the-badge" alt="Lifetime Pro"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License"></a>
