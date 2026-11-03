@@ -39,7 +39,9 @@
 </p>
 
 <p align="center">
-  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.16-blue?style=for-the-badge" alt="Open VSX Version"></a>
+  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.23-blue?style=for-the-badge" alt="Open VSX Version"></a>
+  <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://hits.sh/open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor.svg?style=for-the-badge&label=Store%20Views&color=10b981&labelColor=0f172a" alt="Live Store Views"></a>
+  <a href="https://info.flagcounter.com/Eb0D"><img src="https://img.shields.io/badge/🌍_Live_Country_Map-View_Stats-06b6d4?style=for-the-badge" alt="Live Global Country Analytics"></a>
   <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/🎁_Try_Pro_14_Days_FREE-€0_Today-brightgreen?style=for-the-badge" alt="Try Pro 14 Days Free"></a>
   <a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/💎_Lifetime_Pro-€9.99_One--Time-gold?style=for-the-badge" alt="Lifetime Pro"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License"></a>
@@ -173,6 +175,20 @@ This extension is built with local-first privacy:
 >      - **From the Status Bar Hover Popup:** Hover over the bottom-right status bar meter and click **`🔑 Enter Pro License Key`** at the top.
 >      - **From the Quick Menu / Command Palette:** Open the Quick Menu or press `Cmd+Shift+P` / `Ctrl+Shift+P` → **`Antigravity Quota: Enter Pro License Key`**.
 >   3. **Instant Unlock:** All Pro features unlock immediately across up to 5 machines!
+
+---
+
+## 🌍 Global Community & Live Country Analytics
+
+<p align="center">
+  <a href="https://info.flagcounter.com/Eb0D">
+    <img src="https://s05.flagcounter.com/count2/Eb0D/bg_0B0F19/txt_F8FAFC/border_1E293B/columns_4/maxflags_16/viewers_Global+Users+by+Country/labels_1/pageviews_1/flags_1/percent_1/" alt="Global Users by Country Leaderboard" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://s05.flagcounter.com/gmap/Eb0D/">
+    <img src="https://s05.flagcounter.com/map/Eb0D/size_m/txt_F8FAFC/border_1E293B/pageviews_1/viewers_Global+Users+Map/flags_0/" alt="Global Users World Map" />
+  </a>
+</p>
 
 ---
 
