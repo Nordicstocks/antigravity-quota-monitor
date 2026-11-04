@@ -20,9 +20,9 @@
 
 ---
 
-## 🌟 Every New Install Includes a 7-Day Full Pro Trial — Automatically Inside the IDE (No Credit Card Required!)
+## 🌟 Every New Install Includes a 7-Day Full Pro Trial — Automatically in Google Antigravity IDE, `agy` CLI & Web Browser (No Credit Card Required!)
 
-Install the extension and **every Pro feature unlocks automatically for 7 full days** right inside your IDE — zero registration, zero credit card required:
+Install the extension and **every Pro feature unlocks automatically for 7 full days** across your **Google Antigravity IDE, `agy` CLI terminal status line, and Second-Monitor Web Browser** — zero registration, zero credit card required:
 
 - ⏰ **Scheduled `07:00` 5-Hour Session Auto-Warmup + Laptop Wake Catch-Up:** Your 5-hour quota window only starts ticking after your first message of the day. Our `07:00` Auto-Warmup sends a tiny 1-token ping while you make morning coffee so your quota **resets back to 100% at `12:00` Noon** — giving you **two full 5-hour sprints every single workday**.
 - 📊 **Exact Reset Countdown & Live Clock (`4h 39m · ↻19:52`) + Burn-Rate Forecast:** Know the exact minute your quota refills and whether your current coding pace will last until reset.
