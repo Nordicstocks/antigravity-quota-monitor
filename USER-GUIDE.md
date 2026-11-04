@@ -22,7 +22,7 @@ Pärast laienduse paigaldamist on sul **2 püsivat ja kohe nähtavat kohta**, ku
 - **Uuendamise kell ja `Värskenda`:** näitab viimast värskendust; nupp küsib andmed kohe.
 - **Keel:** rippmenüü on päises igal vahekaardil. Esimene valik on **Redaktori keel (automaatne)**, seejärel 37 keelt nende endi nimedega. Valik rakendub kohe ja muudab ainult selle laienduse keelt. Tähe tippimine viib õige keeleni. Sama säte on Sätete osas **Üldine**.
 - **`Öö / Päev / Automaatne`:** vahetab tumeda, heleda või redaktoriga sama teema.
-- **Ülevaate esimese pealkirja kõrval:** **`Ava brauseris`** avab töölaua sinu tavalises veebibrauseris, näiteks teisel ekraanil (Pro, kuulub ka 7 päeva prooviaega), ja **`Kasutusjuhend`** avab selle juhendi. Tasuta versioonis on seal ka **`Osta Pro`** ja **`Mul on võti`**.
+- **Ülevaate esimese pealkirja kõrval:** **`Ava brauseris`** avab ülevaate sinu tavalises veebibrauseris, näiteks teisel ekraanil (Pro, kuulub ka 7 päeva prooviaega), ja **`Kasutusjuhend`** avab selle juhendi. Tasuta versioonis on seal ka **`Osta Pro`** ja **`Mul on võti`**.
 - **Mis on kus:** limiidikaardid on kõige ees (nädal, siis 5 tundi). Pakett, kvoodikrediit, hinnanguline API väärtus ja mudelite arv on nende all.
 
 ---
@@ -31,12 +31,12 @@ Pärast laienduse paigaldamist on sul **2 püsivat ja kohe nähtavat kohta**, ku
 
 ![Parandatud laia vaatega olekuriba hüpikaken](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-2-status-hover-popup.png)
 
-Kui liigutad hiire all paremal olekuribal kvoodimõõdiku (`G: 26% | C: 100%`) peale, avaneb **lai ja üherealine kiirülevaate aken**:
-- **Nädalalimiidi hoiatus olekuribal:** kui mudelipere nädalalimiit on madal, tuleb peamise näidu kõrvale eraldi näit, näiteks `G 7p 15%`: hoiatusikooniga kuni 30%, oranž kuni 22%, punane kuni 15% (piirid tulevad sätetest). Klikk avab töölaua. Kui limiiti jätkub, seda näitu pole.
+Kui liigutad hiire all paremal olekuribal kvoodimõõdiku (`G: 26% | C: 100%`) peale, avaneb **lai ja kompaktne kiirülevaate aken, kus igal asjal on oma rida**:
+- **Nädalalimiidi hoiatus olekuribal:** kui mudelipere nädalalimiit on madal, tuleb peamise näidu kõrvale eraldi näit, näiteks `G 7p 15%`: hoiatusikooniga kuni 30%, oranž kuni 22%, punane kuni 15% (piirid tulevad sätetest). Klikk avab ülevaate. Kui limiiti jätkub, seda näitu pole.
 - **Litsentsi seis:** linkide järel on makstud võtmega punaselt **PRO on aktiivne**, prooviajal prooviaja märk. Tasuta versioonis pole seal midagi lisaks.
 - **Ülemine lingirida:** **Graafiline ülevaade**, **Ava brauseris**, **Sätted** (avab vahekaardi Sätted) ja **Kiirtoimingud** (avab menüü). Tasuta versioonis ka ostulink.
 - **Konto ja Kvoodikrediit ühel real:** Näed kohe oma paketti (`Google AI Pro`), e-posti ja järelejäänud kvoodikrediiti (`500 / 50 000`).
-- **7-päevased nädalalimiidid ja 5 tunni mudelilimiidid:** Iga mudel (*Claude Opus 5.5*, *Claude Sonnet 5.5*, *GPT-OSS 120B*, *Gemini 3.8 Flash*, *Gemini 4 Argon*) on **ühel selgel horisontaalsel real** koos värvilise edenemisriba, täpse uuenemisaja ja ammendumise prognoosiga!
+- **7-päevased nädalalimiidid ja 5 tunni mudelilimiidid:** Iga mudel (*Claude Opus 5.5*, *Claude Sonnet 5.5*, *GPT-OSS 120B*, *Gemini 3.8 Flash*, *Gemini 4 Argon*) on **ühel selgel horisontaalsel real** koos värvilise edenemisriba, uuenemisaja ja ammendumise prognoosiga!
 
 ---
 
@@ -44,7 +44,7 @@ Kui liigutad hiire all paremal olekuribal kvoodimõõdiku (`G: 26% | C: 100%`) p
 
 ![Mudelikaartide kohandamine: lohistamine, värvipalett ja meeldetuletus](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-3-cards-color-drag.png)
 
-Kõik visuaalse töölaua kaardikohandused on **100% TASUTA** ja salvestuvad automaatselt:
+Kõik ülevaate kaardikohandused on **100% TASUTA** ja salvestuvad automaatselt:
 - **`① ⋮⋮ Drag & Drop Card Order` (Kaartide ümbertõstmine):** Haara hiirega mis tahes mudelikaardi vasakust ülanurgast **`⋮⋮`** ikoonist ja **lohista kaart täpselt sinna kohta, kuhu soovid**. Sinu lemmikmudelid püsivad alati esimestena!
 - **`② 🎨 Card Color Palette` (Mudelikaardi taustavärvi valimine):** Kliki mudelikaardi päises olevale värvipaleti ikoonile **`🎨`**. Avaneb värvitoonide hüpikmenüü (**Vaikimisi**, **Münt / Mint**, **Taevasinine / Sky**, **Lavendel / Lavender**, **Virsik / Peach**, **Roosa / Rose**, **Mereroheline / Teal**). Päevarežiimis on toonid mahedad pastelsed ja Öörežiimis sügavad tumedad klaasitoonid!
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset` / `Teavita uuenemisel`):** Kliki kaardi all olevale nupule **`🔔 Remind Me at Reset`** — kui selle mudeli uuenemisaeg kätte jõuab, saad helimärguande, teate redaktoris ja kui oled telefoniteavitused seadistanud, siis ka teate telefoni. Redaktor peab selleks avatud olema.
@@ -69,9 +69,9 @@ Ava vahekaart **Sätted** (ka olekuriba hüpikust, menüüst või käsuga `Antig
 - **🛡️ Reserve Guard (`10%`, `20%`, `30%`, `40%`):** Hoiatab sind enne, kui kvoot langeb praeguse kasutuskiiruse juures alla sinu valitud varupiiri.
 - **Hommikune kokkuvõte, macOS-i helid** (ainult macOS-is), **Mudelivahetuse abi** ja **Kopeeri soovitatud mudeli nimi**: igaühel on oma lüliti.
 - **`Kõik sätted redaktoris`:** avab redaktori enda sätted, filtreeritud sellele laiendusele. Seal on ka harvemad sätted, näiteks hoiatuspiirid. Link ise midagi ei muuda.
-- **Automaatne käivitus — `Käivita 5 tunni aken automaatselt`:** vaikimisi väljas.
-  - Google Antigravity 5 tunni periood algab sinu esimesest sõnumist, mitte kindlal kellaajal. Kui lülitad selle sisse, käivitab laiendus valitud kellaajal käsu `agy` ja saadab sinu enda kontolt valitud mudelitele lühikese päris päringu (`OK`). Kui aken algab kell `07:00`, peaks kvoot järgmisena taastuma umbes kell `12:00`.
-  - **Esimesel sisselülitamisel küsib laiendus nõusolekut.** Päring kulutab kvooti. Antigravity tingimuste järgi ei tohi teenust kasutada koos toodetega, mida Google ei paku, ja teenusele kolmanda osapoole tarkvaraga ligipääsemine on lepingu rikkumine, mille eest võidakse konto peatada või sulgeda, nii et otsus on sinu.
+- **Automaatne käivitus — `Käivita 5 tunni periood automaatselt`:** vaikimisi väljas.
+  - Google Antigravity 5 tunni periood algab sinu esimesest sõnumist, mitte kindlal kellaajal. Kui lülitad selle sisse, käivitab laiendus valitud kellaajal käsu `agy` ja saadab sinu enda kontolt valitud mudelitele lühikese päris päringu (`OK`). Kui periood algab kell `07:00`, peaks kvoot järgmisena taastuma umbes kell `12:00`.
+  - **Esimesel sisselülitamisel küsib laiendus nõusolekut.** Päring kulutab kvooti. Antigravity kasutustingimuste järgi ei tohi teenust kasutada seoses toodetega, mida Google ei paku. Nende järgi on teenusele juurdepääs kolmanda osapoole tarkvara kaudu lepingu rikkumine, mille eest võidakse konto peatada või sulgeda. Otsustad ise.
   - **Kui arvuti oli kell `07:00` kinni:** päring tehakse redaktori avamisel, kuni 3 tundi hiljem. Hiljem sel päeval enam mitte.
   - **Kui päring ebaõnnestub:** laiendus ütleb selle ja proovib uuesti 30 minuti pärast, kokku kuni 3 katset päevas ja sama 3 tunni jooksul. Uuesti saadetakse ainult mudelitele, kus päring ebaõnnestus.
   - **Tulemus on päris:** kui `agy` puudub või ebaõnnestub, näed veateadet. Telefoniteade „käivitatud“ tuleb ainult pärast õnnestumist. Mitme avatud akna korral saadab päringu ainult üks aken.
@@ -82,23 +82,23 @@ Ava vahekaart **Sätted** (ka olekuriba hüpikust, menüüst või käsuga `Antig
 Mudelid, mis jagavad ühte limiiti, annavad ühe teate ja ühe telefoniteate, näiteks **Gemini mudelid (5 tunni limiit)**, mitte iga mudeli kohta eraldi.
 - **`④ 📱 Ühenda telefon` (ntfy, kontot pole vaja):**
   1. Paigalda telefoni tasuta äpp **ntfy** (App Store / Google Play).
-  2. Vajuta äpis **`+`** ja sisesta töölaual näidatud teema (seal on nupp **Kopeeri**). Teema on juhuslik ja pikk, sest ntfy.sh teemad on avalikud: hoia see enda teada.
-  3. Vajuta **`Salvesta ja saada proovisõnum`**. Tulemus ilmub redaktoris.
+  2. Vajuta äpis **`+`** ja sisesta ülevaates näidatud teema (seal on nupp **Kopeeri**). Teema on juhuslik ja pikk, sest ntfy.sh teemad on avalikud: hoia see enda teada.
+  3. Naase laiendusse ja klõpsa **`Salvesta ja saada testteavitus`**. Tulemus ilmub redaktoris.
   - **QR-koodid:** Androidi kood (kui ntfy äpp on olemas) avab äpi ja tellib teema. Teine kood avab teema veebilehe, kus tellimise nuppu ei ole, nii et iPhone'is tee samm 2 käsitsi.
-- **💬 Discord / Slack Webhook & Telegram Bot:** Sisesta oma Webhook URL või Telegrami `Chat ID` + kliki **`Set Bot Token`**.
-- **`⑤ 🚀 Test Notification`:** Kliki rohelisele nupule **`🚀 Test Notification`**, et saata kohe prooviteavitus oma telefoni (teavitused saabuvad automaatselt sinu valitud keeles!).
+- **💬 Discord / Slack Webhook & Telegram Bot:** Sisesta oma Webhook URL ja klõpsa **`Salvesta`**. Telegrami jaoks sisesta vestluse ID, klõpsa **`Salvesta`**, seejärel klõpsa **`Määra boti token`** ja kleebi token akna ülaossa avanevasse kasti.
+- **`⑤ 🚀 Test Notification`:** Kliki rohelisele nupule **`🚀 Test Notification`**, et saata kohe testteavitus oma telefonile (teavitused saabuvad automaatselt sinu valitud keeles!).
 - **💻 Terminali olekufail ja koodilõigud:** Kliki **`zsh`**, **`Starship`** või **`tmux`**, et avada koodilõigud; kopeeri oma kesta oma ja kleebi see faili, mille ta nimetab (olekufail: `~/.antigravity-quota/status.json`).
 
 ### Kettaruum
 - **Kettakasutus ja vanad vestlusfailid:**
-  - Näitab, kui palju kettaruumi võtavad Antigravity **vestlused** (kaust `brain`) ja **koodi ajalugu** (kaust `code_tracker`).
+  - Näitab, kui palju kettaruumi võtavad Antigravity **vestlused** (kaust `brain`) ja **koodijälgija** (kaust `code_tracker`).
   - Nupp **`🧹 Puhasta vanad vestlusfailid (>7p)`** vaatab ainult kausta `~/.gemini/antigravity/brain`. Ta loetleb vestluskaustad, kus pole viimase 7 päeva jooksul ükski fail muutunud, ja näitab enne kinnitust kaustade ja failide arvu ning suurust. Neis võib olla vanade vestluste pilte, plaane ja logisid.
   - Pärast sinu kinnitust liiguvad need **süsteemi prügikasti**, kust saad need tagasi tuua. Kui prügikasti viimine ei õnnestu, jäävad kaustad alles ja laiendus ütleb selle sulle. `code_tracker` kausta ainult mõõdetakse.
   - **`📂 Ava kaust`** avab kausta Finderis/Exploreris.
 
 ### Kiirtoimingud (menüü)
 
-Olekuriba hüpiku link **Kiirtoimingud**, külgpaneeli nupp ja käsk `Antigravity Quota: Kiirtoimingud` avavad sama menüü. ülevaade, brauser, värskendamine, meeldetuletus, aruanne, kasutusajalugu (sealt saab salvestada CSV- või JSON-faili), proovisõnum, **Välimus, keel ja olekuriba**, kasutusjuhend ja litsents. Numbrid on olekuribal, selle hüpikus ja ülevaates. **Tagasi** viib ühe taseme võrra üles ja alammenüü viimane rida avab vahekaardi **Sätted**.
+Olekuriba hüpiku link **Kiirtoimingud**, külgpaneeli nupp ja käsk `Antigravity Quota: Kiirtoimingud` avavad sama menüü. ülevaade, brauser, värskendamine, meeldetuletus, aruanne, kasutusajalugu (sealt saab salvestada CSV- või JSON-faili), testteavitus, **Välimus, keel ja olekuriba**, kasutusjuhend ja litsents. Numbrid on olekuribal, selle hüpikus ja ülevaates. **Tagasi** viib ühe taseme võrra üles ja alammenüü viimane rida avab vahekaardi **Sätted**.
 
 ---
 
@@ -106,7 +106,7 @@ Olekuriba hüpiku link **Kiirtoimingud**, külgpaneeli nupp ja käsk `Antigravit
 
 Ava olekuriba menüüst **Nädalaaruanne** või **Kasutusajalugu**, või Analüütika vaate nupust **Nädalaaruanne**. Avaneb leht kahe vahekaardiga:
 
-- **Nädalaaruanne** näitab viimast 7 päeva: mitu korda limiit otsa sai, mis saab järgmisena otsa, kiireim aeg, enim kasutatud mudel ja projekt, praegused limiidid, nädalapäeva ja tunni soojuskaart ning hinnanguline kasutus projektide kaupa.
+- **Nädalaaruanne** näitab viimast 7 päeva: mitu korda kvoot otsa sai, mis saab järgmisena otsa, tipptund, enim kasutatud mudel ja projekt, praegused limiidid, nädalapäeva ja tunni soojuskaart ning hinnanguline kasutus projektide kaupa.
 - **Kasutusajalugu** näitab iga limiidi kohta allesolevat kvooti 7, 30 või 90 päeva jooksul, eraldi 5 tunni limiidi ja nädalalimiidi kohta. Peen püstjoon tähistab uuenemist. 30 ja 90 päeva 5 tunni vaates on iga punkt selle päeva madalaim tase.
 
 Mudelid, millel on üks ühine limiit, on ühes graafikus. Nupud **Salvesta aruanne (HTML)**, **Salvesta aruanne (Markdown)**, **Ekspordi CSV** ja **Ekspordi JSON** küsivad, kuhu fail salvestada, ja pakuvad seejärel selle avamist.
@@ -145,18 +145,14 @@ Once installed, you have **2 permanent, always-visible Mission Control entry poi
 - **`Night / Day / Auto`:** switches to the dark, the light or the editor's theme.
 - **Beside the first heading on Overview:** **`Open in Browser`** opens the dashboard in your default web browser, for example on a second display (Pro, included in the 7-day trial), and **`User guide`** opens this manual. In Free you also find **`Buy Pro`** and **`I have a key`** there.
 - **What comes first:** the limit cards (weekly, then 5-hour). Plan, prompt credits, estimated API value and the model count are below them.
-- **Checking or removing a key:** Settings → License → **`Check license`** asks Polar now. **`Remove key`** (or the command `Antigravity Quota: Remove Pro License Key`) removes it. After you confirm, the key leaves this computer, including `~/.antigravity-quota/license.key`, and this computer's activation is released when possible. Your purchase stays valid. A monthly subscription is cancelled at Polar.
-- **Where the key comes from and where it goes:** you'll find the key in the purchase email or on Polar's confirmation page. The **`I have a key`** button is on the trial banner, on Overview and in the sidebar; Settings starts with the key field and the status (Free / trial). After activation the trial banner goes at once and the badge says **PRO**, with no window reload.
-- **After buying:** if you pressed a buy button and return to the editor within 30 minutes, the extension checks once whether the clipboard holds a license key and asks before activating it. It does not read the clipboard at any other time, and the text is not stored.
-- **Closing things:** every window and popup closes with the **X** in its top right corner or with **Esc**.
 
 ---
 
-## 2. Wide Single-Line Status Bar Hover Popup
+## 2. Wide Status Bar Hover Popup
 
 ![Wide Status Bar Hover Tooltip](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-2-status-hover-popup.png)
 
-Hovering over the bottom-right Status Bar quota meter opens a **wide, single-line Markdown table**:
+Hovering over the bottom-right Status Bar quota meter opens a **wide, compact table with one line per item**:
 - **Weekly limit warning on the status bar:** when a family's weekly limit is low, a separate item appears next to the main one, for example `G 7d 15%`: with a warning icon up to 30%, orange up to 22%, red up to 15% (the limits come from the settings). A click opens the dashboard. With enough left, the item is not there.
 - **License state:** after the links the popup says **PRO is active** in red when you have a paid key, and the trial wording during the trial. In Free there is nothing extra.
 - **Top links:** **Visual Dashboard**, **Open in Browser**, **Settings** (opens the Settings tab) and **Quick Actions** (opens the menu). In Free, also a link to buy.
@@ -190,20 +186,20 @@ Open the **Settings** tab (also from the status bar popup, the menu or the comma
 Models that share one limit give one notification and one phone alert, for example **Gemini models (5-hour limit)**, not one per model.
 
 - **Auto-Starter — `Start the 5-hour window automatically`:** Off by default. The 5-hour window starts with your first prompt, not at a fixed time. When on, the extension runs `agy` at your chosen time and sends a short real prompt (`OK`) to the selected models from your own account. If the window starts at `07:00`, the next refill should come around `12:00`.
-  - **The first time, it asks for your consent.** The prompt uses quota. Antigravity's terms prohibit using the service with products not provided by Google. They say third-party access may be treated as a breach and can lead to account suspension. So the decision is yours.
+  - **The first time, it asks for your consent.** The prompt uses quota. Antigravity's terms prohibit using the service in connection with products not provided by Google. They say that using third-party software to access it is a breach that may lead to suspension or termination of your account. The decision is yours.
   - **If your computer was closed at `07:00`:** it runs when you open the editor, up to 3 hours later, and not later that day.
   - **If a run fails:** the extension says so and tries again after 30 minutes, with at most 3 attempts a day and within the same 3 hours. Only the models that failed are asked again.
   - **Results are real:** if `agy` is missing or fails, you see an error. The "started" phone notification comes only after success. With several windows open, only one sends the prompt.
 - **`Start 5-Hour Window Now`:** Sends the same prompt now, also after your consent.
 - **Phone and messages — `Connect your phone` (ntfy, no account needed):**
   1. Install the free **ntfy** app (App Store / Google Play).
-  2. In the app, press **`+`** and enter the topic shown on the dashboard (it has a **Copy** button). The topic is long and random because ntfy.sh topics are public: keep it to yourself.
-  3. Press **`Save and send a test notification`**. The result appears in the editor.
+  2. In the app, tap **`+`** and enter the topic shown on the dashboard (it has a **Copy** button). The topic is long and random because ntfy.sh topics are public: keep it to yourself.
+  3. Return to the extension, then click **`Save and send a test notification`**. The result appears in the editor.
   - **QR codes:** the Android code (with the ntfy app installed) opens the app and subscribes to the topic. The other code opens the topic's web page, which has no subscribe button, so on iPhone do step 2 by hand.
-- **Discord/Slack Webhook & Telegram:** Enter your Webhook URL or Telegram Chat ID.
+- **Discord/Slack Webhook & Telegram:** Enter your Webhook URL and click **`Save`**. For Telegram, enter your Chat ID, click **`Save`**, then click **`Set Bot Token`** and paste the token into the input box at the top of the window.
 - **`Test Notification`:** Click to send a test notification to your phone, in your selected language!
-- **Terminal:** the status file and shell snippets for `zsh`, `Starship` and `tmux`.
-- **Disk space:** Shows the disk space used by **Conversations** (`~/.gemini/antigravity/brain`) and **Code history** (`code_tracker`). **`🧹 Clean Old Conversation Files (>7d)`** looks only at `brain`: it lists folders where no file changed in the last 7 days and shows the folder count, file count and size before you confirm. They can hold images, plans and logs from old conversations. After you confirm, they move to the **system Trash**, so you can restore them. If that fails, they stay in place and the extension tells you. `code_tracker` is only measured.
+- **Terminal status file and snippets:** Click **`zsh`**, **`Starship`** or **`tmux`** to open the snippets, copy the one for your shell and paste it into the file it names (status file: `~/.antigravity-quota/status.json`).
+- **Disk space:** Shows the disk space used by **Conversations** (`~/.gemini/antigravity/brain`) and **Code tracker** (`code_tracker`). **`🧹 Clean Old Conversation Files (>7d)`** looks only at `brain`: it lists folders where no file changed in the last 7 days and shows the folder count, file count and size before you confirm. They can hold images, plans and logs from old conversations. After you confirm, they move to the **system Trash**, so you can restore them. If that fails, they stay in place and the extension tells you. `code_tracker` is only measured.
 
 ### Quick Actions (the menu)
 
@@ -217,3 +213,17 @@ Open **Weekly Report** or **Usage History** from the status bar menu, or **Weekl
 - **Usage History** shows the quota left for each limit over 7, 30 or 90 days, for the 5-hour limit and the weekly limit. A thin vertical line marks a reset. In the 30 and 90 day 5-hour view, each point is the lowest level of that day.
 
 Models that share one limit share one chart. **Save report (HTML)**, **Save report (Markdown)**, **Export CSV** and **Export JSON** ask where to save the file, then offer to open it.
+
+## 5. 🎁 7-Day Free Pro Trial & License Activation
+
+Every new install gets **all Pro features for 7 days** right in the extension, with no card and no registration. After that, the free features stay.
+
+1. **Choose a plan:**
+   - **[💎 Lifetime Pro — €9.99 one-time payment](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)**
+   - **[Pro Monthly — €2.99/month, cancel anytime](https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW)**
+2. **Activate:** Paste your `PRO-XXXX-...` key into the **License** section of Settings and click **`Activate`**. You can also click **`I have a key`** on Overview.
+3. **Checking or removing a key:** Settings → License → **`Check license`** asks Polar now. **`Remove key`** (or the command `Antigravity Quota: Remove Pro License Key`) removes it. After you confirm, the key leaves this computer, including `~/.antigravity-quota/license.key`, and this computer's activation is released when possible. Your purchase stays valid. A monthly subscription is cancelled at Polar.
+4. **Where the key comes from and where it goes:** you'll find the key in the purchase email or on Polar's confirmation page. The **`I have a key`** button is on the trial banner, on Overview and in the sidebar; Settings starts with the key field and the status (Free / trial). After activation the trial banner goes at once and the badge says **PRO**, with no window reload.
+5. **After buying:** if you clicked a buy button and return to the editor within 30 minutes, the extension checks once whether the clipboard holds a license key and asks before activating it. It does not read the clipboard at any other time, and the text is not stored.
+
+Every window and popup closes with the **X** in its top right corner or with **Esc**.

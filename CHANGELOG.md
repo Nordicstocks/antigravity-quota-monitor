@@ -2,8 +2,11 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.47] - 2026-11-04
+- New dashboard header, Settings page, weekly report and usage history views. German, Chinese, Japanese and Spanish updated. Reliability and security fixes.
+
 ## [2.0.15] - 2026-11-03
-- Added Activity Bar Sidebar Mission Control panel (`Antigravity Cockpit`), 1-Click Cache Cleaner (`BRAIN` & `CODE TRACKER` disk space manager), smooth video walkthrough, and public documentation repository link.
+- Added Activity Bar Sidebar Mission Control panel (`Antigravity Cockpit`), Old Conversation Files Cleaner (`BRAIN` only), smooth video walkthrough, and public documentation repository link.
 
 ## [2.0.14] - 2026-11-03
 - Updated extension title and store tags (`Antigravity Cockpit Quota Monitor & Dashboard`).
