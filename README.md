@@ -7,14 +7,14 @@
 **Stop getting locked out of Claude Opus 5.5, Sonnet 5.5, and Gemini 4 Argon mid-sprint.**  
 **Real-time 5-Hour & 7-Day Weekly AI Quota Telemetry, Scheduled `07:00` Session Auto-Warmup, Reserve Guard & Phone Alerts for Google Antigravity IDE.**
 
-[![Version](https://img.shields.io/badge/release-v2.0.37-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
+[![Version](https://img.shields.io/badge/release-v2.0.39-6D5EF3?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
 [![7-Day In-App Pro Trial](https://img.shields.io/badge/In--App_Pro_Trial-7_Days_FREE_(No_Card_Required)-10B981?style=flat-square)](https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor)
 [![Lifetime Pro](https://img.shields.io/badge/Lifetime_Pro-%E2%82%AC9.99_One--Time-7C3AED?style=flat-square)](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)
 [![37 Languages](https://img.shields.io/badge/Languages-37_Built--In-0EA5E9?style=flat-square)](#37-built-in-languages-automatic-os-detection)
 
 <br/>
 
-<a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/START_14--DAY_PRO_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Pro Trial" /></a>&nbsp;&nbsp;<a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/BUY_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Buy Lifetime Pro €9.99" /></a>
+<a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/UNLOCK_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME_(SAVE_72%25)-6D5EF3?style=for-the-badge" alt="Unlock Lifetime Pro €9.99 One-Time" /></a>&nbsp;&nbsp;<a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/PRO_MONTHLY-%E2%82%AC2.99_%2F_MONTH-10B981?style=for-the-badge" alt="Subscribe Pro Monthly €2.99/mo" /></a>
 
 </div>
 
@@ -43,7 +43,7 @@ If you already pay **\$20 to \$200/month** for AI coding plans (Google AI Pro/Ul
 | You send your first prompt at `09:30` → locked until `14:30`. | **`07:00` Auto-Warmup** starts your 5h window early → **100% fresh refill at `12:00` Noon**. |
 | You burn through Claude Opus/Sonnet blindly and get cut off mid-refactor. | **Burn-Rate Forecast + 20% Reserve Guard** warns you early and switches you cleanly. |
 | You keep checking the IDE to see if your 5-hour timer has reset yet. | **Phone Push Alert (`ntfy.sh` / Telegram)** pings your phone the instant quota hits **100%**. |
-| Another monthly SaaS subscription draining your card every month. | **€9.99 One-Time Lifetime Payment** (or **€2.99/mo** after a 14-day free trial). |
+| Another monthly SaaS subscription draining your card every month. | **€9.99 One-Time Lifetime Payment** (save 72% vs. **€2.99/mo** monthly plan). |
 
 ![In-App Pro Upgrade Modal](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/pro-modal-en.png)
 
@@ -85,7 +85,7 @@ Track which workspace folders consume the most AI quota, inspect your **90-Day W
 
 ## ✅ Free vs. Pro Feature Comparison
 
-> **Remember:** Every new installation automatically includes **7 days of full Pro access inside the app** (no credit card required), plus you can start a **14-Day Free Trial (€0.00 today)** or unlock **Lifetime Pro for €9.99 one-time** at any time.
+> **Remember:** Every new installation automatically includes **7 days of full Pro access inside the app** (no credit card required). To keep Pro after your 7-day in-app trial, unlock **Lifetime Pro for €9.99 one-time** (most popular) or subscribe for **€2.99/month**.
 
 <!-- FEATURES_TABLE_START -->
 | Feature | 🆓 Free Version | 🌟 Pro Edition (€2.99/mo or €9.99 One-Time) |
@@ -112,7 +112,7 @@ Track which workspace folders consume the most AI quota, inspect your **90-Day W
 
 <div align="center">
 <br/>
-<a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/START_14--DAY_FREE_TRIAL-%E2%82%AC0.00_TODAY-10B981?style=for-the-badge" alt="Start 14-Day Free Trial" /></a>&nbsp;&nbsp;<a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/GET_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME-6D5EF3?style=for-the-badge" alt="Get Lifetime Pro €9.99" /></a>
+<a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/UNLOCK_LIFETIME_PRO-%E2%82%AC9.99_ONE--TIME_(SAVE_72%25)-6D5EF3?style=for-the-badge" alt="Unlock Lifetime Pro €9.99 One-Time" /></a>&nbsp;&nbsp;<a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/PRO_MONTHLY-%E2%82%AC2.99_%2F_MONTH-10B981?style=for-the-badge" alt="Subscribe Pro Monthly €2.99/mo" /></a>
 <br/><br/>
 </div>
 
