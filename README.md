@@ -45,7 +45,7 @@ If you already pay **\$20 to \$200/month** for AI coding plans (Google AI Pro/Ul
 | You keep checking the IDE to see if your 5-hour timer has reset yet. | **Phone Push Alert (`ntfy.sh` / Telegram)** pings your phone the instant quota hits **100%**. |
 | Another monthly SaaS subscription draining your card every month. | **€9.99 One-Time Lifetime Payment** (save 72% vs. **€2.99/mo** monthly plan). |
 
-![In-App Pro Upgrade Modal](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/pro-modal-en.png)
+![In-App Pro Upgrade Modal](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/f3d75d6/images/pro-modal-en.png)
 
 ---
 
