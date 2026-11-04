@@ -79,4 +79,4 @@
 ---
 
 ## 📄 License
-MIT License © Nordicstocks — [🇬🇧 Full English Documentation](../README.md)
+© Nordicstocks — [🇬🇧 Full English Documentation](../README.md)
