@@ -1,8 +1,8 @@
 # 📖 Antigravity Quota Monitor: visuaalne kasutusjuhend
 
-*Versioon 2.0.49*
+*Versioon 2.0.50*
 
-**Keel:** [English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · Eesti
+**Keel:** [English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · Eesti · [Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md)
 
 ---
 
@@ -41,7 +41,7 @@ Kui liigutad hiire all paremal olekuribal kvoodimõõdiku (`G: 26% | C: 100%`) p
 
 ![Mudelikaartide kohandamine: lohistamine, värvipalett ja meeldetuletus](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-3-cards-color-drag.png)
 
-Kõik ülevaate kaardikohandused on **100% TASUTA** ja salvestuvad automaatselt:
+Kõik ülevaate kaardikohandused on **tasuta** ja salvestuvad automaatselt:
 - **`① ⋮⋮ Drag & Drop Card Order` (Kaartide ümbertõstmine):** Haara hiirega mis tahes mudelikaardi vasakust ülanurgast **`⋮⋮`** ikoonist ja **lohista kaart täpselt sinna kohta, kuhu soovid**. Sinu lemmikmudelid püsivad alati esimestena!
 - **`② 🎨 Card Color Palette` (Mudelikaardi taustavärvi valimine):** Kliki mudelikaardi päises olevale värvipaleti ikoonile **`🎨`**. Avaneb värvitoonide hüpikmenüü (**Vaikimisi**, **Münt / Mint**, **Taevasinine / Sky**, **Lavendel / Lavender**, **Virsik / Peach**, **Roosa / Rose**, **Mereroheline / Teal**). Päevarežiimis on toonid mahedad pastelsed ja Öörežiimis sügavad tumedad klaasitoonid!
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset` / `Teavita uuenemisel`):** Kliki kaardi all olevale nupule **`🔔 Remind Me at Reset`** — kui selle mudeli uuenemisaeg kätte jõuab, saad helimärguande, teate redaktoris ja kui oled telefoniteavitused seadistanud, siis ka teate telefoni. Redaktor peab selleks avatud olema.

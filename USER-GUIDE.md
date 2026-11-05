@@ -1,8 +1,8 @@
 # 📖 Antigravity Quota Monitor: Visual User Manual
 
-*Version 2.0.49*
+*Version 2.0.50*
 
-**Language:** English · [Eesti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md)
+**Language:** English · [Eesti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md)
 
 ---
 
@@ -41,7 +41,7 @@ Hovering over the bottom-right Status Bar quota meter opens a **wide, compact ta
 
 ![Model Card Customization: Drag Handle, Color Palette, and Reset Reminder](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-3-cards-color-drag.png)
 
-All card layout and color customizations are **100% FREE** and persisted automatically:
+Card order, colors and hidden cards are free and saved automatically. The reminder is a Pro feature.
 - **`① ⋮⋮ Drag & Drop Card Order`:** Grab any card by its top-left **`⋮⋮`** handle and drag it into your preferred slot.
 - **`② 🎨 Card Color Palette`:** Click the palette button **`🎨`** on any card header to pick a tint (**Default**, **Mint**, **Sky**, **Lavender**, **Peach**, **Rose**, **Teal**).
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset`):** Click **`🔔 Remind Me at Reset`** at the bottom of any model card to get a sound, an editor notification and, if you set up phone alerts, a phone alert when that model's reset time arrives. The editor must be open.
@@ -53,7 +53,7 @@ All card layout and color customizations are **100% FREE** and persisted automat
 
 ![Control Center: Old Conversation Files, 07:00 Auto-Starter, and Phone Push Notifications](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-4-control-center.png)
 
-Open the **Settings** tab (also from the status bar popup, the menu or the command `Antigravity Quota: Open Settings Tab`). All settings are in one column and every section is open. Links on the left go to each section; in a narrow window they are a row at the top. The order is **License, General, Status bar, Alerts, Auto-Starter, Phone and messages, Terminal, Disk space**.
+Open the **Settings** tab (also from the status bar popup, the menu or the command `Antigravity Quota: Open Settings Tab`). All settings are in one column and every section is open. Links on the left go to each section; in a narrow window they are a row at the top. The order is **License, General, Status bar, Alerts, Auto-Starter, Phone and chat notifications, Terminal, Disk space**.
 
 - **License:** with an active license, one row with the status and **`Change license key`**, **`Check license`** and **`Remove key`**. In Free and during the trial, the key field with its button, and a link to buy.
 - **General:** interface language (the same choice as in the header), theme and refresh interval.
@@ -64,7 +64,7 @@ Models that share one limit give one notification and one phone alert, for examp
 
 - **Auto-Starter — `Start the 5-hour window automatically`:** Off by default. The 5-hour window starts with your first prompt, not at a fixed time. When on, the extension runs `agy` at your chosen time and sends a short real prompt (`OK`) to the selected models from your own account. If the window starts at `07:00`, the next refill should come around `12:00`.
   - **The first time, it asks for your consent.** The prompt uses quota. Antigravity's terms prohibit using the service in connection with products not provided by Google. They say that using third-party software to access it is a breach that may lead to suspension or termination of your account. The decision is yours.
-  - **If your computer was closed at `07:00`:** it runs when you open the editor, up to 3 hours later, and not later that day.
+  - **If the editor was closed at `07:00`:** it runs when you open the editor, up to 3 hours later, and not later that day.
   - **If a run fails:** the extension says so and tries again after 30 minutes, with at most 3 attempts a day and within the same 3 hours. Only the models that failed are asked again.
   - **Results are real:** if `agy` is missing or fails, you see an error. The "started" phone notification comes only after success. With several windows open, only one sends the prompt.
 - **`Start 5-Hour Window Now`:** Sends the same prompt now, also after your consent.
