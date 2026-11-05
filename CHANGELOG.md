@@ -2,6 +2,12 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.51] - 2026-11-05
+- The dashboard fits your window: a bigger screen shows more cards in a row, then more columns, and no card stays alone on a row.
+- The language list is at the top right on every tab and no longer gets cut off.
+- New eye button beside Refresh: tick or untick the cards you want to see, also in the side panel.
+- The dashboard shows your version and checks for a newer one, and one click installs the update.
+
 ## [2.0.50] - 2026-11-05
 - When a weekly limit is used up, the model now shows 0% and the weekly reset instead of an old 5-hour number.
 - Free plan: the header shows FREE and a Get Pro button, and the Google plan card says that it is your Google plan.

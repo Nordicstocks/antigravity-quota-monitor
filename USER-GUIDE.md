@@ -1,6 +1,6 @@
 # 📖 Antigravity Quota Monitor: Visual User Manual
 
-*Version 2.0.50*
+*Version 2.0.51*
 
 **Language:** English · [Eesti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md)
 
@@ -17,10 +17,13 @@ Once installed, you have **2 permanent, always-visible Mission Control entry poi
 ### What's in the header and at the top of Overview:
 - **Tabs:** **Overview**, **Analytics** and **Settings**. The title is in the header only.
 - **Updated time and `Refresh`:** shows the last refresh; the button fetches the data now.
-- **Language:** the dropdown is in the header on every tab. The first option is **Automatic (editor language, or system language if the editor is English)**, then 37 languages in their own names. It applies at once and changes the language of this extension only. Typing a letter jumps to a language. The same setting is in the **General** section of Settings.
+- **Eye button:** lists every card, with a tick on the visible ones. Untick a card to hide it and tick it to bring it back. The number is how many are hidden. The side panel has the same button beside its refresh button.
+- **Version button (`v2.0.51`):** checks for a newer version. When there is one, the button says **`Update to …`**. Click it, then reload the window.
+- **Language:** the dropdown is at the top right on every tab. The first option, **Auto** with the language in use, follows the editor's language, or the system language if the editor is English. Then come 37 languages in their own names. It applies at once and changes the language of this extension only. Typing a letter jumps to a language. The same setting is in the **General** section of Settings.
 - **`Night / Day / Auto`:** switches to the dark, the light or the editor's theme.
 - **Beside the first heading on Overview:** **`Open in Browser`** opens the dashboard in your default web browser, for example on a second display (Pro, included in the 7-day trial), and **`User guide`** opens this manual. In Free you also find **`Buy Pro`** and **`I have a key`** there.
 - **What comes first:** the limit cards (weekly, then 5-hour). Plan, prompt credits, estimated API value and the model count are below them.
+- **A bigger window shows more:** more cards fit in a row. From about 1700 pixels wide, the plan details move to a column on the right. From about 2400 pixels, Analytics opens beside the limits, and Settings has more columns from about 1500 pixels.
 
 ---
 
@@ -45,7 +48,7 @@ Card order, colors and hidden cards are free and saved automatically. The remind
 - **`① ⋮⋮ Drag & Drop Card Order`:** Grab any card by its top-left **`⋮⋮`** handle and drag it into your preferred slot.
 - **`② 🎨 Card Color Palette`:** Click the palette button **`🎨`** on any card header to pick a tint (**Default**, **Mint**, **Sky**, **Lavender**, **Peach**, **Rose**, **Teal**).
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset`):** Click **`🔔 Remind Me at Reset`** at the bottom of any model card to get a sound, an editor notification and, if you set up phone alerts, a phone alert when that model's reset time arrives. The editor must be open.
-- **`④ ✕ Hide a card`:** Click the cross in the top-right corner of a card to remove it from the dashboard, side panel, tooltip and status bar. Your choice is saved. Bring it back with the plus in the **Hidden:** row below the cards, or under **Settings → General → Cards on the dashboard**. Your limits stay the same, and new models appear on their own. Alerts stop only when every model on that limit is hidden.
+- **`④ ✕ Hide a card`:** Click the cross in the top-right corner of a card to remove it from the dashboard, side panel, tooltip and status bar. Your choice is saved. Bring it back with the eye button beside **`Refresh`**, with the plus in the **Hidden:** row below the cards, or under **Settings → General → Cards on the dashboard**. Your limits stay the same, and new models appear on their own. Alerts stop only when every model on that limit is hidden.
 
 ---
 
@@ -53,7 +56,7 @@ Card order, colors and hidden cards are free and saved automatically. The remind
 
 ![Control Center: Old Conversation Files, 07:00 Auto-Starter, and Phone Push Notifications](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-4-control-center.png)
 
-Open the **Settings** tab (also from the status bar popup, the menu or the command `Antigravity Quota: Open Settings Tab`). All settings are in one column and every section is open. Links on the left go to each section; in a narrow window they are a row at the top. The order is **License, General, Status bar, Alerts, Auto-Starter, Phone and chat notifications, Terminal, Disk space**.
+Open the **Settings** tab (also from the status bar popup, the menu or the command `Antigravity Quota: Open Settings Tab`). Every section is open. They are in one column, or in more when the window is wide. Links on the left go to each section; in a narrow window they are a row at the top. The order is **License, General, Status bar, Alerts, Auto-Starter, Phone and chat notifications, Terminal, Disk space**.
 
 - **License:** with an active license, one row with the status and **`Change license key`**, **`Check license`** and **`Remove key`**. In Free and during the trial, the key field with its button, and a link to buy.
 - **General:** interface language (the same choice as in the header), theme and refresh interval.
@@ -74,8 +77,8 @@ Models that share one limit give one notification and one phone alert, for examp
   3. Return to the extension, then click **`Save and send a test notification`**. The result appears in the editor.
   - **QR codes:** the Android code (with the ntfy app installed) opens the app and subscribes to the topic. The other code opens the topic's web page, which has no subscribe button, so on iPhone do step 2 by hand.
 - **Discord/Slack Webhook & Telegram:** Enter your Webhook URL and click **`Save`**. For Telegram, enter your Chat ID, click **`Save`**, then click **`Set Bot Token`** and paste the token into the input box at the top of the window.
-- **`Test Notification`:** Click to send a test notification to your phone, in your selected language!
-- **Terminal status file and snippets:** Click **`zsh`**, **`Starship`** or **`tmux`** to open the snippets, copy the one for your shell and paste it into the file it names (status file: `~/.antigravity-quota/status.json`).
+- **`Test Notification`:** Click to send a test notification to every channel you set up, in your selected language.
+- **Terminal status file and snippets:** Click **`zsh`**, **`Starship`** or **`tmux`** to open the snippets, copy the one you use and paste it into the file it names (status file: `~/.antigravity-quota/status.json`).
 - **Disk space:** Shows the disk space used by **Conversations** (`~/.gemini/antigravity/brain`) and **Code tracker** (`code_tracker`). **`🧹 Clean Old Conversation Files (>7d)`** looks only at `brain`: it lists folders where no file changed in the last 7 days and shows the folder count, file count and size before you confirm. They can hold images, plans and logs from old conversations. After you confirm, they move to the **system Trash**, so you can restore them. If that fails, they stay in place and the extension tells you. `code_tracker` is only measured.
 
 ### Quick Actions (the menu)
@@ -103,4 +106,4 @@ Every new install gets **all Pro features for 7 days** right in the extension, w
 4. **Where the key comes from and where it goes:** you'll find the key in the purchase email or on Polar's confirmation page. The **`I have a key`** button is on the trial banner, on Overview and in the sidebar; Settings starts with the key field and the status (Free / trial). After activation the trial banner goes at once and the badge says **PRO**, with no window reload.
 5. **After buying:** if you clicked a buy button and return to the editor within 30 minutes, the extension checks once whether the clipboard holds a license key and asks before activating it. It does not read the clipboard at any other time, and the text is not stored.
 
-Every window and popup closes with the **X** in its top right corner or with **Esc**.
+The extension's windows and info popups close with the **X** in their top right corner or with **Esc**.

@@ -1,0 +1,433 @@
+{
+ "images": {
+  "en-overview-night": {
+   "lang": "en",
+   "view": "overview-night",
+   "bytes": 101547,
+   "cssWidth": 1100,
+   "cssHeight": 717,
+   "md5": "a50432e292cadd64d3ca0769bb0a94ff"
+  },
+  "en-overview-day": {
+   "lang": "en",
+   "view": "overview-day",
+   "bytes": 102848,
+   "cssWidth": 1100,
+   "cssHeight": 717,
+   "md5": "3c4e276e2682414ed9f8de46e9bb8325"
+  },
+  "en-analytics-night": {
+   "lang": "en",
+   "view": "analytics-night",
+   "bytes": 87683,
+   "cssWidth": 1100,
+   "cssHeight": 634,
+   "md5": "c576bd79caaf280d11735ed777e0b054"
+  },
+  "en-settings-license": {
+   "lang": "en",
+   "view": "settings-license",
+   "bytes": 14083,
+   "cssWidth": 784,
+   "cssHeight": 160,
+   "md5": "4ff174433fe88ef4dfb25937584b44da"
+  },
+  "en-settings-alerts": {
+   "lang": "en",
+   "view": "settings-alerts",
+   "bytes": 54633,
+   "cssWidth": 652,
+   "cssHeight": 579,
+   "md5": "9a8f6c50fa2e22312234957bd2a3e24d"
+  },
+  "en-phone-pairing": {
+   "lang": "en",
+   "view": "phone-pairing",
+   "bytes": 50226,
+   "cssWidth": 586,
+   "cssHeight": 452,
+   "md5": "158d79caf4d457689c546885c61ddf54"
+  },
+  "en-sidebar": {
+   "lang": "en",
+   "view": "sidebar",
+   "bytes": 74630,
+   "cssWidth": 300,
+   "cssHeight": 1175,
+   "md5": "8d48099eb16abaf58e04dc6b925b644e"
+  },
+  "en-pro-modal": {
+   "lang": "en",
+   "view": "pro-modal",
+   "bytes": 110410,
+   "cssWidth": 644,
+   "cssHeight": 716,
+   "md5": "a21bb91144b3472a38405b8fd8c38c77"
+  },
+  "en-weekly-report": {
+   "lang": "en",
+   "view": "weekly-report",
+   "bytes": 156593,
+   "cssWidth": 900,
+   "cssHeight": 1519,
+   "md5": "2976d7b6c1641e35a0cdc718e43e8ead"
+  },
+  "en-usage-history": {
+   "lang": "en",
+   "view": "usage-history",
+   "bytes": 126895,
+   "cssWidth": 900,
+   "cssHeight": 1163,
+   "md5": "46fdf09df57c298f62f8ddaa2f793e4b"
+  },
+  "de-overview-night": {
+   "lang": "de",
+   "view": "overview-night",
+   "bytes": 114540,
+   "cssWidth": 1100,
+   "cssHeight": 732,
+   "md5": "df990452218aebfee2db2e6026b0ccee"
+  },
+  "de-overview-day": {
+   "lang": "de",
+   "view": "overview-day",
+   "bytes": 115539,
+   "cssWidth": 1100,
+   "cssHeight": 732,
+   "md5": "f0fe38b793b681b1678ee1add5f07dd6"
+  },
+  "de-analytics-night": {
+   "lang": "de",
+   "view": "analytics-night",
+   "bytes": 99824,
+   "cssWidth": 1100,
+   "cssHeight": 747,
+   "md5": "853fac7c19aeef1c1aa216a873e3bf27"
+  },
+  "de-settings-license": {
+   "lang": "de",
+   "view": "settings-license",
+   "bytes": 13442,
+   "cssWidth": 784,
+   "cssHeight": 160,
+   "md5": "866e56be838287d9d6df6e65cf12b249"
+  },
+  "de-settings-alerts": {
+   "lang": "de",
+   "view": "settings-alerts",
+   "bytes": 70436,
+   "cssWidth": 652,
+   "cssHeight": 652,
+   "md5": "dff5dbed4e7d01dccab04a1b0ddc9d7e"
+  },
+  "de-phone-pairing": {
+   "lang": "de",
+   "view": "phone-pairing",
+   "bytes": 56717,
+   "cssWidth": 586,
+   "cssHeight": 489,
+   "md5": "415ac158da1ce22125069338eb1520cc"
+  },
+  "de-sidebar": {
+   "lang": "de",
+   "view": "sidebar",
+   "bytes": 78326,
+   "cssWidth": 300,
+   "cssHeight": 1189,
+   "md5": "81e7ba806f6e43eb75a8db2b101f06cf"
+  },
+  "de-pro-modal": {
+   "lang": "de",
+   "view": "pro-modal",
+   "bytes": 132184,
+   "cssWidth": 644,
+   "cssHeight": 774,
+   "md5": "34d65c61396fbc9e43bd8f7f64aa92dc"
+  },
+  "de-weekly-report": {
+   "lang": "de",
+   "view": "weekly-report",
+   "bytes": 183964,
+   "cssWidth": 900,
+   "cssHeight": 1564,
+   "md5": "a114529761eb7694f75ecac59d3b2c08"
+  },
+  "de-usage-history": {
+   "lang": "de",
+   "view": "usage-history",
+   "bytes": 131246,
+   "cssWidth": 900,
+   "cssHeight": 1163,
+   "md5": "d7f66551d1f9190ff17814641a2fa4eb"
+  },
+  "zh-CN-overview-night": {
+   "lang": "zh-CN",
+   "view": "overview-night",
+   "bytes": 107102,
+   "cssWidth": 1100,
+   "cssHeight": 701,
+   "md5": "d545170a150d917a0b98013aa2569a82"
+  },
+  "zh-CN-overview-day": {
+   "lang": "zh-CN",
+   "view": "overview-day",
+   "bytes": 108343,
+   "cssWidth": 1100,
+   "cssHeight": 701,
+   "md5": "fef5f32fc4e68434bd28db89ca79dc01"
+  },
+  "zh-CN-analytics-night": {
+   "lang": "zh-CN",
+   "view": "analytics-night",
+   "bytes": 88949,
+   "cssWidth": 1100,
+   "cssHeight": 696,
+   "md5": "d23d24ef76b156be2b430f2440bf968a"
+  },
+  "zh-CN-settings-license": {
+   "lang": "zh-CN",
+   "view": "settings-license",
+   "bytes": 14417,
+   "cssWidth": 784,
+   "cssHeight": 132,
+   "md5": "7db8d54d7eabc7d07af4f333215c91d8"
+  },
+  "zh-CN-settings-alerts": {
+   "lang": "zh-CN",
+   "view": "settings-alerts",
+   "bytes": 55214,
+   "cssWidth": 652,
+   "cssHeight": 489,
+   "md5": "d014df652a22d50cc2041e9885128c30"
+  },
+  "zh-CN-phone-pairing": {
+   "lang": "zh-CN",
+   "view": "phone-pairing",
+   "bytes": 54678,
+   "cssWidth": 586,
+   "cssHeight": 452,
+   "md5": "296fac06c39b9f5754b58662ae11c88a"
+  },
+  "zh-CN-sidebar": {
+   "lang": "zh-CN",
+   "view": "sidebar",
+   "bytes": 79471,
+   "cssWidth": 300,
+   "cssHeight": 1183,
+   "md5": "a3a3a2cec585d8573c43997f974be179"
+  },
+  "zh-CN-pro-modal": {
+   "lang": "zh-CN",
+   "view": "pro-modal",
+   "bytes": 111421,
+   "cssWidth": 644,
+   "cssHeight": 653,
+   "md5": "4faed1164921b1330e2ccd102baafb46"
+  },
+  "zh-CN-weekly-report": {
+   "lang": "zh-CN",
+   "view": "weekly-report",
+   "bytes": 174038,
+   "cssWidth": 900,
+   "cssHeight": 1519,
+   "md5": "8c855c9516bbc7237ce138781ae5cc1f"
+  },
+  "zh-CN-usage-history": {
+   "lang": "zh-CN",
+   "view": "usage-history",
+   "bytes": 127609,
+   "cssWidth": 900,
+   "cssHeight": 1166,
+   "md5": "2ed92d6eac2db7e3c07efdb7ad64a73c"
+  },
+  "ja-overview-night": {
+   "lang": "ja",
+   "view": "overview-night",
+   "bytes": 113551,
+   "cssWidth": 1100,
+   "cssHeight": 734,
+   "md5": "760a3702812e78d6f48dec404910fbd1"
+  },
+  "ja-overview-day": {
+   "lang": "ja",
+   "view": "overview-day",
+   "bytes": 114357,
+   "cssWidth": 1100,
+   "cssHeight": 734,
+   "md5": "b295ec819fdaf823b6e5c6dde4608732"
+  },
+  "ja-analytics-night": {
+   "lang": "ja",
+   "view": "analytics-night",
+   "bytes": 92158,
+   "cssWidth": 1100,
+   "cssHeight": 694,
+   "md5": "b6c45b469ec05b7f59134375ad8cc512"
+  },
+  "ja-settings-license": {
+   "lang": "ja",
+   "view": "settings-license",
+   "bytes": 16096,
+   "cssWidth": 784,
+   "cssHeight": 160,
+   "md5": "aa52f5357a070bde2b67844197b9aef0"
+  },
+  "ja-settings-alerts": {
+   "lang": "ja",
+   "view": "settings-alerts",
+   "bytes": 67314,
+   "cssWidth": 652,
+   "cssHeight": 600,
+   "md5": "4ba7839247ae6ff55ff873d2bca60159"
+  },
+  "ja-phone-pairing": {
+   "lang": "ja",
+   "view": "phone-pairing",
+   "bytes": 63840,
+   "cssWidth": 586,
+   "cssHeight": 471,
+   "md5": "3fa001561da4e7c619b7604637d5e142"
+  },
+  "ja-sidebar": {
+   "lang": "ja",
+   "view": "sidebar",
+   "bytes": 82730,
+   "cssWidth": 300,
+   "cssHeight": 1242,
+   "md5": "b0912d4f112be7996c768bcb893f26fe"
+  },
+  "ja-pro-modal": {
+   "lang": "ja",
+   "view": "pro-modal",
+   "bytes": 127213,
+   "cssWidth": 644,
+   "cssHeight": 732,
+   "md5": "e96155479c152d1ce037128786cfb1bb"
+  },
+  "ja-weekly-report": {
+   "lang": "ja",
+   "view": "weekly-report",
+   "bytes": 178132,
+   "cssWidth": 900,
+   "cssHeight": 1545,
+   "md5": "aad1967d19325bfe09fa0c9623fc5aa4"
+  },
+  "ja-usage-history": {
+   "lang": "ja",
+   "view": "usage-history",
+   "bytes": 132340,
+   "cssWidth": 900,
+   "cssHeight": 1167,
+   "md5": "4a4666267a2cd8de0e14927dedd310b2"
+  },
+  "es-overview-night": {
+   "lang": "es",
+   "view": "overview-night",
+   "bytes": 118509,
+   "cssWidth": 1100,
+   "cssHeight": 763,
+   "md5": "ad11311482e9e1c6d1e3c24b9959d17f"
+  },
+  "es-overview-day": {
+   "lang": "es",
+   "view": "overview-day",
+   "bytes": 119391,
+   "cssWidth": 1100,
+   "cssHeight": 763,
+   "md5": "3ffa90f770e1ca220f22439554b262ee"
+  },
+  "es-analytics-night": {
+   "lang": "es",
+   "view": "analytics-night",
+   "bytes": 96320,
+   "cssWidth": 1100,
+   "cssHeight": 756,
+   "md5": "1e0343b15356df3fcf64f94d10593b0b"
+  },
+  "es-settings-license": {
+   "lang": "es",
+   "view": "settings-license",
+   "bytes": 14588,
+   "cssWidth": 784,
+   "cssHeight": 160,
+   "md5": "28b46c7c08d4192c826db4f023371a7e"
+  },
+  "es-settings-alerts": {
+   "lang": "es",
+   "view": "settings-alerts",
+   "bytes": 65149,
+   "cssWidth": 652,
+   "cssHeight": 636,
+   "md5": "50e540a47419eddb7c942a4c5990b201"
+  },
+  "es-phone-pairing": {
+   "lang": "es",
+   "view": "phone-pairing",
+   "bytes": 55401,
+   "cssWidth": 586,
+   "cssHeight": 452,
+   "md5": "24f04fc47a9ce29e6e77e370b4155efc"
+  },
+  "es-sidebar": {
+   "lang": "es",
+   "view": "sidebar",
+   "bytes": 81000,
+   "cssWidth": 300,
+   "cssHeight": 1195,
+   "md5": "50ebef0bfdde4cfea464e03ebd80c5a2"
+  },
+  "es-pro-modal": {
+   "lang": "es",
+   "view": "pro-modal",
+   "bytes": 126693,
+   "cssWidth": 644,
+   "cssHeight": 754,
+   "md5": "3d4724ec6ebd042a8c3531d0a334bf08"
+  },
+  "es-weekly-report": {
+   "lang": "es",
+   "view": "weekly-report",
+   "bytes": 182352,
+   "cssWidth": 900,
+   "cssHeight": 1584,
+   "md5": "0cd7475f73e2d38277fb34dd518b7c4c"
+  },
+  "es-usage-history": {
+   "lang": "es",
+   "view": "usage-history",
+   "bytes": 132416,
+   "cssWidth": 900,
+   "cssHeight": 1163,
+   "md5": "5b9cac46b6a1595ae052bf4539be22ae"
+  }
+ },
+ "dayNight": {
+  "en": {
+   "differRatio": 0.999,
+   "nightBrightness": 35,
+   "dayBrightness": 244
+  },
+  "de": {
+   "differRatio": 0.999,
+   "nightBrightness": 35,
+   "dayBrightness": 243
+  },
+  "zh-CN": {
+   "differRatio": 0.999,
+   "nightBrightness": 35,
+   "dayBrightness": 243
+  },
+  "ja": {
+   "differRatio": 0.999,
+   "nightBrightness": 35,
+   "dayBrightness": 244
+  },
+  "es": {
+   "differRatio": 0.999,
+   "nightBrightness": 36,
+   "dayBrightness": 243
+  }
+ },
+ "note": "Written by verify/tools/render-store-shots.mjs. Do not edit.",
+ "compressor": "Pillow"
+}

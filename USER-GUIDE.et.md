@@ -1,6 +1,6 @@
 # 📖 Antigravity Quota Monitor: visuaalne kasutusjuhend
 
-*Versioon 2.0.50*
+*Versioon 2.0.51*
 
 **Keel:** [English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · Eesti · [Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md)
 
@@ -17,10 +17,13 @@ Pärast laienduse paigaldamist on sul **2 püsivat ja kohe nähtavat kohta**, ku
 ### Mis on päises ja Ülevaate ülaosas:
 - **Vahekaardid:** **Ülevaade**, **Analüütika** ja **Sätted**. Pealkiri on ainult päises.
 - **Uuendamise kell ja `Värskenda`:** näitab viimast värskendust; nupp küsib andmed kohe.
-- **Keel:** rippmenüü on päises igal vahekaardil. Esimene valik on **Automaatne (redaktori keel, ingliskeelse redaktori puhul süsteemi keel)**, seejärel 37 keelt nende endi nimedega. Valik rakendub kohe ja muudab ainult selle laienduse keelt. Tähe tippimine viib õige keeleni. Sama säte on Sätete osas **Üldine**.
+- **Silma nupp:** näitab kõiki kaarte, nähtavatel on linnuke. Võta linnuke ära ja kaart kaob, pane tagasi ja kaart tuleb tagasi. Number näitab, mitu kaarti on peidus. Sama nupp on külgpaneelil värskendamise nupu kõrval.
+- **Versiooni nupp (`v2.0.51`):** kontrollib, kas on uuem versioon. Kui on, ilmub nupp **`Uuenda versioonile …`**. Vajuta seda ja laadi aken uuesti.
+- **Keel:** rippmenüü on paremal üleval igal vahekaardil. Esimene valik on **Auto** koos praeguse keelega: see järgib redaktori keelt, ingliskeelse redaktori puhul süsteemi keelt. Seejärel tulevad 37 keelt nende endi nimedega. Valik rakendub kohe ja muudab ainult selle laienduse keelt. Tähe tippimine viib õige keeleni. Sama säte on Sätete osas **Üldine**.
 - **`Öö / Päev / Automaatne`:** vahetab tumeda, heleda või redaktoriga sama teema.
 - **Ülevaate esimese pealkirja kõrval:** **`Ava brauseris`** avab ülevaate sinu tavalises veebibrauseris, näiteks teisel ekraanil (Pro, kuulub ka 7 päeva prooviaega), ja **`Kasutusjuhend`** avab selle juhendi. Tasuta versioonis on seal ka **`Osta Pro`** ja **`Mul on võti`**.
 - **Mis on kus:** limiidikaardid on kõige ees (nädal, siis 5 tundi). Pakett, kvoodikrediit, hinnanguline API väärtus ja mudelite arv on nende all.
+- **Suurem aken näitab rohkem:** ühte ritta mahub rohkem kaarte. Umbes 1700 piksli laiuses aknas liiguvad paketi andmed paremale tulpa. Umbes 2400 pikslist avaneb analüütika limiitide kõrval. Sätetes on umbes 1500 pikslist alates mitu tulpa.
 
 ---
 
@@ -45,7 +48,7 @@ Kõik ülevaate kaardikohandused on **tasuta** ja salvestuvad automaatselt:
 - **`① ⋮⋮ Drag & Drop Card Order` (Kaartide ümbertõstmine):** Haara hiirega mis tahes mudelikaardi vasakust ülanurgast **`⋮⋮`** ikoonist ja **lohista kaart täpselt sinna kohta, kuhu soovid**. Sinu lemmikmudelid püsivad alati esimestena!
 - **`② 🎨 Card Color Palette` (Mudelikaardi taustavärvi valimine):** Kliki mudelikaardi päises olevale värvipaleti ikoonile **`🎨`**. Avaneb värvitoonide hüpikmenüü (**Vaikimisi**, **Münt / Mint**, **Taevasinine / Sky**, **Lavendel / Lavender**, **Virsik / Peach**, **Roosa / Rose**, **Mereroheline / Teal**). Päevarežiimis on toonid mahedad pastelsed ja Öörežiimis sügavad tumedad klaasitoonid!
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset` / `Teavita uuenemisel`):** Kliki kaardi all olevale nupule **`🔔 Remind Me at Reset`** — kui selle mudeli uuenemisaeg kätte jõuab, saad helimärguande, teate redaktoris ja kui oled telefoniteavitused seadistanud, siis ka teate telefoni. Redaktor peab selleks avatud olema.
-- **`④ ✕ Peida kaart`:** Kliki kaardi paremas ülanurgas ristile ja kaart kaob töölaualt, külgpaneelilt, hüpikaknast ja olekuribalt. Valik jääb meelde. Kaartide all olevas reas **Peidetud:** saad kaardi plussiga tagasi tuua, sama valik on ka **Sätted → Üldine → Kaardid töölaual**. Limiidid sellest ei muutu. Uued mudelid ilmuvad ise. Hoiatus jääb ära siis, kui kõik selle limiidi mudelid on peidetud.
+- **`④ ✕ Peida kaart`:** Kliki kaardi paremas ülanurgas ristile ja kaart kaob töölaualt, külgpaneelilt, hüpikaknast ja olekuribalt. Valik jääb meelde. Kaardi saad tagasi silma nupuga **`Värskenda`** kõrval või plussiga kaartide all olevas reas **Peidetud:**, sama valik on ka **Sätted → Üldine → Kaardid töölaual**. Limiidid sellest ei muutu. Uued mudelid ilmuvad ise. Hoiatus jääb ära siis, kui kõik selle limiidi mudelid on peidetud.
 
 ---
 
@@ -53,7 +56,7 @@ Kõik ülevaate kaardikohandused on **tasuta** ja salvestuvad automaatselt:
 
 ![Juhtpaneel: Vahemälu puhastaja, 07:00 automaatkäivitaja ja Push-teavitused](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/fb46f6f/images/guide-4-control-center.png)
 
-Ava vahekaart **Sätted** (ka olekuriba hüpikust, menüüst või käsuga `Antigravity Quota: Ava sätete vahekaart`). Kõik sätted on ühes tulbas ja kõik osad on avatud. Vasakul on lingid osade juurde, kitsas aknas on need rida üleval. Järjekord on: **Litsents, Üldine, Olekuriba, Hoiatused, Automaatne käivitus, Telefon ja sõnumid, Terminal, Kettaruum**.
+Ava vahekaart **Sätted** (ka olekuriba hüpikust, menüüst või käsuga `Antigravity Quota: Ava sätete vahekaart`). Kõik osad on avatud. Need on ühes tulbas, laias aknas mitmes. Vasakul on lingid osade juurde, kitsas aknas on need rida üleval. Järjekord on: **Litsents, Üldine, Olekuriba, Hoiatused, Automaatne käivitus, Telefon ja sõnumid, Terminal, Kettaruum**.
 
 ### Litsents
 - **Aktiivse litsentsiga** on üks rida: seis ja nupud **`Muuda litsentsivõtit`**, **`Kontrolli litsentsi`** ja **`Eemalda võti`**.
@@ -84,8 +87,8 @@ Mudelid, mis jagavad ühte limiiti, annavad ühe teate ja ühe telefoniteate, n�
   3. Naase laiendusse ja klõpsa **`Salvesta ja saada testteavitus`**. Tulemus ilmub redaktoris.
   - **QR-koodid:** Androidi kood (kui ntfy äpp on olemas) avab äpi ja tellib teema. Teine kood avab teema veebilehe, kus tellimise nuppu ei ole, nii et iPhone'is tee samm 2 käsitsi.
 - **💬 Discord / Slack Webhook & Telegram Bot:** Sisesta oma Webhook URL ja klõpsa **`Salvesta`**. Telegrami jaoks sisesta vestluse ID, klõpsa **`Salvesta`**, seejärel klõpsa **`Määra boti token`** ja kleebi token akna ülaossa avanevasse kasti.
-- **`⑤ 🚀 Test Notification`:** Kliki rohelisele nupule **`🚀 Test Notification`**, et saata kohe testteavitus oma telefonile (teavitused saabuvad automaatselt sinu valitud keeles!).
-- **💻 Terminali olekufail ja koodilõigud:** Kliki **`zsh`**, **`Starship`** või **`tmux`**, et avada koodilõigud; kopeeri oma kesta oma ja kleebi see faili, mille ta nimetab (olekufail: `~/.antigravity-quota/status.json`).
+- **`⑤ 🚀 Test Notification`:** Kliki rohelisele nupule **`🚀 Test Notification`**, et saata kohe testteavitus kõigisse seadistatud kanalitesse, sinu valitud keeles.
+- **💻 Terminali olekufail ja koodilõigud:** Kliki **`zsh`**, **`Starship`** või **`tmux`**, et avada koodilõigud; kopeeri see, mida kasutad, ja kleebi see faili, mille ta nimetab (olekufail: `~/.antigravity-quota/status.json`).
 
 ### Kettaruum
 - **Kettakasutus ja vanad vestlusfailid:**
@@ -121,4 +124,4 @@ Iga uus paigaldus saab **7 päeva kõiki Pro-funktsioone** otse laienduses, ilma
 4. **Kust võti tuleb ja kuhu see läheb:** võtme leiad ostu e-kirjast või Polari kinnituslehelt. Nupp **`Mul on võti`** on prooviaja bänneril, Ülevaates ja külgpaneelil; Sätetes on kohe esimesena võtme lahter koos seisuga (Tasuta / prooviaeg). Pärast aktiveerimist kaob prooviaja bänner kohe ja märgiks saab **PRO**, akent pole vaja uuesti laadida.
 5. **Pärast ostu:** kui vajutasid ostunuppu ja tuled 30 minuti jooksul redaktorisse tagasi, vaatab laiendus ühe korra, kas lõikelaual on litsentsivõti, ja küsib, kas see aktiveerida. Muul ajal ta lõikelauda ei loe, ja teksti ei salvestata.
 
-Iga aken ja hüpik suletakse **X**-iga üleval paremas nurgas või klahviga **Esc**.
+Laienduse aknad ja infohüpikud suletakse **X**-iga üleval paremas nurgas või klahviga **Esc**.
