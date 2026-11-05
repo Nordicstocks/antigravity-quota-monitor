@@ -96,7 +96,7 @@ Mudelid, mis jagavad ühte limiiti, annavad ühe teate ja ühe telefoniteate, n�
 
 ### Kiirtoimingud (menüü)
 
-Olekuriba hüpiku link **Kiirtoimingud**, külgpaneeli nupp ja käsk `Antigravity Quota: Kiirtoimingud` avavad sama menüü. ülevaade, brauser, värskendamine, meeldetuletus, aruanne, kasutusajalugu (sealt saab salvestada CSV- või JSON-faili), testteavitus, **Välimus, keel ja olekuriba**, kasutusjuhend ja litsents. Numbrid on olekuribal, selle hüpikus ja ülevaates. **Tagasi** viib ühe taseme võrra üles ja alammenüü viimane rida avab vahekaardi **Sätted**.
+Olekuriba hüpiku link **Kiirtoimingud**, külgpaneeli nupp ja käsk `Antigravity Quota: Kiirtoimingud` avavad sama menüü: ülevaade, brauser, värskendamine, meeldetuletus, aruanne, kasutusajalugu (sealt saab salvestada CSV- või JSON-faili), testteavitus, **Välimus, keel ja olekuriba**, kasutusjuhend ja litsents. Numbrid on olekuribal, selle hüpikus ja ülevaates. **Tagasi** viib ühe taseme võrra üles ja alammenüü viimane rida avab vahekaardi **Sätted**.
 
 ---
 
