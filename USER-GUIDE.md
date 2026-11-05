@@ -68,7 +68,7 @@ Models that share one limit give one notification and one phone alert, for examp
   - **If a run fails:** the extension says so and tries again after 30 minutes, with at most 3 attempts a day and within the same 3 hours. Only the models that failed are asked again.
   - **Results are real:** if `agy` is missing or fails, you see an error. The "started" phone notification comes only after success. With several windows open, only one sends the prompt.
 - **`Start 5-Hour Window Now`:** Sends the same prompt now, also after your consent.
-- **Phone and messages — `Connect your phone` (ntfy, no account needed):**
+- **Phone and chat notifications — `Connect your phone` (ntfy, no account needed):**
   1. Install the free **ntfy** app (App Store / Google Play).
   2. In the app, tap **`+`** and enter the topic shown on the dashboard (it has a **Copy** button). The topic is long and random because ntfy.sh topics are public: keep it to yourself.
   3. Return to the extension, then click **`Save and send a test notification`**. The result appears in the editor.
@@ -80,7 +80,7 @@ Models that share one limit give one notification and one phone alert, for examp
 
 ### Quick Actions (the menu)
 
-The status bar popup link **Quick Actions**, the sidebar button and the command `Antigravity Quota: Quick Actions` open the same menu. dashboard, browser, refresh, reminder, report, usage history (it can save CSV or JSON), test notification, **Appearance, Language & Status Bar**, user guide and license. The numbers are on the status bar, in its popup and on the dashboard. **Back** goes up one level, and the last row of the submenu opens the **Settings** tab.
+The status bar popup link **Quick Actions**, the sidebar button and the command `Antigravity Quota: Quick Actions` open the same menu: dashboard, browser, refresh, reminder, report, usage history (it can save CSV or JSON), test notification, **Appearance, Language & Status Bar**, user guide and license. The numbers are on the status bar, in its popup and on the dashboard. **Back** goes up one level, and the last row of the submenu opens the **Settings** tab.
 
 ### Weekly Report and Usage History (Pro)
 
