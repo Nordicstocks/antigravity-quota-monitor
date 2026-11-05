@@ -2,6 +2,12 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.48] - 2026-11-05
+- Close any model or weekly card with the X on the dashboard or in the side panel, and bring it back with the plus. Your choice is saved, and new models appear on their own.
+- Windows: the Auto-Starter now finds `agy`. It also picks models by asking `agy`, so a rename at Google does not break it, and it tells you when a scheduled run has started.
+- Info windows now stay inside the panel. Terminal lines: tmux shows the whole line, PowerShell is supported, and old numbers show as `AGY: stale`.
+- Faster start and clearer language paths: the error stays hidden during the first seconds, and text follows the language you chose.
+
 ## [2.0.47] - 2026-11-04
 - New dashboard header, Settings page, weekly report and usage history views. German, Chinese, Japanese and Spanish updated. Reliability and security fixes.
 

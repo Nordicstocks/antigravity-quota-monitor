@@ -20,7 +20,7 @@ Pärast laienduse paigaldamist on sul **2 püsivat ja kohe nähtavat kohta**, ku
 ### Mis on päises ja Ülevaate ülaosas:
 - **Vahekaardid:** **Ülevaade**, **Analüütika** ja **Sätted**. Pealkiri on ainult päises.
 - **Uuendamise kell ja `Värskenda`:** näitab viimast värskendust; nupp küsib andmed kohe.
-- **Keel:** rippmenüü on päises igal vahekaardil. Esimene valik on **Redaktori keel (automaatne)**, seejärel 37 keelt nende endi nimedega. Valik rakendub kohe ja muudab ainult selle laienduse keelt. Tähe tippimine viib õige keeleni. Sama säte on Sätete osas **Üldine**.
+- **Keel:** rippmenüü on päises igal vahekaardil. Esimene valik on **Automaatne (redaktori keel, ingliskeelse redaktori puhul süsteemi keel)**, seejärel 37 keelt nende endi nimedega. Valik rakendub kohe ja muudab ainult selle laienduse keelt. Tähe tippimine viib õige keeleni. Sama säte on Sätete osas **Üldine**.
 - **`Öö / Päev / Automaatne`:** vahetab tumeda, heleda või redaktoriga sama teema.
 - **Ülevaate esimese pealkirja kõrval:** **`Ava brauseris`** avab ülevaate sinu tavalises veebibrauseris, näiteks teisel ekraanil (Pro, kuulub ka 7 päeva prooviaega), ja **`Kasutusjuhend`** avab selle juhendi. Tasuta versioonis on seal ka **`Osta Pro`** ja **`Mul on võti`**.
 - **Mis on kus:** limiidikaardid on kõige ees (nädal, siis 5 tundi). Pakett, kvoodikrediit, hinnanguline API väärtus ja mudelite arv on nende all.
@@ -48,6 +48,7 @@ Kõik ülevaate kaardikohandused on **100% TASUTA** ja salvestuvad automaatselt:
 - **`① ⋮⋮ Drag & Drop Card Order` (Kaartide ümbertõstmine):** Haara hiirega mis tahes mudelikaardi vasakust ülanurgast **`⋮⋮`** ikoonist ja **lohista kaart täpselt sinna kohta, kuhu soovid**. Sinu lemmikmudelid püsivad alati esimestena!
 - **`② 🎨 Card Color Palette` (Mudelikaardi taustavärvi valimine):** Kliki mudelikaardi päises olevale värvipaleti ikoonile **`🎨`**. Avaneb värvitoonide hüpikmenüü (**Vaikimisi**, **Münt / Mint**, **Taevasinine / Sky**, **Lavendel / Lavender**, **Virsik / Peach**, **Roosa / Rose**, **Mereroheline / Teal**). Päevarežiimis on toonid mahedad pastelsed ja Öörežiimis sügavad tumedad klaasitoonid!
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset` / `Teavita uuenemisel`):** Kliki kaardi all olevale nupule **`🔔 Remind Me at Reset`** — kui selle mudeli uuenemisaeg kätte jõuab, saad helimärguande, teate redaktoris ja kui oled telefoniteavitused seadistanud, siis ka teate telefoni. Redaktor peab selleks avatud olema.
+- **`④ ✕ Peida kaart`:** Kliki kaardi paremas ülanurgas ristile ja kaart kaob töölaualt, külgpaneelilt, hüpikaknast ja olekuribalt. Valik jääb meelde. Kaartide all olevas reas **Peidetud:** saad kaardi plussiga tagasi tuua, sama valik on ka **Sätted → Üldine → Kaardid töölaual**. Limiidid sellest ei muutu. Uued mudelid ilmuvad ise. Hoiatus jääb ära siis, kui kõik selle limiidi mudelid on peidetud.
 
 ---
 
@@ -141,7 +142,7 @@ Once installed, you have **2 permanent, always-visible Mission Control entry poi
 ### What's in the header and at the top of Overview:
 - **Tabs:** **Overview**, **Analytics** and **Settings**. The title is in the header only.
 - **Updated time and `Refresh`:** shows the last refresh; the button fetches the data now.
-- **Language:** the dropdown is in the header on every tab. The first option is **Editor language (automatic)**, then 37 languages in their own names. It applies at once and changes the language of this extension only. Typing a letter jumps to a language. The same setting is in the **General** section of Settings.
+- **Language:** the dropdown is in the header on every tab. The first option is **Automatic (editor language, or system language if the editor is English)**, then 37 languages in their own names. It applies at once and changes the language of this extension only. Typing a letter jumps to a language. The same setting is in the **General** section of Settings.
 - **`Night / Day / Auto`:** switches to the dark, the light or the editor's theme.
 - **Beside the first heading on Overview:** **`Open in Browser`** opens the dashboard in your default web browser, for example on a second display (Pro, included in the 7-day trial), and **`User guide`** opens this manual. In Free you also find **`Buy Pro`** and **`I have a key`** there.
 - **What comes first:** the limit cards (weekly, then 5-hour). Plan, prompt credits, estimated API value and the model count are below them.
@@ -169,6 +170,7 @@ All card layout and color customizations are **100% FREE** and persisted automat
 - **`① ⋮⋮ Drag & Drop Card Order`:** Grab any card by its top-left **`⋮⋮`** handle and drag it into your preferred slot.
 - **`② 🎨 Card Color Palette`:** Click the palette button **`🎨`** on any card header to pick a tint (**Default**, **Mint**, **Sky**, **Lavender**, **Peach**, **Rose**, **Teal**).
 - **`③ 🔔 1-Click Reset Reminder` (`Remind Me at Reset`):** Click **`🔔 Remind Me at Reset`** at the bottom of any model card to get a sound, an editor notification and, if you set up phone alerts, a phone alert when that model's reset time arrives. The editor must be open.
+- **`④ ✕ Hide a card`:** Click the cross in the top-right corner of a card to remove it from the dashboard, side panel, tooltip and status bar. Your choice is saved. Bring it back with the plus in the **Hidden:** row below the cards, or under **Settings → General → Cards on the dashboard**. Your limits stay the same, and new models appear on their own. Alerts stop only when every model on that limit is hidden.
 
 ---
 
