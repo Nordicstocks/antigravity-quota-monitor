@@ -2,6 +2,10 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.49] - 2026-11-05
+- Drag the cards in the side panel up and down, in the same order as the dashboard. The panel keeps its place when it redraws.
+- The User Guide now opens in your language: separate English and Estonian guides.
+
 ## [2.0.48] - 2026-11-05
 - Close any model or weekly card with the X on the dashboard or in the side panel, and bring it back with the plus. Your choice is saved, and new models appear on their own.
 - Windows: the Auto-Starter now finds `agy`. It also picks models by asking `agy`, so a rename at Google does not break it, and it tells you when a scheduled run has started.
