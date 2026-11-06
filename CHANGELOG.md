@@ -2,6 +2,13 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.53] - 2026-11-06
+- The user guide is now available in 37 languages. Pick yours from the list at the top of the guide.
+- The eye button tells you what is wrong when Antigravity is not running, instead of doing nothing.
+- Auto-Starter: pressing a time button now also updates the time field, and an impossible time such as 25:99 is refused and no longer saved as 07:00.
+- Hidden cards: a card that is on the page is no longer also offered as hidden.
+- Settings: the section you click in the left list stays marked, also near the end of the page.
+
 ## [2.0.52] - 2026-11-06
 - Sound alerts now work on Windows as well as macOS, with four new sounds made for this extension.
 - One sound per alert: when several models share a limit, the sound no longer plays several times.
