@@ -2,6 +2,12 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.52] - 2026-11-06
+- Sound alerts now work on Windows as well as macOS, with four new sounds made for this extension.
+- One sound per alert: when several models share a limit, the sound no longer plays several times.
+- The commands that open the Settings tab and the user guide are now translated into German, Japanese and Chinese.
+- The user guide is rewritten with current screenshots. It now says clearly that removing a license key does not cancel a monthly subscription.
+
 ## [2.0.51] - 2026-11-05
 - The dashboard fits your window: a bigger screen shows more cards in a row, then more columns, and no card stays alone on a row.
 - The language list is at the top right on every tab and no longer gets cut off.
