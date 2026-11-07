@@ -2,6 +2,9 @@
 
 All notable changes to **Antigravity Ultimate Cockpit Quota Monitor & Dashboard (Pro v2)** are documented in this file.
 
+## [2.0.54] - 2026-11-07
+- A new store page: shorter, with current screenshots, in English, Estonian, German, Japanese, Chinese, Korean and Spanish.
+
 ## [2.0.53] - 2026-11-06
 - The user guide is now available in 37 languages. Pick yours from the list at the top of the guide.
 - The eye button tells you what is wrong when Antigravity is not running, instead of doing nothing.
