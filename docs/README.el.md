@@ -30,20 +30,14 @@
 
 ## 🔥 Πίνακας εργαλείων Antigravity Quota — 🇬🇷 Ελληνικά
 
-### ☀️ 1. Πίνακας εργαλείων Antigravity Quota — Ημέρα (Εβδομαδιαίο όριο + Όριο 5 ωρών + Γρήγορες ρυθμίσεις και κέντρο ελέγχου Pro)
-![Dashboard Day (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Πίνακας εργαλείων Antigravity Quota — Νύχτα (Εβδομαδιαίο όριο + Όριο 5 ωρών + Χρήση ορίου ανά ημέρα της εβδομάδας και ώρα)
-![Dashboard Night (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Πίνακας εργαλείων Antigravity Quota — Νύχτα (Εβδομαδιαίο όριο + Όριο 5 ωρών + Χρήση ορίου ανά ημέρα της εβδομάδας και ώρα)
+![Dashboard Night (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Αλλαγή στυλ γραμμής προόδου
-![🎨 Αλλαγή στυλ γραμμής προόδου (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Αλλαγή στυλ γραμμής προόδου (🇬🇷 Ελληνικά)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

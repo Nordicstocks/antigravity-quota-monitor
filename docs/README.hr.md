@@ -30,20 +30,14 @@
 
 ## 🔥 Nadzorna ploča Antigravity Quota — 🇭🇷 Hrvatski
 
-### ☀️ 1. Nadzorna ploča Antigravity Quota — Dan (Tjedno ograničenje + 5-satno ograničenje + Brze postavke i Pro kontrolni centar)
-![Dashboard Day (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Nadzorna ploča Antigravity Quota — Noć (Tjedno ograničenje + 5-satno ograničenje + Potrošnja kvote po danima u tjednu i satima)
-![Dashboard Night (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Nadzorna ploča Antigravity Quota — Noć (Tjedno ograničenje + 5-satno ograničenje + Potrošnja kvote po danima u tjednu i satima)
+![Dashboard Night (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Promijeni stil trake napretka
-![🎨 Promijeni stil trake napretka (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Promijeni stil trake napretka (🇭🇷 Hrvatski)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

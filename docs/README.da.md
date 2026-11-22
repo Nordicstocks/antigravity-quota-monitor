@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota Dashboard — 🇩🇰 Dansk
 
-### ☀️ 1. Antigravity Quota Dashboard — Dag (Ugentlig grænse + 5-timersgrænse + Hurtige indstillinger og kontrolcenter for Pro)
-![Dashboard Day (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity Quota Dashboard — Nat (Ugentlig grænse + 5-timersgrænse + Kvoteforbrug fordelt på ugedag og time)
-![Dashboard Night (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity Quota Dashboard — Nat (Ugentlig grænse + 5-timersgrænse + Kvoteforbrug fordelt på ugedag og time)
+![Dashboard Night (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Skift bjælkestil
-![🎨 Skift bjælkestil (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Skift bjælkestil (🇩🇰 Dansk)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

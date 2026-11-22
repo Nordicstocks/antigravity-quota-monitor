@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota-paneelbord — 🇿🇦 Afrikaans
 
-### ☀️ 1. Antigravity Quota-paneelbord — Dag (Weeklikse limiet + 5-uur-limiet + Kitsinstellings en Pro-beheersentrum)
-![Dashboard Day (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity Quota-paneelbord — Nag (Weeklikse limiet + 5-uur-limiet + Kwotagebruik per dag van die week en uur)
-![Dashboard Night (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity Quota-paneelbord — Nag (Weeklikse limiet + 5-uur-limiet + Kwotagebruik per dag van die week en uur)
+![Dashboard Night (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Verander die vorderingsbalkstyl
-![🎨 Verander die vorderingsbalkstyl (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Verander die vorderingsbalkstyl (🇿🇦 Afrikaans)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

@@ -30,20 +30,14 @@
 
 ## 🔥 Tablou de bord Antigravity Quota — 🇷🇴 Română
 
-### ☀️ 1. Tablou de bord Antigravity Quota — Zi (Limită săptămânală + Limită de 5 ore + Setări rapide și centrul de control Pro)
-![Dashboard Day (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Tablou de bord Antigravity Quota — Noapte (Limită săptămânală + Limită de 5 ore + Utilizarea cotei după ziua săptămânii și oră)
-![Dashboard Night (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Tablou de bord Antigravity Quota — Noapte (Limită săptămânală + Limită de 5 ore + Utilizarea cotei după ziua săptămânii și oră)
+![Dashboard Night (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Schimbați stilul barei de progres
-![🎨 Schimbați stilul barei de progres (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Schimbați stilul barei de progres (🇷🇴 Română)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

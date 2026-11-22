@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota 儀表板 — 🇹🇼 繁體中文
 
-### ☀️ 1. Antigravity Quota 儀表板 — 日間 (每週限額 + 5 小時限額 + 快速設定與 Pro 控制中心)
-![Dashboard Day (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/zh-overview-day.png)
-
-### 🌙 2. Antigravity Quota 儀表板 — 夜間 (每週限額 + 5 小時限額 + 依星期與時段的配額用量)
-![Dashboard Night (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/zh-overview-night.png)
+### 🌙 Antigravity Quota 儀表板 — 夜間 (每週限額 + 5 小時限額 + 依星期與時段的配額用量)
+![Dashboard Night (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/zh-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/zh-settings-night.png)
+![Status Bar (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 變更進度列樣式
-![🎨 變更進度列樣式 (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/zh-analytics-night.png)
+![🎨 變更進度列樣式 (🇹🇼 繁體中文)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

@@ -30,20 +30,14 @@
 
 ## 🔥 Deais Antigravity Quota — 🇮🇪 Gaeilge
 
-### ☀️ 1. Deais Antigravity Quota — Lá (Teorainn sheachtainiúil + Teorainn 5 huaire an chloig + Socruithe tapa agus lárionad rialaithe Pro)
-![Dashboard Day (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Deais Antigravity Quota — Oíche (Teorainn sheachtainiúil + Teorainn 5 huaire an chloig + Úsáid cuóta de réir lae den tseachtain agus uaire an chloig)
-![Dashboard Night (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Deais Antigravity Quota — Oíche (Teorainn sheachtainiúil + Teorainn 5 huaire an chloig + Úsáid cuóta de réir lae den tseachtain agus uaire an chloig)
+![Dashboard Night (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Athraigh stíl an bharra dul chun cinn
-![🎨 Athraigh stíl an bharra dul chun cinn (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Athraigh stíl an bharra dul chun cinn (🇮🇪 Gaeilge)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

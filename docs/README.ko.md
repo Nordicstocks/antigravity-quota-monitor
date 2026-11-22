@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota 대시보드 — 🇰🇷 한국어
 
-### ☀️ 1. Antigravity Quota 대시보드 — 낮 (주간 한도 + 5시간 한도 + 빠른 설정 및 Pro 제어 센터)
-![Dashboard Day (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity Quota 대시보드 — 밤 (주간 한도 + 5시간 한도 + 요일·시간대별 할당량 사용)
-![Dashboard Night (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity Quota 대시보드 — 밤 (주간 한도 + 5시간 한도 + 요일·시간대별 할당량 사용)
+![Dashboard Night (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/ko-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/ko-hero.png)
 
 ### 🎨 🎨 진행률 표시줄 스타일 변경
-![🎨 진행률 표시줄 스타일 변경 (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 진행률 표시줄 스타일 변경 (🇰🇷 한국어)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/ko-analytics-night.png)
 
 ---
 

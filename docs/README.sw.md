@@ -30,20 +30,14 @@
 
 ## 🔥 Dashibodi ya Antigravity Quota — 🇰🇪 Kiswahili
 
-### ☀️ 1. Dashibodi ya Antigravity Quota — Mchana (Kikomo cha kila wiki + Kikomo cha saa 5 + Mipangilio ya haraka na kituo cha udhibiti cha Pro)
-![Dashboard Day (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Dashibodi ya Antigravity Quota — Usiku (Kikomo cha kila wiki + Kikomo cha saa 5 + Matumizi ya kiwango kwa siku ya wiki na saa)
-![Dashboard Night (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Dashibodi ya Antigravity Quota — Usiku (Kikomo cha kila wiki + Kikomo cha saa 5 + Matumizi ya kiwango kwa siku ya wiki na saa)
+![Dashboard Night (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Badilisha mtindo wa mwambaa wa maendeleo
-![🎨 Badilisha mtindo wa mwambaa wa maendeleo (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Badilisha mtindo wa mwambaa wa maendeleo (🇰🇪 Kiswahili)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

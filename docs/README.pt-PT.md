@@ -30,20 +30,14 @@
 
 ## 🔥 Painel do Antigravity Quota — 🇵🇹 Português (Portugal)
 
-### ☀️ 1. Painel do Antigravity Quota — Dia (Limite semanal + Limite de 5 horas + Definições rápidas e centro de controlo Pro)
-![Dashboard Day (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Painel do Antigravity Quota — Noite (Limite semanal + Limite de 5 horas + Utilização da quota por dia da semana e hora)
-![Dashboard Night (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Painel do Antigravity Quota — Noite (Limite semanal + Limite de 5 horas + Utilização da quota por dia da semana e hora)
+![Dashboard Night (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Alterar estilo da barra de progresso
-![🎨 Alterar estilo da barra de progresso (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Alterar estilo da barra de progresso (🇵🇹 Português (Portugal))](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota informācijas panelis — 🇱🇻 Latviešu
 
-### ☀️ 1. Antigravity Quota informācijas panelis — Diena (Nedēļas ierobežojums + 5 stundu ierobežojums + Ātrie iestatījumi un Pro vadības centrs)
-![Dashboard Day (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity Quota informācijas panelis — Nakts (Nedēļas ierobežojums + 5 stundu ierobežojums + Kvotas lietojums pa nedēļas dienām un stundām)
-![Dashboard Night (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity Quota informācijas panelis — Nakts (Nedēļas ierobežojums + 5 stundu ierobežojums + Kvotas lietojums pa nedēļas dienām un stundām)
+![Dashboard Night (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Mainīt progresa joslas stilu
-![🎨 Mainīt progresa joslas stilu (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Mainīt progresa joslas stilu (🇱🇻 Latviešu)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

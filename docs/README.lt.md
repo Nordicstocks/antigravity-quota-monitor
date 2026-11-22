@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity kvotų suvestinė — 🇱🇹 Lietuvių
 
-### ☀️ 1. Antigravity kvotų suvestinė — Diena (Savaitės limitas + 5 valandų limitas + Spartieji nustatymai ir Pro valdymo centras)
-![Dashboard Day (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity kvotų suvestinė — Naktis (Savaitės limitas + 5 valandų limitas + Kvotos naudojimas pagal savaitės dieną ir valandą)
-![Dashboard Night (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity kvotų suvestinė — Naktis (Savaitės limitas + 5 valandų limitas + Kvotos naudojimas pagal savaitės dieną ir valandą)
+![Dashboard Night (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Keisti eigos juostos stilių
-![🎨 Keisti eigos juostos stilių (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Keisti eigos juostos stilių (🇱🇹 Lietuvių)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

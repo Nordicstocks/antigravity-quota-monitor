@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota -koontinäyttö — 🇫🇮 Suomi
 
-### ☀️ 1. Antigravity Quota -koontinäyttö — Päivä (Viikkoraja + 5 tunnin raja + Pika-asetukset ja Pro-ohjauskeskus)
-![Dashboard Day (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity Quota -koontinäyttö — Yö (Viikkoraja + 5 tunnin raja + Kiintiön käyttö viikonpäivittäin ja tunneittain)
-![Dashboard Night (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity Quota -koontinäyttö — Yö (Viikkoraja + 5 tunnin raja + Kiintiön käyttö viikonpäivittäin ja tunneittain)
+![Dashboard Night (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Vaihda edistymispalkin tyyli
-![🎨 Vaihda edistymispalkin tyyli (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Vaihda edistymispalkin tyyli (🇫🇮 Suomi)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

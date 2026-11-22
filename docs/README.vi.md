@@ -30,20 +30,14 @@
 
 ## 🔥 Trang tổng quan hạn mức Antigravity — 🇻🇳 Tiếng Việt
 
-### ☀️ 1. Trang tổng quan hạn mức Antigravity — Ngày (Giới hạn hằng tuần + Giới hạn 5 giờ + Cài đặt nhanh và trung tâm điều khiển Pro)
-![Dashboard Day (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Trang tổng quan hạn mức Antigravity — Đêm (Giới hạn hằng tuần + Giới hạn 5 giờ + Hạn mức đã dùng theo ngày trong tuần và giờ)
-![Dashboard Night (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Trang tổng quan hạn mức Antigravity — Đêm (Giới hạn hằng tuần + Giới hạn 5 giờ + Hạn mức đã dùng theo ngày trong tuần và giờ)
+![Dashboard Night (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Đổi kiểu thanh tiến trình
-![🎨 Đổi kiểu thanh tiến trình (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Đổi kiểu thanh tiến trình (🇻🇳 Tiếng Việt)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

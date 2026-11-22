@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quota डैशबोर्ड — 🇮🇳 हिन्दी
 
-### ☀️ 1. Antigravity Quota डैशबोर्ड — दिन (साप्ताहिक सीमा + 5 घंटे की सीमा + क्विक सेटिंग्स और Pro कंट्रोल सेंटर)
-![Dashboard Day (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Antigravity Quota डैशबोर्ड — रात (साप्ताहिक सीमा + 5 घंटे की सीमा + सप्ताह के दिन और घंटे के अनुसार कोटा उपयोग)
-![Dashboard Night (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Antigravity Quota डैशबोर्ड — रात (साप्ताहिक सीमा + 5 घंटे की सीमा + सप्ताह के दिन और घंटे के अनुसार कोटा उपयोग)
+![Dashboard Night (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 प्रोग्रेस बार की शैली बदलें
-![🎨 प्रोग्रेस बार की शैली बदलें (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 प्रोग्रेस बार की शैली बदलें (🇮🇳 हिन्दी)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

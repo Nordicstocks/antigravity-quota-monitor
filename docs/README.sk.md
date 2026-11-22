@@ -30,20 +30,14 @@
 
 ## 🔥 Prehľad kvót Antigravity — 🇸🇰 Slovenčina
 
-### ☀️ 1. Prehľad kvót Antigravity — Deň (Týždenný limit + 5-hodinový limit + Rýchle nastavenia a ovládacie centrum Pro)
-![Dashboard Day (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Prehľad kvót Antigravity — Noc (Týždenný limit + 5-hodinový limit + Využitie kvóty podľa dňa v týždni a hodiny)
-![Dashboard Night (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Prehľad kvót Antigravity — Noc (Týždenný limit + 5-hodinový limit + Využitie kvóty podľa dňa v týždni a hodiny)
+![Dashboard Night (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Zmeniť štýl indikátora priebehu
-![🎨 Zmeniť štýl indikátora priebehu (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Zmeniť štýl indikátora priebehu (🇸🇰 Slovenčina)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

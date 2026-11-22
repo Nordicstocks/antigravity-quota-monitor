@@ -30,20 +30,14 @@
 
 ## 🔥 Instrumentpanel för Antigravity Quota — 🇸🇪 Svenska
 
-### ☀️ 1. Instrumentpanel för Antigravity Quota — Dag (Veckogräns + 5-timmarsgräns + Snabbinställningar och kontrollcenter för Pro)
-![Dashboard Day (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Instrumentpanel för Antigravity Quota — Natt (Veckogräns + 5-timmarsgräns + Kvotanvändning per veckodag och timme)
-![Dashboard Night (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Instrumentpanel för Antigravity Quota — Natt (Veckogräns + 5-timmarsgräns + Kvotanvändning per veckodag och timme)
+![Dashboard Night (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Ändra förloppsindikatorns stil
-![🎨 Ändra förloppsindikatorns stil (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Ändra förloppsindikatorns stil (🇸🇪 Svenska)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

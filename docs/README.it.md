@@ -30,20 +30,14 @@
 
 ## 🔥 Dashboard di Antigravity Quota — 🇮🇹 Italiano
 
-### ☀️ 1. Dashboard di Antigravity Quota — Giorno (Limite settimanale + Limite di 5 ore + Impostazioni rapide e centro di controllo Pro)
-![Dashboard Day (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Dashboard di Antigravity Quota — Notte (Limite settimanale + Limite di 5 ore + Utilizzo della quota per giorno della settimana e ora)
-![Dashboard Night (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Dashboard di Antigravity Quota — Notte (Limite settimanale + Limite di 5 ore + Utilizzo della quota per giorno della settimana e ora)
+![Dashboard Night (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Cambia stile della barra di avanzamento
-![🎨 Cambia stile della barra di avanzamento (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Cambia stile della barra di avanzamento (🇮🇹 Italiano)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 

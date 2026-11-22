@@ -30,20 +30,14 @@
 
 ## 🔥 Antigravity Quotaダッシュボード — 🇯🇵 日本語
 
-### ☀️ 1. Antigravity Quotaダッシュボード — 昼 (週間制限 + 5時間制限 + クイック設定とProコントロールセンター)
-![Dashboard Day (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/ja-overview-day.png)
-
-### 🌙 2. Antigravity Quotaダッシュボード — 夜 (週間制限 + 5時間制限 + 曜日・時間帯別のクォータ使用量)
-![Dashboard Night (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/ja-overview-night.png)
+### 🌙 Antigravity Quotaダッシュボード — 夜 (週間制限 + 5時間制限 + 曜日・時間帯別のクォータ使用量)
+![Dashboard Night (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/ja-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/ja-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/ja-settings-night.png)
+![Status Bar (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/ja-hero.png)
 
 ### 🎨 🎨 残量バーのスタイルを変更
-![🎨 残量バーのスタイルを変更 (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/ja-analytics-night.png)
+![🎨 残量バーのスタイルを変更 (🇯🇵 日本語)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/ja-analytics-night.png)
 
 ---
 

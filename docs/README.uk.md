@@ -30,20 +30,14 @@
 
 ## 🔥 Інформаційна панель Antigravity Quota — 🇺🇦 Українська
 
-### ☀️ 1. Інформаційна панель Antigravity Quota — День (Тижневий ліміт + 5-годинний ліміт + Швидкі налаштування та центр керування Pro)
-![Dashboard Day (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-02-overview-day.png)
-
-### 🌙 2. Інформаційна панель Antigravity Quota — Ніч (Тижневий ліміт + 5-годинний ліміт + Використання квоти за днями тижня й годинами)
-![Dashboard Night (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-01-overview-night.png)
+### 🌙 Інформаційна панель Antigravity Quota — Ніч (Тижневий ліміт + 5-годинний ліміт + Використання квоти за днями тижня й годинами)
+![Dashboard Night (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-overview-night.png)
 
 ### ⚡ Status Bar (`↻3h 52m (19:52)` & `⏳42m`)
-![Status Bar (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-07-sidebar-night.png)
-
-### 📋 📊 Antigravity Quota Monitor
-![📊 Antigravity Quota Monitor (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-03-settings-night.png)
+![Status Bar (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-hero.png)
 
 ### 🎨 🎨 Змінити стиль індикаторів
-![🎨 Змінити стиль індикаторів (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/6274b7d/images/new-ui-05-analytics-night.png)
+![🎨 Змінити стиль індикаторів (🇺🇦 Українська)](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/ec3335174dfa99658daf884895033b84acdfb782/images/store/en-analytics-night.png)
 
 ---
 
