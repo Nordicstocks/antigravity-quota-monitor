@@ -1,6 +1,6 @@
 # Antigravity Quota Monitor: 사용자 가이드
 
-*버전 2.0.55*
+*버전 2.0.60*
 
 **언어:** [🇬🇧 English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · [🇪🇪 Eesti keel](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [🇩🇪 Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [🇫🇮 Suomi](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fi.md) · [🇪🇸 Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md) · [🇫🇷 Français](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fr.md) · [🇮🇹 Italiano](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.it.md) · [🇵🇱 Polski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pl.md) · [🇳🇱 Nederlands](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.nl.md) · [🇸🇪 Svenska](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sv.md) · [🇵🇹 Português (Portugal)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-PT.md) · [🇧🇷 Português (Brasil)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-BR.md) · [🇧🇬 Български](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.bg.md) · [🇭🇷 Hrvatski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hr.md) · [🇨🇿 Čeština](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.cs.md) · [🇩🇰 Dansk](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.da.md) · [🇬🇷 Ελληνικά](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.el.md) · [🇭🇺 Magyar](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hu.md) · [🇮🇪 Gaeilge](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ga.md) · [🇱🇻 Latviešu](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lv.md) · [🇱🇹 Lietuvių](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lt.md) · [🇱🇺 Lëtzebuergesch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lb.md) · [🇲🇹 Malti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.mt.md) · [🇷🇴 Română](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ro.md) · [🇸🇰 Slovenčina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sk.md) · [🇸🇮 Slovenščina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sl.md) · [🇺🇦 Українська](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.uk.md) · [🇿🇦 Afrikaans](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.af.md) · [🇯🇵 日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [🇨🇳 简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [🇹🇼 繁體中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-TW.md) · 🇰🇷 한국어 · [🇻🇳 Tiếng Việt](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.vi.md) · [🇮🇩 Bahasa Indonesia](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.id.md) · [🇮🇳 हिन्दी](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hi.md) · [🇰🇪 Kiswahili](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sw.md) · [🇸🇦 العربية](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ar.md)
 
@@ -12,7 +12,7 @@
 
 확장 프로그램을 설치하면 두 곳에서 찾을 수 있습니다.
 1. **📌 활동 표시줄 아이콘:** 활동 표시줄의 게이지 아이콘을 클릭하면 **Antigravity Cockpit** 사이드 패널이 열립니다.
-2. **📊 상태 표시줄 미터, 오른쪽 아래:** 무료 플랜에서는 `G: 87% 🟩🟩🟩🟩⬜ | C: 97% 🟩🟩🟩🟩🟩`처럼 표시됩니다. G는 Gemini 모델을, C는 Claude 및 GPT 모델을 뜻합니다. Pro에서는 초기화까지 남은 시간과 초기화 시각도 함께 표시됩니다(예: `↻3h 52m (19:52)`). 미터에 마우스를 올리면 자세한 내용을 볼 수 있습니다(2장 참조).
+2. **📊 상태 표시줄 미터, 오른쪽 아래:** 무료 플랜에서는 `G: 87% 🟩🟩🟩🟩⬜ | C: 97% 🟩🟩🟩🟩🟩`처럼 표시됩니다. G는 Gemini 모델을, C는 Claude 모델을 뜻합니다. Pro에서는 초기화까지 남은 시간과 초기화 시각도 함께 표시됩니다(예: `↻3h 52m (19:52)`). 미터에 마우스를 올리면 자세한 내용을 볼 수 있습니다(2장 참조).
 
 ![Antigravity Cockpit 사이드 패널](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/guide-sidebar.png)
 
@@ -20,7 +20,7 @@
 - **탭:** **개요**, **분석**, **설정**. 탭에는 페이지 제목이 반복되지 않으며, 제목은 헤더에만 나타납니다.
 - **마지막 업데이트 시각과 `새로 고침`:** 시각은 데이터를 마지막으로 새로 고친 시점을 보여 주고, 버튼은 지금 최신 데이터를 가져옵니다.
 - **눈 모양 버튼:** 모든 카드를 목록으로 보여 주며, 표시 중인 카드에는 체크 표시가 있습니다. 체크를 해제하면 카드가 숨겨지고 다시 체크하면 복원됩니다. 그런 다음 **Enter** 또는 **OK**를 눌러 적용하세요. **Esc**를 누르면 저장하지 않고 목록이 닫힙니다. 버튼의 숫자는 숨겨진 카드의 수입니다. 사이드 패널에도 새로 고침 버튼 옆에 같은 버튼이 있습니다.
-- **버전 버튼(`v2.0.55`):** 새 버전이 있는지 확인합니다. 새 버전이 있으면 버튼에 **`… 버전으로 업데이트`**라고 표시됩니다. 버튼을 클릭한 다음 창을 다시 불러오세요.
+- **버전 버튼(`v2.0.60`):** 새 버전이 있는지 확인합니다. 새 버전이 있으면 버튼에 **`… 버전으로 업데이트`**라고 표시됩니다. 버튼을 클릭한 다음 창을 다시 불러오세요.
 - **언어 선택 / Language:** 드롭다운은 모든 탭의 오른쪽 위에 있습니다. 첫 번째 옵션인 **자동**은 현재 사용 중인 언어도 함께 보여 줍니다. 편집기의 언어를 따르며, 편집기가 영어로 설정되어 있으면 시스템 언어를 따릅니다. 그 아래에는 각 언어의 고유 표기로 적힌 37개 언어가 있습니다. 선택은 바로 적용되며 이 확장 프로그램의 언어만 바뀝니다. 목록을 연 상태에서 글자를 입력하면 그 글자로 시작하는 첫 번째 언어로 이동합니다. 같은 설정이 설정의 **일반** 섹션에도 있습니다.
 - **`다크 / 라이트 / 자동`:** 어두운 테마, 밝은 테마, 편집기 테마 중에서 전환합니다.
 - **개요의 첫 번째 제목 옆:** **`브라우저에서 열기`**(Pro, 7일 체험판에 포함)는 대시보드를 기본 웹 브라우저에서 엽니다. 예를 들어 보조 모니터에 띄울 때 쓸 수 있습니다. **`사용자 가이드`**는 이 가이드를 엽니다. 무료 플랜에서는 **`Pro 구매`**와 **`키가 있습니다`**도 여기에 있습니다.
@@ -37,7 +37,7 @@
 - **계정과 프롬프트 크레딧을 한 줄로:** Google 플랜(`Google AI Pro`), 이메일, 프롬프트 크레딧(`500 / 50,000`)을 보여 줍니다.
 - **주간 한도와 5시간 한도:** 각 모델은 4칸 게이지, 초기화 시각, 소진 예측과 함께 한 줄에 표시됩니다. 초기화 시각과 예측은 Pro 기능이며, 무료 플랜에서는 이 두 열에 자물쇠가 표시됩니다.
 
-**상태 표시줄의 별도 주간 한도 경고:** Gemini 모델이나 Claude 및 GPT 모델의 주간 할당량이 조금만 남으면 상태 표시줄 미터 옆에 `G 7d 15%`와 같은 별도 항목이 나타납니다. 기본적으로 주간 할당량이 30% 이하이면 경고 아이콘이, 22% 이하이면 주황색 배경이, 15% 이하이면 빨간색 배경이 표시됩니다. 30%와 15% 기준값은 편집기 설정에서 바꿀 수 있으며(4장의 **알림** 참조), 주황색 단계는 그 두 값의 중간입니다. 클릭하면 대시보드가 열립니다. 주간 할당량이 충분히 남아 있는 동안에는 이 항목이 표시되지 않습니다.
+**상태 표시줄의 별도 주간 한도 경고:** Gemini 모델이나 Claude 모델의 주간 할당량이 조금만 남으면 상태 표시줄 미터 옆에 `G 7d 15%`와 같은 별도 항목이 나타납니다. 기본적으로 주간 할당량이 30% 이하이면 경고 아이콘이, 22% 이하이면 주황색 배경이, 15% 이하이면 빨간색 배경이 표시됩니다. 30%와 15% 기준값은 편집기 설정에서 바꿀 수 있으며(4장의 **알림** 참조), 주황색 단계는 그 두 값의 중간입니다. 클릭하면 대시보드가 열립니다. 주간 할당량이 충분히 남아 있는 동안에는 이 항목이 표시되지 않습니다.
 
 ---
 
@@ -60,7 +60,8 @@
 **설정** 탭을 엽니다(상태 표시줄 팝업, 메뉴, 또는 명령 `Antigravity Quota: 설정 탭 열기`로도 열 수 있습니다). 모든 섹션이 한 페이지에 표시되며 접힌 섹션은 없습니다. 기본은 한 열이며, 창이 넓으면 여러 열로 나뉩니다. 왼쪽의 링크로 각 섹션에 이동하고, 좁은 창에서는 링크가 맨 위의 한 줄로 나옵니다. 순서는 **라이선스, 일반, 상태 표시줄, 알림, Auto-Starter, 휴대전화 및 채팅 알림, 터미널, 디스크 공간**입니다. **알림**, **Auto-Starter**, **휴대전화 및 채팅 알림**, **터미널** 섹션은 Pro 기능(체험판에 포함)이며 Pro 태그가 붙어 있습니다. 무료 플랜에서는 이 섹션의 컨트롤을 누르면 구매 대화 상자가 열립니다. 무료 플랜에서도 편집기의 기본 알림은 이 설정 없이 작동합니다. 할당량이 10%와 5%로 떨어질 때와 다시 100%가 될 때 알려 줍니다.
 
 - **라이선스:** 라이선스가 활성화되어 있으면 이 섹션에 상태와 **`라이선스 키 변경`**, **`라이선스 확인`**, **`키 제거`**가 있는 한 줄이 표시됩니다. 무료 플랜과 체험판 중에는 버튼이 있는 키 입력란과 구매 링크가 표시됩니다.
-- **일반:** 인터페이스 언어(헤더와 같은 선택), 테마, 새로 고침 간격, **대시보드에 표시할 카드**.
+- **일반:** 인터페이스 언어(헤더와 동일한 옵션), 테마, 새로 고침 간격, **오류 보고서 보내기**, **대시보드에 표시할 카드**.
+- **오류 보고서 보내기(기본값 켜짐):** 확장 프로그램에서 예기치 않은 오류가 발생하면 `oeqbchgyoderqxnzcubh.supabase.co`로 익명 보고서를 보냅니다. 보고서에는 확장 프로그램 버전 및 에디션, 편집기 이름·버전·언어, 운영 체제 및 프로세서 유형, 사용 중인 확장 프로그램 플랜(무료, 체험판 또는 Pro), 오류 메시지, 오류가 발생한 코드 위치가 포함됩니다. 사용량 수치, 파일, 계정 정보, 라이선스 키는 보내지 않습니다. 편집기의 원격 분석 설정이 꺼져 있는 동안에는 아무것도 보내지 않습니다. 여기서 끄거나 `antigravityQuota.sendErrorReports` 설정을 비활성화하면 오류 보고서가 전송되지 않습니다. 그 밖의 네트워크 사용(업데이트 확인, 라이선스, 알림, Auto-Starter)은 스토어 페이지의 개인정보 보호 항목에 안내되어 있습니다.
 - **상태 표시줄:** 표시 모드(*Gemini 및 Claude*, *최소 잔량*, *Gemini*, *Claude*)와 미리보기가 있는 8가지 진행률 표시줄 스타일.
 - **알림:** Reserve Guard, 아침 요약, 소리(Windows와 macOS), 모델 전환 도우미, 추천 모델 이름 복사. **`편집기의 모든 설정`**을 누르면 이 확장 프로그램으로 필터링된 편집기 자체 설정이 열립니다. 경고 기준값처럼 자주 쓰지 않는 옵션도 포함되어 있습니다. 이 링크 자체는 아무것도 바꾸지 않습니다.
 
@@ -102,8 +103,8 @@
 확장 프로그램을 처음 설치하면 결제 카드나 가입 없이 **7일 동안 모든 Pro 기능**을 사용할 수 있습니다. 그 후에도 상태 표시줄 미터, 대시보드와 사이드 패널, 카드 순서와 색상, 8가지 진행률 표시줄 스타일, 37개 언어, 할당량이 부족하거나 다시 100%가 되었을 때 편집기에 뜨는 자동 알림, 24시간 기록 등 무료 기능은 계속 사용할 수 있습니다(더 긴 사용 기록은 Pro 기능입니다).
 
 1. **플랜 선택:**
-   - **[💎 평생 Pro — €9.99 일회성 결제](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)**
-   - **[Pro 월간 — 월 €2.99, 언제든 해지 가능](https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW)**
+   - **[💎 평생 Pro — €9.99 일회성 결제](https://buy.polar.sh/polar_cl_aUt37UmhWCxHCB9s7dFpmvoT5KNrFqzVWx64q073KIJ)**
+   - **[Pro 월간 — 월 €2.99, 언제든 해지 가능](https://buy.polar.sh/polar_cl_LjI4JhW7qEbGDJyCyQslb5pSeHyETQ2Dfiuqb0tNkI5)**
 2. **키 찾기:** 키는 구매 이메일 또는 결제 대행사 Polar의 확인 페이지에 있습니다.
 3. **활성화:** `PRO-XXXX-...` 키를 설정의 **라이선스** 섹션에 붙여 넣고 **`활성화`**를 클릭하세요. 체험판 배너, 개요, 사이드 패널에 있는 **`키가 있습니다`**를 클릭해도 됩니다. 활성화하면 체험판 배너가 바로 사라지고 배지에 **Pro**라고 표시됩니다. 창을 다시 불러올 필요는 없습니다.
 4. **구매 후:** 구매 버튼을 클릭한 뒤 30분 안에 편집기로 돌아오면, 확장 프로그램이 클립보드에 라이선스 키가 있는지 한 번 확인하고 활성화하기 전에 먼저 물어봅니다. 그 외에는 클립보드를 읽지 않으며, 클립보드 내용은 저장되지 않습니다.

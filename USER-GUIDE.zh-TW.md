@@ -1,6 +1,6 @@
 # Antigravity Quota Monitor：使用指南
 
-*版本 2.0.55*
+*版本 2.0.60*
 
 **語言：** [🇬🇧 English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · [🇪🇪 Eesti keel](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [🇩🇪 Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [🇫🇮 Suomi](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fi.md) · [🇪🇸 Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md) · [🇫🇷 Français](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fr.md) · [🇮🇹 Italiano](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.it.md) · [🇵🇱 Polski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pl.md) · [🇳🇱 Nederlands](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.nl.md) · [🇸🇪 Svenska](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sv.md) · [🇵🇹 Português (Portugal)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-PT.md) · [🇧🇷 Português (Brasil)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-BR.md) · [🇧🇬 Български](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.bg.md) · [🇭🇷 Hrvatski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hr.md) · [🇨🇿 Čeština](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.cs.md) · [🇩🇰 Dansk](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.da.md) · [🇬🇷 Ελληνικά](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.el.md) · [🇭🇺 Magyar](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hu.md) · [🇮🇪 Gaeilge](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ga.md) · [🇱🇻 Latviešu](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lv.md) · [🇱🇹 Lietuvių](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lt.md) · [🇱🇺 Lëtzebuergesch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lb.md) · [🇲🇹 Malti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.mt.md) · [🇷🇴 Română](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ro.md) · [🇸🇰 Slovenčina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sk.md) · [🇸🇮 Slovenščina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sl.md) · [🇺🇦 Українська](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.uk.md) · [🇿🇦 Afrikaans](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.af.md) · [🇯🇵 日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [🇨🇳 简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · 🇹🇼 繁體中文 · [🇰🇷 한국어](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ko.md) · [🇻🇳 Tiếng Việt](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.vi.md) · [🇮🇩 Bahasa Indonesia](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.id.md) · [🇮🇳 हिन्दी](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hi.md) · [🇰🇪 Kiswahili](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sw.md) · [🇸🇦 العربية](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ar.md)
 
@@ -12,7 +12,7 @@
 
 安裝擴充功能後，你可以在兩個地方找到它：
 1. **📌 活動列圖示**：點選活動列中的儀表圖示，開啟 **Antigravity Cockpit** 側邊欄。
-2. **📊 右下角的狀態列計量表**：免費方案的顯示範例如下：`G: 87% 🟩🟩🟩🟩⬜ | C: 97% 🟩🟩🟩🟩🟩`。G 代表 Gemini 模型，C 代表 Claude 與 GPT 模型。Pro 還會顯示距離重設還有多久，以及重設的時刻，例如 `↻3h 52m (19:52)`。將滑鼠游標停在計量表上，即可查看詳細資訊（見第 2 節）。
+2. **📊 右下角的狀態列計量表**：免費方案的顯示範例如下：`G: 87% 🟩🟩🟩🟩⬜ | C: 97% 🟩🟩🟩🟩🟩`。G 代表 Gemini 模型，C 代表 Claude 模型。Pro 還會顯示距離重設還有多久，以及重設的時刻，例如 `↻3h 52m (19:52)`。將滑鼠游標停在計量表上，即可查看詳細資訊（見第 2 節）。
 
 ![Antigravity Cockpit 側邊欄](https://raw.githubusercontent.com/Nordicstocks/antigravity-quota-monitor/main/images/guide-sidebar.png)
 
@@ -20,7 +20,7 @@
 - **索引標籤**：**總覽**、**分析**與**設定**。索引標籤不會重複頁面標題，標題只出現在標頭。
 - **最後更新時間與 `重新整理`**：時間顯示資料上次更新的時刻；按鈕則會立刻擷取最新資料。
 - **眼睛按鈕**：列出所有卡片，已顯示的卡片會打勾。取消勾選即可隱藏卡片，勾選則讓它重新顯示，然後按 **Enter** 或 **OK** 套用。按 **Esc** 會關閉清單且不儲存。按鈕上的數字表示有幾張卡片被隱藏。側邊欄的重新整理按鈕旁也有同樣的按鈕。
-- **版本按鈕（`v2.0.55`）**：檢查是否有較新的版本。有新版本時，按鈕會顯示 **`更新至 …`**。點選它，然後重新載入視窗。
+- **版本按鈕（`v2.0.60`）**：檢查是否有較新的版本。有新版本時，按鈕會顯示 **`更新至 …`**。點選它，然後重新載入視窗。
 - **語言**：每個索引標籤的右上角都有下拉選單。第一個選項是**自動**，同時也會顯示目前使用的語言。它會依編輯器的語言決定；若編輯器設為英文，則依系統語言。下方列出 37 種語言，每種語言都以它自己的名稱顯示。你的選擇會立即生效，而且只會變更這個擴充功能的語言。清單展開時，輸入一個字母，就會跳到第一個以該字母開頭的語言。同樣的設定也在**設定**的**一般**區段中。
 - **`夜間 / 日間 / 自動`**：切換為深色、淺色，或沿用編輯器的佈景主題。
 - **總覽第一個標題旁**：**`在瀏覽器中開啟`**（Pro 功能，7 天試用期間也能使用）會用預設的網頁瀏覽器開啟儀表板，例如要顯示在第二台螢幕上時；**`使用指南`** 則會開啟本指南。在免費方案中，這裡還有 **`購買 Pro`** 與 **`我有金鑰`**。
@@ -37,7 +37,7 @@
 - **帳號與提示詞點數在同一行**：顯示你的 Google 方案（`Google AI Pro`）、電子郵件與提示詞點數（`500 / 50,000`）。
 - **每週限額 與 5 小時限額**：每個模型各占一行，附有 4 格的進度條、重設時間與耗盡預測。重設時間與耗盡預測是 Pro 功能；在免費方案中，這兩欄會顯示鎖頭。
 
-**狀態列上獨立的每週限額警示**：當 Gemini 模型或 Claude 與 GPT 模型的每週配額所剩不多時，狀態列計量表旁會多出一個獨立的項目，例如 `G 7d 15%`。預設情況下，每週配額剩下 30% 或更少時會出現警示圖示，剩下 22% 或更少時背景為橘色，剩下 15% 或更少時背景為紅色。30% 與 15% 這兩個臨界值可以在編輯器的設定中變更（見第 4 節的**警示**）；橘色這一級正好在兩者的中間。點一下會開啟儀表板。每週配額還很充足時，不會顯示這個項目。
+**狀態列上獨立的每週限額警示**：當 Gemini 模型或 Claude 模型的每週配額所剩不多時，狀態列計量表旁會多出一個獨立的項目，例如 `G 7d 15%`。預設情況下，每週配額剩下 30% 或更少時會出現警示圖示，剩下 22% 或更少時背景為橘色，剩下 15% 或更少時背景為紅色。30% 與 15% 這兩個臨界值可以在編輯器的設定中變更（見第 4 節的**警示**）；橘色這一級正好在兩者的中間。點一下會開啟儀表板。每週配額還很充足時，不會顯示這個項目。
 
 ---
 
@@ -60,7 +60,8 @@
 開啟**設定**索引標籤（也可以從狀態列彈出式視窗、選單，或命令 `Antigravity Quota：開啟設定索引標籤` 開啟）。所有區段都顯示在同一頁，且全部展開。它們排成一欄，視窗寬時則排成多欄。左側的連結可跳到各個區段；視窗較窄時，這些連結會排成一列，顯示在頂端。順序為**授權、一般、狀態列、警示、Auto-Starter、手機與聊天通知、終端機、磁碟空間**。**警示**、**Auto-Starter**、**手機與聊天通知**與**終端機**這幾個區段是 Pro 功能（試用期間包含在內），並帶有 Pro 標籤。在免費方案中，點選這些區段裡的控制項會開啟購買對話方塊。編輯器內的基本警示在免費方案中不需要這些設定也能運作：配額降到 10% 與 5% 時，以及回到 100% 時，你都會收到通知。
 
 - **授權**：授權有效時，這個區段只有一列，顯示狀態，以及 **`更換授權金鑰`**、**`檢查授權`** 與 **`移除金鑰`**。在免費方案與試用期間，這裡會顯示金鑰欄位與它的按鈕，以及一個購買連結。
-- **一般**：介面語言（與標頭中的選項相同）、佈景主題、重新整理間隔，以及**儀表板卡片**。
+- **一般**：介面語言（與標頭中的選項相同）、佈景主題、重新整理間隔、**傳送錯誤報告**以及**儀表板卡片**。
+- **傳送錯誤報告（預設開啟）**：擴充功能發生非預期錯誤時，會將匿名報告傳送至 `oeqbchgyoderqxnzcubh.supabase.co`，內容包含擴充功能的版本號與版本類型、編輯器的名稱、版本與語言、作業系統與處理器類型、你的擴充功能方案（免費方案、試用期間或 Pro），以及錯誤訊息與其在程式碼中的發生位置。不含用量數據、檔案、帳戶資料或授權金鑰。編輯器的遙測設定關閉時，不會傳送任何資料。在此關閉這項功能，或停用設定 `antigravityQuota.sendErrorReports` 後，也不會傳送任何資料。其他網路用途（更新檢查、授權、通知、Auto-Starter）列於商店頁面的「隱私權」區段。
 - **狀態列**：顯示模式（*Gemini 與 Claude*、*剩餘配額最少*、*Gemini*、*Claude*）與 8 種附預覽的進度條樣式。
 - **警示**：Reserve Guard、晨間摘要、音效（在 Windows 與 macOS 上）、模型切換助理，以及複製建議的模型名稱。**`編輯器中的所有設定`** 會開啟編輯器本身的設定，並篩選為只顯示這個擴充功能的項目，其中包括較少用到的選項，例如警示臨界值。這個連結本身不會變更任何設定。
 
@@ -102,8 +103,8 @@
 第一次安裝擴充功能時，你可以在 7 天內使用**所有 Pro 功能**，不需要提供付款資料，也不需要註冊。之後你仍可使用免費功能：狀態列計量表、儀表板與側邊欄、卡片順序與顏色、8 種進度條樣式、37 種語言、配額偏低或回升至 100% 時，編輯器內顯示的自動警示，以及 24 小時的歷程記錄（更長的用量歷程記錄是 Pro 功能）。
 
 1. **選擇方案：**
-   - **[💎 Pro 終身版 — €9.99 一次付清](https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB)**
-   - **[Pro 月繳方案 — €2.99/月，隨時可取消](https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW)**
+   - **[💎 Pro 終身版 — €9.99 一次付清](https://buy.polar.sh/polar_cl_aUt37UmhWCxHCB9s7dFpmvoT5KNrFqzVWx64q073KIJ)**
+   - **[Pro 月繳方案 — €2.99/月，隨時可取消](https://buy.polar.sh/polar_cl_LjI4JhW7qEbGDJyCyQslb5pSeHyETQ2Dfiuqb0tNkI5)**
 2. **找到你的金鑰**：金鑰在購買通知信中，或在我們的付款服務供應商 Polar 的確認頁面上。
 3. **啟用**：把你的 `PRO-XXXX-...` 金鑰貼到**設定**的**授權**區段，然後點選 **`啟用`**。你也可以點選 **`我有金鑰`**，它在試用橫幅上、**總覽**上，以及側邊欄中。啟用後，試用橫幅會立刻消失，徽章會顯示 **Pro**。你不需要重新載入視窗。
 4. **購買之後**：如果你點選了購買按鈕，並在 30 分鐘內回到編輯器，擴充功能會檢查一次剪貼簿裡是否有授權金鑰，並在啟用前先徵求你的同意。除此之外，它不會讀取剪貼簿，剪貼簿中的文字也不會被儲存。

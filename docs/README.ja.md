@@ -7,21 +7,21 @@
 </p>
 
 <p align="center">
-  <strong>Google Antigravity IDEとagy CLI向けのリアルタイムAIクォータモニター。無料版：週間・5時間クォータの残量表示、リセットまでのカウントダウン、ダッシュボード、37言語対応。Pro版：ステータスバーのリセット時刻表示（↻19:52）、使い切り予測、残量ガード、曜日×時間帯のヒートマップ、通知。</strong>
+  <strong>Google Antigravityとagy CLI向けのリアルタイムAIクォータモニター。無料版：週間制限・5時間制限の残量表示、ダッシュボード、37言語対応。Pro版：リセットまでのカウントダウン、ステータスバーのリセット時刻表示（↻19:52）、使い切り予測、残量ガード、曜日×時間帯のヒートマップ、通知。</strong>
 </p>
 
 <p align="center">
   <a href="https://open-vsx.org/extension/Nordicstocks/antigravity-quota-monitor"><img src="https://img.shields.io/badge/Open--VSX-v2.0.4-blue?style=for-the-badge" alt="Open VSX Version"></a>
-  <a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB"><img src="https://img.shields.io/badge/💎_Lifetime_Pro-€9.99-gold?style=for-the-badge" alt="Lifetime Pro"></a>
-  <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW"><img src="https://img.shields.io/badge/🔄_Monthly_Pro-€2.99%2Fmo-orange?style=for-the-badge" alt="Monthly Pro"></a>
+  <a href="https://buy.polar.sh/polar_cl_aUt37UmhWCxHCB9s7dFpmvoT5KNrFqzVWx64q073KIJ"><img src="https://img.shields.io/badge/💎_Lifetime_Pro-€9.99-gold?style=for-the-badge" alt="Lifetime Pro"></a>
+  <a href="https://buy.polar.sh/polar_cl_LjI4JhW7qEbGDJyCyQslb5pSeHyETQ2Dfiuqb0tNkI5"><img src="https://img.shields.io/badge/🔄_Monthly_Pro-€2.99%2Fmo-orange?style=for-the-badge" alt="Monthly Pro"></a>
 </p>
 
 <p align="center">
-  <a href="https://buy.polar.sh/polar_cl_xdY0LqtPIfPHfnG9o8Wo5QIIpJRlvhxQOZ6vL4g5jIB">
+  <a href="https://buy.polar.sh/polar_cl_aUt37UmhWCxHCB9s7dFpmvoT5KNrFqzVWx64q073KIJ">
     <img src="https://img.shields.io/badge/🛒_PRO_LIFETIME-€9.99-2ea043?style=for-the-badge" height="40" alt="Buy Lifetime">
   </a>
   &nbsp;&nbsp;
-  <a href="https://buy.polar.sh/polar_cl_avl0NAvpPN4jQD0vZRRg11yZ92BQ2OHCKw29f4dxlPW">
+  <a href="https://buy.polar.sh/polar_cl_LjI4JhW7qEbGDJyCyQslb5pSeHyETQ2Dfiuqb0tNkI5">
     <img src="https://img.shields.io/badge/🔄_PRO_MONTHLY-€2.99%2Fmo-1f6feb?style=for-the-badge" height="40" alt="Subscribe Monthly">
   </a>
 </p>
@@ -51,7 +51,7 @@
 
 - **Google Antigravity IDE:** `G: 87% 🟩🟩🟩🟩⬜ ↻3h 52m (19:52) | C: 64% 🟨🟨🟨⬜⬜ ↻3h 50m (19:50) ⏳42m`
 - **Antigravity CLI (`agy` CLI) & Terminal (`zsh`, `Starship`, `tmux`):** `~/.antigravity-quota/status.json`
-- **AI Models:** Gemini 3.8 Flash, Gemini 4 Argon, Claude Opus 5.5, Claude Sonnet 5.5, GPT-OSS 120B (High / Medium / Low).
+- **AI Models:** Gemini 4 Carbon, Gemini 4 Argon, Gemini 3.8 Flash, Claude Opus 5.5, Claude Sonnet 5.5.
 
 ---
 
@@ -79,4 +79,4 @@
 ---
 
 ## 📄 License
-© Nordicstocks — [🇬🇧 Full English Documentation](../README.md)
+MIT License © Nordicstocks — [🇬🇧 Full English Documentation](../README.md)

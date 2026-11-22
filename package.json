@@ -2,8 +2,10 @@
   "name": "antigravity-quota-monitor",
   "displayName": "%displayName%",
   "description": "%description%",
-  "version": "2.0.34",
+  "version": "2.0.65",
   "publisher": "Nordicstocks",
+  "license": "SEE LICENSE IN LICENSE",
+  "qna": "https://github.com/Nordicstocks/antigravity-quota-monitor/issues",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#0d1117",
@@ -14,54 +16,39 @@
   },
   "categories": [
     "AI",
-    "Chat",
-    "Machine Learning",
-    "Data Science",
     "Visualization",
-    "Programming Languages",
-    "Testing",
-    "Debuggers",
-    "Formatters",
-    "Linters",
-    "Snippets",
-    "SCM Providers",
-    "Notebooks",
-    "Education",
-    "Language Packs",
-    "Themes",
     "Other"
   ],
   "keywords": [
     "Antigravity",
-    "Ultimate",
-    "Cockpit",
     "Antigravity Cockpit",
+    "Cockpit",
     "Antigravity IDE",
-    "Google Antigravity IDE",
+    "Google Antigravity",
+    "agy",
+    "Quota",
+    "Quota Monitor",
     "Antigravity Quota Monitor",
-    "Antigravity Dashboard",
-    "Antigravity Panel",
-    "Antigravity Cache Manager",
+    "Usage Monitor",
     "Antigravity Usage Monitor",
     "Antigravity Usage Analytics",
+    "Antigravity Dashboard",
+    "Antigravity Status Bar",
+    "Limits",
+    "Rate Limit",
+    "Weekly Limit",
+    "5-Hour Limit",
+    "Status Bar",
     "AI Usage",
-    "Quota Monitor",
-    "Usage Monitor",
-    "Usage Analytics",
-    "Cache Manager",
     "Claude",
     "Claude Opus",
     "Claude Sonnet",
     "Gemini",
-    "Google AI",
-    "GPT",
-    "agy",
-    "5-Hour Limit",
-    "配额监控",
-    "驾驶舱",
+    "配额",
+    "额度",
     "クォータ",
     "할당량",
-    "Monitor de cuota"
+    "cuota"
   ],
   "homepage": "https://nordicmoonlight.com",
   "repository": {
@@ -79,9 +66,10 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit",
-    "build": "esbuild src/extension.ts --bundle --platform=node --target=node18 --external:vscode --minify --outfile=dist/extension.js",
+    "build": "node scripts/build-bundle.mjs",
     "test": "node test/run-tests.js",
-    "package": "npm run build && npx @vscode/vsce package --allow-missing-repository"
+    "build:store-readme": "node scripts/build-store-readme.mjs",
+    "package": "npm run build && node scripts/build-store-readme.mjs && npx @vscode/vsce package --allow-missing-repository"
   },
   "contributes": {
     "viewsContainers": {
@@ -107,6 +95,21 @@
         "command": "antigravityQuota.showDashboard",
         "title": "%cmd.showDashboard%",
         "icon": "$(graph)"
+      },
+      {
+        "command": "antigravityQuota.openInBrowser",
+        "title": "%cmd.openInBrowser%",
+        "icon": "$(globe)"
+      },
+      {
+        "command": "antigravityQuota.openSettingsTab",
+        "title": "%cmd.openSettingsTab%",
+        "icon": "$(settings-gear)"
+      },
+      {
+        "command": "antigravityQuota.openUserGuide",
+        "title": "%cmd.openUserGuide%",
+        "icon": "$(book)"
       },
       {
         "command": "antigravityQuota.showMenu",
@@ -143,6 +146,10 @@
       {
         "command": "antigravityQuota.refreshLicense",
         "title": "%cmd.refreshLicense%"
+      },
+      {
+        "command": "antigravityQuota.removeLicense",
+        "title": "%cmd.removeLicense%"
       },
       {
         "command": "antigravityQuota.setResetAlarm",
@@ -315,7 +322,7 @@
             "%config.barStyle.dots%",
             "%config.barStyle.shades%"
           ],
-          "default": "blocks",
+          "default": "emoji-blocks",
           "description": "%config.barStyle%"
         },
         "antigravityQuota.enableAudioAlerts": {
@@ -336,12 +343,16 @@
         "antigravityQuota.forecastWarnMinutes": {
           "type": "number",
           "default": 25,
-          "description": "%config.forecastWarnMinutes%"
+          "description": "%config.forecastWarnMinutes%",
+          "minimum": 1,
+          "maximum": 300
         },
         "antigravityQuota.reserveBudgetPercent": {
           "type": "number",
           "default": 20,
-          "description": "%config.reserveBudgetPercent%"
+          "description": "%config.reserveBudgetPercent%",
+          "minimum": 5,
+          "maximum": 80
         },
         "antigravityQuota.budgetStrictMode": {
           "type": "boolean",
@@ -351,22 +362,27 @@
         "antigravityQuota.historyRetentionDays": {
           "type": "number",
           "default": 90,
-          "description": "%config.historyRetentionDays%"
+          "description": "%config.historyRetentionDays%",
+          "scope": "application",
+          "minimum": 1
         },
         "antigravityQuota.pushNtfyTopic": {
           "type": "string",
           "default": "",
-          "description": "%config.pushNtfyTopic%"
+          "description": "%config.pushNtfyTopic%",
+          "scope": "application"
         },
         "antigravityQuota.pushTelegramChatId": {
           "type": "string",
           "default": "",
-          "description": "%config.pushTelegramChatId%"
+          "description": "%config.pushTelegramChatId%",
+          "scope": "application"
         },
         "antigravityQuota.pushWebhookUrl": {
           "type": "string",
           "default": "",
-          "description": "%config.pushWebhookUrl%"
+          "description": "%config.pushWebhookUrl%",
+          "scope": "application"
         },
         "antigravityQuota.enableMorningSummary": {
           "type": "boolean",
@@ -376,17 +392,58 @@
         "antigravityQuota.pollingInterval": {
           "type": "number",
           "default": 60,
-          "description": "%config.pollingInterval%"
+          "description": "%config.pollingInterval%",
+          "minimum": 15,
+          "maximum": 600
         },
         "antigravityQuota.warnThreshold": {
           "type": "number",
           "default": 30,
-          "description": "%config.warnThreshold%"
+          "description": "%config.warnThreshold%",
+          "minimum": 1,
+          "maximum": 100
         },
         "antigravityQuota.criticalThreshold": {
           "type": "number",
           "default": 15,
-          "description": "%config.criticalThreshold%"
+          "description": "%config.criticalThreshold%",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "antigravityQuota.sendErrorReports": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.sendErrorReports%",
+          "scope": "application"
+        },
+        "antigravityQuota.readCodex": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.readCodex%",
+          "scope": "application"
+        },
+        "antigravityQuota.readClaudeCode": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.readClaudeCode%",
+          "scope": "application"
+        },
+        "antigravityQuota.readGrok": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.readGrok%",
+          "scope": "application"
+        },
+        "antigravityQuota.claudeCodeRefreshMinutes": {
+          "type": "number",
+          "enum": [
+            15,
+            30,
+            60
+          ],
+          "default": 15,
+          "description": "%config.claudeCodeRefreshMinutes%",
+          "scope": "application"
         }
       }
     }
