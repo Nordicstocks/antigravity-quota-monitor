@@ -1,6 +1,6 @@
 # Antigravity Quota Monitor：ユーザーガイド
 
-*バージョン 2.0.60*
+*バージョン 2.0.65*
 
 **言語：** [🇬🇧 English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · [🇪🇪 Eesti keel](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [🇩🇪 Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [🇫🇮 Suomi](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fi.md) · [🇪🇸 Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md) · [🇫🇷 Français](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fr.md) · [🇮🇹 Italiano](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.it.md) · [🇵🇱 Polski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pl.md) · [🇳🇱 Nederlands](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.nl.md) · [🇸🇪 Svenska](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sv.md) · [🇵🇹 Português (Portugal)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-PT.md) · [🇧🇷 Português (Brasil)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-BR.md) · [🇧🇬 Български](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.bg.md) · [🇭🇷 Hrvatski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hr.md) · [🇨🇿 Čeština](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.cs.md) · [🇩🇰 Dansk](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.da.md) · [🇬🇷 Ελληνικά](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.el.md) · [🇭🇺 Magyar](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hu.md) · [🇮🇪 Gaeilge](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ga.md) · [🇱🇻 Latviešu](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lv.md) · [🇱🇹 Lietuvių](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lt.md) · [🇱🇺 Lëtzebuergesch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lb.md) · [🇲🇹 Malti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.mt.md) · [🇷🇴 Română](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ro.md) · [🇸🇰 Slovenčina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sk.md) · [🇸🇮 Slovenščina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sl.md) · [🇺🇦 Українська](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.uk.md) · [🇿🇦 Afrikaans](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.af.md) · 🇯🇵 日本語 · [🇨🇳 简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [🇹🇼 繁體中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-TW.md) · [🇰🇷 한국어](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ko.md) · [🇻🇳 Tiếng Việt](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.vi.md) · [🇮🇩 Bahasa Indonesia](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.id.md) · [🇮🇳 हिन्दी](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hi.md) · [🇰🇪 Kiswahili](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sw.md) · [🇸🇦 العربية](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ar.md)
 
@@ -20,7 +20,7 @@
 - **タブ**：**概要**、**分析**、**設定**。ページタイトルはタブ内には表示されず、ヘッダーにのみ表示されます。
 - **最終更新時刻と`更新`**：時刻はデータを最後に更新した時刻で、ボタンを押すと最新のデータをその場で取得します。
 - **目のアイコンのボタン**：すべてのカードを一覧表示し、表示中のカードにチェックを付けます。チェックを外すとカードが非表示になり、入れると再表示されます。**Enter**または**OK**で反映します。**Esc**を押すと、保存せずに閉じます。ボタンの数字は、非表示のカードの数です。サイドパネルにも、更新ボタンの横に同じボタンがあります。
-- **バージョンボタン（`v2.0.60`）**：新しいバージョンがあるか確認します。ある場合は、ボタンの表示が **`…に更新`** に変わります。クリックしてから、ウィンドウを再読み込みしてください。
+- **バージョンボタン（`v2.0.65`）**：新しいバージョンがあるか確認します。ある場合は、ボタンの表示が **`…に更新`** に変わります。クリックしてから、ウィンドウを再読み込みしてください。
 - **言語**：ドロップダウンは、どのタブでも右上にあります。最初の選択肢**自動**には、現在使われている言語も表示されます。エディターの言語に従い、エディターが英語の場合はシステムの言語に従います。その下に37言語が、それぞれの言語の表記で並びます。選ぶとすぐに反映され、変わるのはこの拡張機能の言語だけです。リストを開いた状態で文字を入力すると、その文字で始まる最初の言語に移動します。同じ設定は、設定の**全般**にもあります。
 - **`Night / Day / 自動`**：ダークテーマ、ライトテーマ、エディターのテーマのどれかに切り替えます。
 - **概要の最初の見出しの横**：**`ブラウザで開く`**（Pro。7日間の体験期間中も使えます）は、ダッシュボードを既定のブラウザで開きます。たとえば2台目のディスプレイに表示したいときに便利です。**`ユーザーガイド`** は、このガイドを開きます。無料版では、**`Proを購入`** と **`キーをお持ちの方`** もここにあります。
@@ -67,12 +67,16 @@
 
 複数のモデルが1つの制限を共有しているときは、エディターの通知もスマホの通知も、モデルごとではなくグループ全体で1件です。タイトルにはグループ名が入ります（例：**Geminiのモデル（5時間制限）**）。
 
+- **自動スタート — `指定時刻の動作`：`通知のみ` または `自動で開始`**：`通知のみ`（新規ユーザーの初期設定）では、指定した時刻（例：`07:00`）に通知が届きます。Antigravityで何かプロンプトを送ると、5時間枠が始まります。拡張機能はコマンドを実行したり、代わりにプロンプトを送信したりしないため、クォータは消費されません。その時刻にエディターを閉じていた場合は、3時間以内に開けば、そのときに通知が届きます。以下の自動スタートの項目は、`自動で開始` を選んだ場合の説明です。
 - **自動スタート — `5時間枠を自動で開始`**：初期状態ではオフです。5時間枠は、決まった時刻ではなく、最初のプロンプトで始まります。この設定をオンにすると、拡張機能が指定した時刻に `agy` を実行し、ご自身のアカウントから、選択したモデルに短いプロンプト（`OK`）を送ります。実際のリクエストです。5時間枠が `07:00` に始まれば、制限は `12:00` ごろにリセットされます。
   - **初回は同意を求められます。** モデルに送るメッセージは、クォータを消費します。[Google Antigravity 追加利用規約](https://antigravity.google/terms)のセクション6では、Googleが提供していない製品に関連してサービスを利用することが禁止されています。また、第三者のソフトウェアを使ってサービスにアクセスすることは違反にあたり、Antigravity、Gemini CLI、またはその両方のアカウントの停止や終了につながる場合がある、とされています。判断はご自身に委ねられています。
   - **`07:00` にエディターが閉じていた場合**：指定した時刻から3時間以内にエディターを開くと、自動スタートが実行されます。3時間を過ぎると、翌日まで待ちます。
   - **実行に失敗した場合**：拡張機能がそのことを知らせ、30分後に再試行します。再試行は1日最大3回で、指定した時刻から3時間以内に限ります。プロンプトを再送するのは、失敗したモデルだけです。`agy` がインストールされていない場合、その日は再試行しません。
   - **常に実際の結果が表示されます**：`agy` が見つからない、または失敗したときは、エラーが表示されます。5時間枠が始まったことを知らせるスマホへの通知は、実行が成功した後にだけ送られます。エディターのウィンドウを複数開いている場合、プロンプトを送るのは1つのウィンドウだけです。
 - **`5時間枠を今すぐ開始`**：同じプロンプトをすぐに送ります。初回は、こちらも同意を求められます。
+- **自動スタート — `一定間隔で繰り返す`（2.0.64、初期状態ではオフ）**：指定時刻に最初の枠を開始したあと、翌日の指定時刻まで、`5:01`（5時間1分、推奨）ごと、または `1:00`〜`24:00` の範囲で `H:MM` 形式で入力した間隔ごとに、5時間枠を繰り返し開始します。開始した枠が翌日の指定時刻を過ぎても続く場合は、その回の開始を見送るため、`5:01` なら1日に最大4回です。開始のたびに実際のリクエストが送られ、クォータを少し消費します。カードには1日の開始回数と次回の開始予定時刻が表示されます。
+- **自動スタート — どの5時間枠を開始するか（2.0.64）**：それぞれ個別に選べます。**Claude** と **Gemini**（`agy` 経由、Antigravityのアカウントから）に加え、**Codex** と **Claude Code** も選べます。CodexとClaude Codeは、それぞれこのコンピューターにインストールされていて、サインイン済みで、ご利用のプランに5時間枠がある場合に限ります。拡張機能は、Codexでは一時フォルダー内で `codex exec` を読み取り専用モードで、Claude Codeでは内蔵ツールをすべてオフにして `claude -p` を実行します。CodexとClaude Codeは、それぞれご自身のChatGPTまたはAnthropicのアカウントから短いリクエスト（`OK`）を1回送ります。このリクエストでそのプランの5時間枠が始まり、クォータを少し消費します。
+  - **アカウントごとの同意**：CodexとClaude Codeのリクエストは、Antigravityのアカウントではなく、ご自身のChatGPTまたはAnthropicのアカウントから送られます。そのため、最初のリクエストの前にそれぞれ同意を求めます。2.0.64より前の同意は、ClaudeとGeminiのみに適用されます。ツールの選択を外すとそのツールへの同意は取り消され、もう一度選ぶと改めて同意を求められます。ClaudeとGeminiの両方の選択を外すと、同じように `agy` への同意も取り消されます。
 - **スマホとチャットへの通知 — `スマホを接続`（ntfy、アカウント不要）**：
   1. 無料の**ntfy**アプリをインストールします（App Store / Google Play）。
   2. アプリで **`+`** をタップし、ダッシュボードに表示されているトピックを入力します（**コピー**ボタンがあります）。ntfy.sh のトピックは公開されていて、名前を知っていれば誰でもメッセージを読んだり送ったりできます。そのため、提示されるトピックは長いランダムな文字列になっています。他の人には教えないでください。
@@ -82,6 +86,12 @@
 - **`テスト通知`**：クリックすると、設定したすべてのチャンネルに、選択した言語でテスト通知を送ります。
 - **ターミナル用のステータスファイルとスニペット**：**`zsh`**、**`Starship`**、**`tmux`** のどれかをクリックしてスニペットを開き、使っているツール用のものをコピーして、そのスニペットに書かれたファイルに貼り付けます（ステータスファイル：`~/.antigravity-quota/status.json`）。
 - **ディスク容量**：**会話**（フォルダー `~/.gemini/antigravity/brain`。隣にある `conversations` フォルダーは変更しません）と**コードトラッカー**（`code_tracker`）が使っている容量を表示します。**`🧹 7日間変更のない会話ファイルを整理`** の対象は `brain` だけです。過去7日間に変更されたファイルが1つもないフォルダーを一覧にし、確認の前に、フォルダー数、ファイル数、サイズを表示します。これらのフォルダーには、古い会話の画像、プラン、ログが入っていることがあります。確認して実行すると、フォルダーはシステムのゴミ箱（Windowsではごみ箱）に移動し、空にするまでは元に戻せます。移動できなかった場合は、そのまま残り、拡張機能がその旨を知らせます。`code_tracker` は容量を測るだけで、整理の対象にはなりません。
+
+### Codex、Claude Code、Grok（2.0.64）
+
+このコンピューターにCodex、Claude Code、またはGrok CLIがインストールされている場合は、各ツールで利用しているご自身のプランの制限が、Antigravityの制限とは別に表示されます。ダッシュボードではAntigravityのカードの下に専用のカードとして、サイドパネルでは専用のブロックとして、ステータスバーでは独立した項目として表示されます。各ツールの制限は、そのツールのプログラム（`codex app-server`、`claude -p /usage`、Grok CLI）から読み取ります。会話を始めることも、モデルに何かを送ることも、パスワードを求めることもありません。インストールされていないツールは表示されません。使用率はProなしでも表示され、リセット時刻、使い切り予測、リセット通知はPro機能です。ここに表示されるClaude Codeの制限は、ご自身のAnthropicのプランの制限です。Antigravity内のClaudeモデルは、引き続きAntigravityのクォータを使います。GrokはFreeプランでは使用率を提供しないため、カードに使用率バーは表示されません。
+
+**設定 → Codex、Claude Code、Grok**：ツールごとのオン／オフ（オフにすると、そのツールのプログラムは起動されません）と、Claude Code の制限の読み取り間隔を設定できます。
 
 ### クイックアクション（メニュー）
 

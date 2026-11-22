@@ -1,6 +1,6 @@
 # Antigravity Quota Monitor: 사용자 가이드
 
-*버전 2.0.60*
+*버전 2.0.65*
 
 **언어:** [🇬🇧 English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · [🇪🇪 Eesti keel](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [🇩🇪 Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [🇫🇮 Suomi](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fi.md) · [🇪🇸 Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md) · [🇫🇷 Français](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fr.md) · [🇮🇹 Italiano](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.it.md) · [🇵🇱 Polski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pl.md) · [🇳🇱 Nederlands](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.nl.md) · [🇸🇪 Svenska](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sv.md) · [🇵🇹 Português (Portugal)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-PT.md) · [🇧🇷 Português (Brasil)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-BR.md) · [🇧🇬 Български](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.bg.md) · [🇭🇷 Hrvatski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hr.md) · [🇨🇿 Čeština](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.cs.md) · [🇩🇰 Dansk](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.da.md) · [🇬🇷 Ελληνικά](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.el.md) · [🇭🇺 Magyar](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hu.md) · [🇮🇪 Gaeilge](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ga.md) · [🇱🇻 Latviešu](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lv.md) · [🇱🇹 Lietuvių](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lt.md) · [🇱🇺 Lëtzebuergesch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lb.md) · [🇲🇹 Malti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.mt.md) · [🇷🇴 Română](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ro.md) · [🇸🇰 Slovenčina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sk.md) · [🇸🇮 Slovenščina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sl.md) · [🇺🇦 Українська](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.uk.md) · [🇿🇦 Afrikaans](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.af.md) · [🇯🇵 日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · [🇨🇳 简体中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-CN.md) · [🇹🇼 繁體中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-TW.md) · 🇰🇷 한국어 · [🇻🇳 Tiếng Việt](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.vi.md) · [🇮🇩 Bahasa Indonesia](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.id.md) · [🇮🇳 हिन्दी](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hi.md) · [🇰🇪 Kiswahili](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sw.md) · [🇸🇦 العربية](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ar.md)
 
@@ -20,7 +20,7 @@
 - **탭:** **개요**, **분석**, **설정**. 탭에는 페이지 제목이 반복되지 않으며, 제목은 헤더에만 나타납니다.
 - **마지막 업데이트 시각과 `새로 고침`:** 시각은 데이터를 마지막으로 새로 고친 시점을 보여 주고, 버튼은 지금 최신 데이터를 가져옵니다.
 - **눈 모양 버튼:** 모든 카드를 목록으로 보여 주며, 표시 중인 카드에는 체크 표시가 있습니다. 체크를 해제하면 카드가 숨겨지고 다시 체크하면 복원됩니다. 그런 다음 **Enter** 또는 **OK**를 눌러 적용하세요. **Esc**를 누르면 저장하지 않고 목록이 닫힙니다. 버튼의 숫자는 숨겨진 카드의 수입니다. 사이드 패널에도 새로 고침 버튼 옆에 같은 버튼이 있습니다.
-- **버전 버튼(`v2.0.60`):** 새 버전이 있는지 확인합니다. 새 버전이 있으면 버튼에 **`… 버전으로 업데이트`**라고 표시됩니다. 버튼을 클릭한 다음 창을 다시 불러오세요.
+- **버전 버튼(`v2.0.65`):** 새 버전이 있는지 확인합니다. 새 버전이 있으면 버튼에 **`… 버전으로 업데이트`**라고 표시됩니다. 버튼을 클릭한 다음 창을 다시 불러오세요.
 - **언어 선택 / Language:** 드롭다운은 모든 탭의 오른쪽 위에 있습니다. 첫 번째 옵션인 **자동**은 현재 사용 중인 언어도 함께 보여 줍니다. 편집기의 언어를 따르며, 편집기가 영어로 설정되어 있으면 시스템 언어를 따릅니다. 그 아래에는 각 언어의 고유 표기로 적힌 37개 언어가 있습니다. 선택은 바로 적용되며 이 확장 프로그램의 언어만 바뀝니다. 목록을 연 상태에서 글자를 입력하면 그 글자로 시작하는 첫 번째 언어로 이동합니다. 같은 설정이 설정의 **일반** 섹션에도 있습니다.
 - **`다크 / 라이트 / 자동`:** 어두운 테마, 밝은 테마, 편집기 테마 중에서 전환합니다.
 - **개요의 첫 번째 제목 옆:** **`브라우저에서 열기`**(Pro, 7일 체험판에 포함)는 대시보드를 기본 웹 브라우저에서 엽니다. 예를 들어 보조 모니터에 띄울 때 쓸 수 있습니다. **`사용자 가이드`**는 이 가이드를 엽니다. 무료 플랜에서는 **`Pro 구매`**와 **`키가 있습니다`**도 여기에 있습니다.
@@ -67,12 +67,16 @@
 
 여러 모델이 한도 하나를 공유할 때는 모델별로 오는 것이 아니라 그룹 전체에 대해 편집기 알림 하나와 휴대전화 알림 하나가 옵니다. 제목에는 그룹 이름이 들어갑니다(예: **Gemini 모델(5시간 한도)**).
 
+- **Auto-Starter — `선택한 시간에 수행할 작업`: `알림만 받기` 또는 `자동으로 시작`:** `알림만 받기`(신규 사용자 기본값)를 선택하면 지정한 시각(예: `07:00`)에 알림을 받습니다. Antigravity에서 아무 프롬프트나 보내면 5시간 기간이 시작됩니다. 확장 프로그램은 명령을 실행하지 않고 대신 프롬프트를 보내지도 않으므로 할당량을 사용하지 않습니다. 그 시각에 편집기가 닫혀 있더라도 3시간 이내에 다시 열면 알림이 표시됩니다. 아래의 Auto-Starter 항목은 `자동으로 시작`에 관한 설명입니다.
 - **Auto-Starter — `5시간 기간 자동 시작`:** 기본값은 꺼짐입니다. 5시간 기간은 정해진 시각이 아니라 첫 프롬프트를 보낼 때 시작됩니다. 이 설정을 켜면 확장 프로그램이 지정한 시각에 `agy`를 실행하고, 선택한 모델에 본인 계정으로 짧은 프롬프트(`OK`)를 보냅니다. 이는 실제 요청입니다. 5시간 기간이 `07:00`에 시작되면 한도는 약 `12:00`에 초기화됩니다.
   - **처음에는 동의를 요청합니다.** 모델에 보내는 메시지는 본인 할당량을 사용합니다. [Google Antigravity 추가 서비스 약관](https://antigravity.google/terms) 6조는 Google이 제공하지 않는 제품과 연계하여 서비스를 이용하는 것을 금지합니다. 서비스에 접근하기 위해 타사 소프트웨어를 사용하는 것은 약관 위반이며, 그 결과 Antigravity 및/또는 Gemini CLI 계정이 정지되거나 해지될 수 있다고 명시되어 있습니다. 결정은 본인의 몫입니다.
   - **`07:00`에 편집기가 닫혀 있었다면:** 지정한 시각으로부터 3시간이 넘지 않았다면 편집기를 열 때 Auto-Starter가 실행됩니다. 3시간이 지났다면 다음 날까지 기다립니다.
   - **실행이 실패하면:** 확장 프로그램이 이를 알리고 30분 뒤에 다시 시도하며, 하루 최대 3번까지, 그리고 지정한 시각 이후 같은 3시간 안에서만 시도합니다. 프롬프트는 실패한 모델에만 다시 보냅니다. `agy`가 설치되어 있지 않으면 그날은 다시 시도하지 않습니다.
   - **항상 실제 결과가 표시됩니다:** `agy`가 없거나 실패하면 오류가 표시됩니다. 5시간 기간이 시작되었다는 휴대전화 알림은 실행이 성공한 뒤에만 전송됩니다. 편집기 창이 여러 개 열려 있어도 프롬프트는 그중 한 창에서만 전송됩니다.
 - **`지금 5시간 기간 시작`:** 같은 프롬프트를 즉시 보냅니다. 처음에는 이때도 동의를 요청합니다.
+- **Auto-Starter — `일정 간격으로 반복`(2.0.64, 기본값은 꺼짐):** 지정한 시각에 처음 시작한 뒤, 다음 날 지정한 시각에 시작할 때까지 `5:01`(5시간 1분, 권장)마다 또는 `1:00`~`24:00` 범위에서 `H:MM` 형식으로 입력한 간격마다 5시간 기간을 다시 시작합니다. 시작하면 다음 날 지정한 시각까지 기간이 끝나지 않는 경우에는 해당 회차를 건너뛰므로, `5:01`이면 하루 최대 4회입니다. 시작할 때마다 실제 요청이 전송되며 할당량을 소량 사용합니다. 카드에는 하루 시작 횟수와 다음 시작 예정 시각이 표시됩니다.
+- **Auto-Starter — 시작할 5시간 기간 선택(2.0.64):** 각 항목을 개별적으로 선택할 수 있습니다. **Claude**와 **Gemini**(`agy`를 통해 Antigravity 계정으로)에 더해 **Codex**와 **Claude Code**도 선택할 수 있습니다. 단, Codex와 Claude Code는 각각 이 컴퓨터에 설치되어 있고 로그인한 상태여야 하며, 사용 중인 플랜에 5시간 기간이 있어야 합니다. 확장 프로그램은 Codex의 경우 임시 폴더에서 읽기 전용 모드로 `codex exec`을 실행하고, Claude Code의 경우 자체 도구를 모두 끈 상태로 `claude -p`를 실행합니다. Codex와 Claude Code는 각각 본인의 ChatGPT 또는 Anthropic 계정으로 짧은 요청(`OK`)을 한 번 보냅니다. 이 요청으로 해당 플랜의 5시간 기간이 시작되고, 그 플랜의 할당량을 소량 사용합니다.
+  - **계정별 동의:** Codex와 Claude Code의 요청은 Antigravity 계정이 아니라 본인의 ChatGPT 또는 Anthropic 계정에서 전송되므로, 첫 요청 전에 각각 따로 동의를 요청합니다. 2.0.64 이전에 동의한 내용은 Claude와 Gemini에만 적용됩니다. 도구 선택을 해제하면 그 도구에 대한 동의가 철회되고, 다시 선택하면 동의를 다시 요청합니다. Claude와 Gemini를 모두 선택 해제하면 같은 방식으로 `agy`에 대한 동의가 철회됩니다.
 - **휴대전화 및 채팅 알림 — `휴대전화 연결`(ntfy, 계정 불필요):**
   1. 무료 **ntfy** 앱을 설치하세요(App Store / Google Play).
   2. 앱에서 **`+`**를 누르고 대시보드에 표시된 토픽을 입력하세요(**복사** 버튼이 있습니다). ntfy.sh 토픽은 공개되어 있어, 이름을 아는 사람은 누구나 메시지를 읽고 보낼 수 있습니다. 그래서 제안되는 토픽은 길고 무작위입니다. 다른 사람에게 알려 주지 마세요.
@@ -82,6 +86,12 @@
 - **`테스트 알림`:** 설정해 둔 모든 채널로 선택한 언어의 테스트 알림을 보냅니다.
 - **터미널 상태 파일과 스니펫:** **`zsh`**, **`Starship`**, **`tmux`**를 클릭하면 스니펫이 열립니다. 사용하는 도구의 스니펫을 복사해 그 스니펫에 적힌 파일에 붙여 넣으세요(상태 파일: `~/.antigravity-quota/status.json`).
 - **디스크 공간:** **대화**(폴더 `~/.gemini/antigravity/brain`; 그 옆의 `conversations` 폴더는 건드리지 않습니다)와 **코드 추적기**(`code_tracker`)가 차지하는 디스크 공간을 보여 줍니다. **`🧹 오래된 대화 파일 정리(7일 초과)`**는 `brain`만 살펴봅니다. 최근 7일 동안 변경된 파일이 없는 폴더를 나열하고, 확인하기 전에 폴더 수, 파일 수, 크기를 보여 줍니다. 이 폴더에는 지난 대화의 이미지, 계획, 로그가 들어 있을 수 있습니다. 확인하면 폴더가 시스템 휴지통으로 이동하며, 휴지통을 비우기 전까지는 복원할 수 있습니다. 실패하면 폴더는 그대로 남고 확장 프로그램이 알려 줍니다. 확장 프로그램은 `code_tracker`의 크기만 측정하며 정리하지 않습니다.
+
+### Codex, Claude Code 및 Grok(2.0.64)
+
+컴퓨터에 Codex, Claude Code 또는 Grok CLI가 설치되어 있으면 해당 도구에 대한 본인 플랜의 한도가 Antigravity 한도와 따로 표시됩니다. 대시보드에서는 Antigravity 카드 아래에 별도 카드로, 사이드 패널에서는 별도 블록으로, 상태 표시줄에서는 별도 항목으로 표시됩니다. 각 도구의 한도는 해당 도구의 프로그램(`codex app-server`, `claude -p /usage`, Grok CLI)에서 읽어 옵니다. 대화를 시작하지 않고, 모델에 아무것도 보내지 않으며, 비밀번호도 묻지 않습니다. 설치되지 않은 도구는 표시되지 않습니다. 사용률은 Pro 없이도 표시되며, 초기화 시각, 소진 예측, 초기화 알림은 Pro 기능입니다. 여기에 표시되는 Claude Code 한도는 본인의 Anthropic 플랜의 한도입니다. Antigravity의 Claude 모델은 계속 Antigravity의 할당량을 사용합니다. Grok은 Free 플랜에서 사용률을 제공하지 않으므로 카드에 사용량 막대가 표시되지 않습니다.
+
+**설정 → Codex, Claude Code 및 Grok:** 도구별 스위치(끄면 해당 도구의 프로그램을 실행하지 않음)와 Claude Code 한도 읽기 간격을 설정할 수 있습니다.
 
 ### 빠른 작업(메뉴)
 

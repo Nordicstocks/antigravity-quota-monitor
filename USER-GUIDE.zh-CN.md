@@ -1,6 +1,6 @@
 # Antigravity Quota Monitor：用户指南
 
-*版本 2.0.60*
+*版本 2.0.65*
 
 **语言：** [🇬🇧 English](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · [🇪🇪 Eesti keel](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.et.md) · [🇩🇪 Deutsch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.de.md) · [🇫🇮 Suomi](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fi.md) · [🇪🇸 Español](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.es.md) · [🇫🇷 Français](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.fr.md) · [🇮🇹 Italiano](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.it.md) · [🇵🇱 Polski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pl.md) · [🇳🇱 Nederlands](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.nl.md) · [🇸🇪 Svenska](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sv.md) · [🇵🇹 Português (Portugal)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-PT.md) · [🇧🇷 Português (Brasil)](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.pt-BR.md) · [🇧🇬 Български](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.bg.md) · [🇭🇷 Hrvatski](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hr.md) · [🇨🇿 Čeština](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.cs.md) · [🇩🇰 Dansk](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.da.md) · [🇬🇷 Ελληνικά](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.el.md) · [🇭🇺 Magyar](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hu.md) · [🇮🇪 Gaeilge](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ga.md) · [🇱🇻 Latviešu](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lv.md) · [🇱🇹 Lietuvių](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lt.md) · [🇱🇺 Lëtzebuergesch](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.lb.md) · [🇲🇹 Malti](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.mt.md) · [🇷🇴 Română](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ro.md) · [🇸🇰 Slovenčina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sk.md) · [🇸🇮 Slovenščina](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sl.md) · [🇺🇦 Українська](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.uk.md) · [🇿🇦 Afrikaans](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.af.md) · [🇯🇵 日本語](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ja.md) · 🇨🇳 简体中文 · [🇹🇼 繁體中文](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.zh-TW.md) · [🇰🇷 한국어](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ko.md) · [🇻🇳 Tiếng Việt](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.vi.md) · [🇮🇩 Bahasa Indonesia](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.id.md) · [🇮🇳 हिन्दी](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.hi.md) · [🇰🇪 Kiswahili](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.sw.md) · [🇸🇦 العربية](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.ar.md)
 
@@ -20,7 +20,7 @@
 - **选项卡**：**概览**、**分析**和**设置**。选项卡不重复页面标题，该标题只显示在顶部栏中。
 - **最后更新时间和 `刷新`**：时间表示数据上次刷新的时刻；点击按钮会马上获取最新数据。
 - **眼睛按钮**：列出所有卡片，已显示的卡片带有勾选标记。取消勾选可以隐藏卡片，勾选可以让它重新显示，然后按 **Enter** 或 **OK** 应用。按 **Esc** 会关闭列表，不保存更改。按钮上的数字表示隐藏了多少张卡片。侧边栏的刷新按钮旁边有同样的按钮。
-- **版本按钮（`v2.0.60`）**：检查是否有更新的版本。有新版本时，按钮显示 **`更新到 …`**。点击它，然后重新加载窗口。
+- **版本按钮（`v2.0.65`）**：检查是否有更新的版本。有新版本时，按钮显示 **`更新到 …`**。点击它，然后重新加载窗口。
 - **语言**：每个选项卡的右上角都有一个语言下拉菜单。第一项是**自动**，它同时显示当前使用的语言。它跟随编辑器的语言；编辑器设为英文时，则跟随系统语言。下面是 37 种语言，每种都用自己的文字书写名称。选择后马上生效，而且只改变这个插件的语言。列表展开时，输入一个字母，就能跳到第一个以该字母开头的语言。同样的设置也在**设置**的**常规**部分。
 - **`夜间 / 日间 / 自动`**：切换到深色主题、浅色主题，或跟随编辑器的主题。
 - **概览页第一个标题旁边**：**`在浏览器中打开`**（Pro 功能，7 天试用期内也能用）会在默认浏览器中打开仪表板，例如把它放到第二块显示器上；**`用户指南`** 会打开本指南。免费版在这里还有 **`购买 Pro`** 和 **`我有密钥`**。
@@ -67,12 +67,16 @@
 
 当多个模型共用同一限额时，整个模型组只发一条编辑器通知和一条手机通知，不会每个模型各发一条。标题会写出这一组的名称，例如 **Gemini 模型（5 小时限额）**。
 
+- **自动预热（`到了设定时间`：`仅提醒我` 或 `自动开始计时`）**：选择 `仅提醒我`（新用户的默认选项）时，你会在设定的时间（例如 `07:00`）收到一条通知，提醒你在 Antigravity 中发送任意一条提示词以启动 5 小时窗口。插件不会运行命令，也不会替你发送提示词，因此不消耗配额。如果当时编辑器未打开，只要在 3 小时内再次打开编辑器，就会看到这条提醒。下面关于自动预热的几项说明都针对 `自动开始计时`。
 - **自动预热（`5 小时窗口自动预热`）**：默认关闭。5 小时窗口从你发出第一条提示词时开始计时，而不是从某个固定时间开始。开启此设置后，插件会在你选定的时间运行 `agy`，用你自己的账号向所选模型发送一条简短的提示词（`OK`）。这是一次真实的请求。如果 5 小时窗口在 `07:00` 开始，限额大约会在 `12:00` 重置。
   - **第一次使用时会征求你的同意。** 插件发给模型的这条消息会消耗你的配额。[Google Antigravity 附加服务条款](https://antigravity.google/terms)第 6 条禁止将该服务与非 Google 提供的产品结合使用。其中写明，使用第三方软件访问该服务属于违约，可能导致你的 Antigravity 和/或 Gemini CLI 账号被暂停或终止。决定权在你。
   - **如果 `07:00` 时编辑器没有打开**：只要距离你选定的时间不超过 3 小时，你打开编辑器时自动预热就会运行。超过这 3 小时后，它会等到第二天。
   - **如果某次运行失败**：插件会提示你，并在 30 分钟后重试，每天最多 3 次，而且只在你选定时间之后的 3 小时之内重试。重试时，只向失败的模型再发送一次提示词。如果没有安装 `agy`，插件当天就不会再重试了。
   - **运行结果**：如果找不到 `agy` 或运行失败，你会看到错误提示。只有运行成功之后，才会发出 5 小时窗口已开始计时的手机通知。同时打开多个编辑器窗口时，只有其中一个会发送提示词。
 - **`立即启动 5 小时窗口`**：马上发送同一条提示词。第一次使用时，这里同样会征求你的同意。
+- **自动预热（`按间隔重复`，2.0.64，默认关闭）**：在设定时间完成当天第一次启动后，每隔 `5:01`（5 小时 1 分钟，推荐值）或按你以 `H:MM` 格式输入的间隔（`1:00` 到 `24:00` 之间）再次启动 5 小时窗口，直到第二天设定时间的那次启动为止。如果某次启动会导致窗口到第二天的设定时间仍未结束，就会跳过这次启动，所以间隔为 `5:01` 时每天最多启动 4 次。每次启动都是一次真实请求，会消耗少量配额。卡片上会显示每天的启动次数和下一次计划启动的时间。
+- **自动预热（启动哪些 5 小时窗口，2.0.64）**：每一项都可以单独选择：**Claude** 和 **Gemini**（通过 `agy`，使用你的 Antigravity 账号），以及 **Codex** 和 **Claude Code**（前提是对应工具已安装在这台电脑上、你已登录，且你的方案包含 5 小时窗口）。插件为 Codex 运行 `codex exec`（只读模式，在临时文件夹中），为 Claude Code 运行 `claude -p`（禁用其内置工具）。Codex 和 Claude Code 各自用你自己的 ChatGPT 或 Anthropic 账号发送一条简短的请求（`OK`），从而启动该方案对应的 5 小时窗口，并消耗少量配额。
+  - **按账号分别征求同意**：Codex 和 Claude Code 的请求来自你的 ChatGPT 或 Anthropic 账号，而不是你的 Antigravity 账号，因此它们在第一次发送请求前都会分别征求你的同意。你在 2.0.64 之前的同意只适用于 Claude 和 Gemini。取消选择某个工具，就会撤回你对它的同意；再次选择时会重新征求同意。同时取消选择 Claude 和 Gemini，也会以同样的方式撤回你对 `agy` 的同意。
 - **手机和聊天软件通知（`连接手机`，使用 ntfy，无需账号）**：
   1. 安装免费的 **ntfy** 应用（App Store / Google Play）。
   2. 在应用中点击 **`+`**，输入仪表板上显示的主题（旁边有**复制**按钮）。ntfy.sh 的主题是公开的：知道名称的人都能读取和发送消息。所以建议使用又长又随机的主题名称，并且不要分享它。
@@ -82,6 +86,12 @@
 - **`测试通知`**：点击后，会用你选择的语言，向你已经设置好的每一个通知渠道发送一条测试通知。
 - **终端状态文件和代码片段**：点击 **`zsh`**、**`Starship`** 或 **`tmux`** 打开代码片段，复制你所用工具对应的那一段，粘贴到该片段中注明的文件里（状态文件：`~/.antigravity-quota/status.json`）。
 - **磁盘空间**：显示**对话**（文件夹 `~/.gemini/antigravity/brain`；旁边的 `conversations` 文件夹不会被改动）和**代码追踪**（`code_tracker`）占用的磁盘空间。**`🧹 清理超过 7 天的旧对话文件`** 只检查 `brain`：它会列出其中所有文件在最近 7 天内都没有改动的文件夹，并在你确认之前显示文件夹数、文件数和大小。这些文件夹中可能有旧对话留下的图片、计划和日志。你确认之后，它们会移到系统废纸篓（Windows 上是回收站），清空之前都可以恢复。如果移动失败，它们会留在原处，插件会告诉你。插件只统计 `code_tracker` 的大小，从不清理它。
+
+### Codex、Claude Code 和 Grok（2.0.64）
+
+如果你的电脑上装有 Codex、Claude Code 或 Grok CLI，你在该工具上所用方案的限额会与 Antigravity 的限额分开显示：在仪表板上以单独卡片的形式显示在 Antigravity 卡片下方，在侧边栏中显示为单独的区块，在状态栏中显示为单独的一项。每个工具的限额都通过各自的本地程序读取（`codex app-server`、`claude -p /usage`、Grok CLI）：不会发起任何对话，不会向模型发送任何内容，也不会要求输入密码。没有安装的工具不会显示。不需要 Pro 也能看到用量百分比；重置时间、耗尽预测和重置提醒是 Pro 功能。这里显示的 Claude Code 限额属于你自己的 Anthropic 方案；Antigravity 中的 Claude 模型仍然使用 Antigravity 的配额。Grok 的 Free 方案不提供用量百分比，所以它的卡片没有用量条。
+
+**设置 → Codex、Claude Code 和 Grok**：每个工具都有一个开关（关闭后不会启动该工具的程序），还可以设置 Claude Code 限额的读取间隔。
 
 ### 快捷操作（菜单）
 
