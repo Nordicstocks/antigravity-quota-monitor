@@ -2,6 +2,11 @@
 
 All notable changes to **Antigravity Quota Monitor — Ultimate Cockpit & Dashboard** are documented in this file.
 
+## [2.0.66] - 2026-11-25
+- "Quota reset (100%)" is announced only after a real refill. Antigravity's Gemini reading moves between 99 % and 100 % while it is in use; each return to 100 % used to send a notification (also to the phone), up to eight in a morning. Now a refill counts only when the limit had dropped at least 5 points.
+- Windows: Codex, Claude Code and the Grok CLI installed with npm (codex.cmd, claude.cmd, grok.cmd) are read again. Before, they were found but could not be started, so their cards said the program failed to start.
+- Auto-Starter: when Codex refuses the model set in your Codex settings, it tries once more with the lightest model your Codex account offers, and every failed start says why (model refused, not signed in, limit reached, no network). Your Codex settings are never changed.
+
 ## [2.0.65] - 2026-11-22
 - Store pages: new pictures in all seven languages, showing the current version. They no longer show the model Antigravity announced it would remove on 18 November; while Antigravity still reports it, the extension shows it as before. The extension itself is unchanged.
 
@@ -21,7 +26,7 @@ All notable changes to **Antigravity Quota Monitor — Ultimate Cockpit & Dashbo
 - Swahili: AI models are "modeli" everywhere.
 
 ## [2.0.63] - 2026-11-17
-- Antigravity announced that one of its models would be removed on 18 November 2026, so the store pages, the descriptions and the user guides no longer list it. While Antigravity still reports it, the extension shows it as before.
+- GPT-OSS 120B leaves Antigravity on 18 November 2026, so the store pages, the descriptions and the user guides no longer list it. While Antigravity still reports it, the extension shows it as before.
 - When you are not signed in to Antigravity, the extension now says so. Before, it reported an answer it could not read.
 - When Antigravity is not running, the dashboard shows the reason after 30 seconds instead of "Checking…" for minutes, and no longer says "Updated" in green.
 - When Antigravity closes, the dashboard and the side panel show the error instead of the last numbers as if they were current. The clock shows "—" until real numbers arrive, and the green dot appears only with real numbers.

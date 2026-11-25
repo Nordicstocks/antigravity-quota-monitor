@@ -153,7 +153,7 @@ Dedicated listings: [日本語版](https://open-vsx.org/extension/Nordicstocks/a
 
 **Help:** [User Guide](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/USER-GUIDE.md) · [Report a problem](https://github.com/Nordicstocks/antigravity-quota-monitor/issues) · [Changelog](https://github.com/Nordicstocks/antigravity-quota-monitor/blob/main/CHANGELOG.md)
 
-![Version](https://img.shields.io/badge/release-v2.0.65-6D5EF3?style=flat-square)
+![Version](https://img.shields.io/badge/release-v2.0.66-6D5EF3?style=flat-square)
 
 *Google Antigravity, Gemini, Claude, Claude Code, Codex, ChatGPT and Grok belong to their respective owners.*
 
